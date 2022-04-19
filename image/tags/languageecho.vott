@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjcwMTI1ZDk0ZWNiM2U5NzkwMGVkOTIxZTI0OTk3OWQxZGFiMTY3ZGQwODJjNjUzNTk1MGNlMmI1OTgzNDQ3YjA1ODEwNDdiODY0ZmI2OWNhOGY2NDczMTkzNDA3MGJiM2ZjZjE1Mjk4MTYzNjViYzcyNWY1ZWM1NmQ1YzAzYzgyNWUzYTkwOGNiY2NhZGM4YTljNDRjMmExZjFjNDI2MiIsIml2IjoiMmI0ZGRkMjk5ZmQxZDVlOGI4ZjdiZmY0Y2RmNzQwYmM2NzEyNzQzNWIyMjdhN2JjIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzVkNmM4M2U3Y2IwMjU5N2UzMzI1ZjE3YTdkNGYyYzJiYTY4MzdlNGE5ZjM5YjUzZTk2OGQ0MmMyMDM1ZGNmN2M5YWJmM2M5NzkyOTM5M2YwNTA2OTkwMDZiMTFhZjNkY2EwYTJiODkwZDkxMjBhNWJmNTE3Yjc3MjYxZWRjY2YxNjFkNjhiZWM1OTIxNTA1ZjEwMGRlZTVhZGZlOGI5MiIsIml2IjoiYWFhNDRhMDhkMTdiMmU2M2JlOTU1M2IyYjUxNWNiY2U1MWFiNDg0ZDRhNjk2YmRmIn0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNmIwYjRhYjljYWU2NDE3MDAzZmRiYWI2MzQ4ZTE0ODViMjI4ZjM3NjY5MTU1MWUzYTRlZjU5ZjNmNTA4Nzc0ODc0MjNiZmUxMTJjY2M4MGZhMzdmY2I1NzIyOWZjY2NiNzUxMTY1NDBkOTlkMTljZjU4ZjgxNGFlOTU1ZWZkYmM3MjM5YWY2NjEzY2ExN2FiNmFjNzMxNTM5MmY4YmVkOCIsIml2IjoiYjZhYWJiYjc5YWMyZmZjOTlmNWEzNjExNTYzNmMzNzdkNDk4YTk3YWJkZjI1MzZkIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTk2ZDdlNWVjM2FhYWFmZjgyODcwZmJiN2NmYTJiZGZkN2ZlOTQ2ZGEzODA1ODliMjdkMDQ5ZDM4MjM0Y2ZjMGMxMWVkZjEwYTBlNTdmZjgwNzI1OTBkOTk5YzA1YzZiYTgyZTg0MjAzYmJjMzhjYmJiZjhhNGEyZDBhMGYzZGYyMTRlNDA2MWUzM2Q2MDJlYWRhM2NkZWIzYjM4MzNlOSIsIml2IjoiMzYxMzhmNTM5MzJkYjE4YjZmMTM4MWQzOTIzYmVmZmQ5ZjAyYzA3YTMyYWU4M2UxIn0="
         },
         "id": "UZ9ESivVk"
     },
@@ -71,11 +71,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWU0M2E3N2NkYTNhMzBmMGY2ZGYxZjdlNDg3ZmM3ZDZhNjVjODM3OGJlZjNjOGZlYTczNmE4NjQzZDU0YWEyMCIsIml2IjoiNGU2OGZkMDU5MjdhNTU4ZmMyYTNjMWFhYjBlYjlmNzM2YjI0MjU0NTlhMzY1YzdlIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzMwZDVkNzgzYzNhMDYyZjA4Mzk0ZTViMWJkYWQyMjQ3N2VmOTI3NjI5NTgzMWQzNDYyMGZmNGUxMzQ1ODIwNCIsIml2IjoiNWFlNTI5N2MzNWRhNTc2ZDkzZjg1MTdlYzg1OTc5MTVhNzg2Njc2YWEyYzViNGVkIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "605bd16ec38538f3c206eff99b8c5c6c",
+    "lastVisitedAssetId": "327a046bbf42dd9abb9f43249c13bb5d",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -118,6 +118,30 @@
             "id": "605bd16ec38538f3c206eff99b8c5c6c",
             "name": "20200607_GelehrteCrest_a.png",
             "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200607_GelehrteCrest_a.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be9e5562f3acdb9a683a93eac894f079": {
+            "format": "png",
+            "id": "be9e5562f3acdb9a683a93eac894f079",
+            "name": "20200613_A-MAKI-Tasuke.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200613_A-MAKI-Tasuke.png",
+            "size": {
+                "width": 778,
+                "height": 281
+            },
+            "state": 2,
+            "type": 1
+        },
+        "327a046bbf42dd9abb9f43249c13bb5d": {
+            "format": "png",
+            "id": "327a046bbf42dd9abb9f43249c13bb5d",
+            "name": "20200613_GelehrteCrest_a.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200613_GelehrteCrest_a.png",
             "size": {
                 "width": 1920,
                 "height": 1080
