@@ -1,0 +1,129 @@
+{
+    "name": "言語を超える力",
+    "securityToken": "languageecho Token",
+    "sourceConnection": {
+        "name": "languageecho-input",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjM4ZTIzNWM5MTk4YjU2NzgyNzE4N2UyOWI3MmMyYWZmZTkyY2I1NjMwMGU2NGQ3OTAwMGNkOTZmOGJhMGY1NzcwM2RiNmNjYjE4MzY5NGNhZDk5OWY1NzRlMDE1YmVkMjEzZmY3M2MxMmFlNmFkYTQ3ZDI3YmM3ZTZmMWU5YzBjMzA5YTE1YmVjNjAwYzhjOTNkN2I2M2Q3NDA0ZjQ2YyIsIml2IjoiOThiNWZkY2I1MjEwZmRlNmFhMzRjMWFlMzY3NzEyMGJkNDgwNDZjNjZmZDE2NWZkIn0="
+        },
+        "id": "FVS04T0_2"
+    },
+    "targetConnection": {
+        "name": "languageecho-output",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmY0YWU0YjgwZTYyYjA1M2E5Yzk3YzhlMzUyNDgxMjNjMjdmM2YyNzZmY2Y2MDE3NzAzNjhhYjNhNDRjZjU2MDkzMzNkYzBkZTg2ZGQ1MjI5MzY0M2FhZDNjMDZiYjMwMjgyOTViNzBhN2FiZGEwNjViZjRiMWI0YzdjNzRmOWIyYjAxZTU3YmZlYzJhOWYzZjE1YzU2YTE1Y2Q4MTkzNyIsIml2IjoiNGY4OWUwNDlhYzM2M2FlNmM2MGRiN2U3NTY1NTFiMzZiZTdhYmQxZTRhYjIyZDQ1In0="
+        },
+        "id": "UZ9ESivVk"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "0",
+            "color": "#5db300"
+        },
+        {
+            "name": "1",
+            "color": "#e81123"
+        },
+        {
+            "name": "2",
+            "color": "#6917aa"
+        },
+        {
+            "name": "3",
+            "color": "#015cda"
+        },
+        {
+            "name": "4",
+            "color": "#4894fe"
+        },
+        {
+            "name": "5",
+            "color": "#6b849c"
+        },
+        {
+            "name": "6",
+            "color": "#70c400"
+        },
+        {
+            "name": "7",
+            "color": "#f7929a"
+        },
+        {
+            "name": "8",
+            "color": "#257ffe"
+        },
+        {
+            "name": "9",
+            "color": "#ddabe9"
+        }
+    ],
+    "id": "KrQl-Ucyj",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOGU3ZjdjM2YwM2U5MDU2MjJkMGNhZjkyNmRkMGY4ZmEyOTc4MTcwYjQwY2RkYTM1NDM5MjdlZDM5ZGZhYTQ2ZjdhNWMxMGM0MmQ0ODM0M2Q4YWZmYTJjOWQ5MWQ2ZmQ5IiwiaXYiOiJiMzNjMGVhYWIxZWMwOTg3YTg0MDIyZGU0MWU3MTRkODVhMzkyODJlNjQ1NTg2ZmIifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "605bd16ec38538f3c206eff99b8c5c6c",
+    "assets": {
+        "f88169b8566b438e736f7b36b13c9f53": {
+            "format": "jpg",
+            "id": "f88169b8566b438e736f7b36b13c9f53",
+            "name": "20200523_ToppanPress.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200523_ToppanPress.jpg",
+            "size": {
+                "width": 680,
+                "height": 383
+            },
+            "state": 1,
+            "type": 1
+        },
+        "16aeb6814146784b50bb60efa0554d50": {
+            "format": "png",
+            "id": "16aeb6814146784b50bb60efa0554d50",
+            "name": "20200531_GelehrteCrest.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200531_GelehrteCrest.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9318ece2988fee917d17a5db8c936401": {
+            "format": "png",
+            "id": "9318ece2988fee917d17a5db8c936401",
+            "name": "20200530_GelehrteCrest_b.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200530_GelehrteCrest_b.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "605bd16ec38538f3c206eff99b8c5c6c": {
+            "format": "png",
+            "id": "605bd16ec38538f3c206eff99b8c5c6c",
+            "name": "20200607_GelehrteCrest_a.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200607_GelehrteCrest_a.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
