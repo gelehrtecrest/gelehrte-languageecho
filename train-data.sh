@@ -9,9 +9,6 @@ dir="./models/research/object_detection_tools/data/"
 train_dir=$dir"train/"
 val_dir=$dir"val/"
 
-echo $train_dir > test.txt
-echo $val_dir > test2.txt
-
 # 保存済みのデータの削除
 rm $train_dir*.tfrecord
 rm $val_dir*.tfrecord
