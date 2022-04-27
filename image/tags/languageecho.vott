@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTJmNGJjODA0ODhhMGU3ZjQ3N2U5ODkzNmJiN2YwZTI5MDQ2NTZjYmQ1YTAxZTBkYWVjNmEzZDg3MDkzMzEzNTY4N2NhZjBjOTRjNDdlN2E3MTcxMjJiMDMzMTdiNzk3Y2EwZmE4MGY5NGUyZDAxOWRhMmExNmJjMWM2MjA4ZDE4OWE3NTI3ODkxMTcxMTgzYTFlMzFkYTdlYWEzNTZjNiIsIml2IjoiNDA1ZGJiZjdjNmU1Mzk2NWI2NGQ3ZmZhMzdlZjYwN2MyZTdjZTk2MmJmNDE0ZjY4In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNmZhYjY2NDRkODJiZGI1ODk0YTlhNDY5ZjdhN2VjNGZiMmEwNjQ3MjU2NzYyM2QxNWQ3NmE5MjQxYzM5MzUyOWY5N2FiYTMwNTIyYWQ2ZTQ4ODRhZTJkNDM3Y2Y1ZDQyNmM5OTMwMjc5OWM2MGU2NDQ2MDE4MTAzYWU2MDI4OGJmMTUyNGEwY2UxZGZiNDk2ZDY4OTg1MWI2ZDQyNTJjYSIsIml2IjoiZDI0MzUzM2RiMjE3NjMxNzNhNGJhMzAyYjE0MzM4NTUzN2VkODdjZDViN2VjNzM4In0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmExMjM0MDRjMmMwMTNjMjVlYmZlNDhhYzg5Yzc5MmJmOWI1ZTY2MjkzMDE4MGIwZWIzZTNjNmI3Y2Y2ZmM2ZTFjYjBjMjU4NGU2MGUzMDU2NmRjNGVhNGY3ZDY2YTRlZmYzNzFkMDg4OWUxYmQxN2VjNzRlNmIwY2NhNTg4N2U3NzlkNDQ1MDU5NGY4YWI0YzM0YjQ2ZjAwZGQ1YzJiNyIsIml2IjoiYTE1YTE3ZGIyY2FjYjNhNWExZTljYWRjOWUwYzAzZjU5YWQyMzJkZjhmMzM5NTc3In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzg1NDUyNmVmYjhjNmQwNTEyNWMwNWE1Y2VjZWYxNDcxZThiMThiM2EzMmY4NWE5ZWI2MDRiYzUyZGJkYWZhYjdlNTI5NWFiZjYxYTMzNzQ2NDJhMzhmYzVjMWM1ODViNmNkZWUyMDgxMDMzMjczOWJhZGM5N2M0NTU3NTkyOTkxMjBkYzEzMzQ1NjcxMGUxM2I3N2JiMzA4ZTZmYTFiZiIsIml2IjoiOWZkMmMyODE2YzM5OWM4ZDU3ZTczYzIwNmVmMWMzZDI2MTZiZmYxZTM0MWNiNTY1In0="
         },
         "id": "UZ9ESivVk"
     },
@@ -279,11 +279,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmU4Y2FjMTNkY2U4OWM3MTU4NWIxMTczMzNlMmMzOThmNzExOTA1NjhkMjBhZGQ3ODE5NGY2ZWQ5NjM0YzM5MyIsIml2IjoiY2RmYzMwOGY0M2FhZDAwOGIxOTY2NzY4NTFhMTBjOWNiYmJlYWNmZTU0ZmRjYmJmIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzhmYTlmZGQxMDYzZmYwODNiZGM2OTZkZTljZmQ3OTU0NDVlNGQ4YTlhMDg5NDJiZTE1MGFmYTRkNzM0MTI4NiIsIml2IjoiNWJkZDRlOWMzOWFlNWRhZmQyZDQzYmMzYTU0Mzc3ZWQ2OWZjMDI2MzVjMTYwN2ZiIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "083d26a5266f658891581fe0c8650706",
+    "lastVisitedAssetId": "3604d097b2e5bbd95b75948c8e4dc523",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -522,7 +522,7 @@
                 "width": 1920,
                 "height": 1080
             },
-            "state": 1,
+            "state": 2,
             "type": 1
         },
         "5f84d2126abf8c295662b85b2f2ac6f8": {
@@ -534,7 +534,7 @@
                 "width": 1920,
                 "height": 1080
             },
-            "state": 1,
+            "state": 2,
             "type": 1
         },
         "7715720f38ebd71c1c53c80b55561cd5": {
@@ -1134,7 +1134,151 @@
                 "width": 1920,
                 "height": 1080
             },
+            "state": 2,
+            "type": 1
+        },
+        "c7b0551a96b5d73a4c49b633114956e5": {
+            "format": "png",
+            "id": "c7b0551a96b5d73a4c49b633114956e5",
+            "name": "20200524_GelehrteCrest.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200524_GelehrteCrest.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6eb7a157bf2560977cc236cc5c98384": {
+            "format": "jpg",
+            "id": "c6eb7a157bf2560977cc236cc5c98384",
+            "name": "20200526_SammyNkm_a.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_SammyNkm_a.jpg",
+            "size": {
+                "width": 680,
+                "height": 383
+            },
             "state": 1,
+            "type": 1
+        },
+        "4c1d772bd26dd1219118bca9531db4ed": {
+            "format": "jpg",
+            "id": "4c1d772bd26dd1219118bca9531db4ed",
+            "name": "20200526_SammyNkm_b.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_SammyNkm_b.jpg",
+            "size": {
+                "width": 360,
+                "height": 203
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a5a85677d15cffb33fa19ad737b23eb3": {
+            "format": "jpg",
+            "id": "a5a85677d15cffb33fa19ad737b23eb3",
+            "name": "20200526_SammyNkm_c.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_SammyNkm_c.jpg",
+            "size": {
+                "width": 360,
+                "height": 201
+            },
+            "state": 1,
+            "type": 1
+        },
+        "245b4b999009225aeaa131ae1eb16535": {
+            "format": "jpg",
+            "id": "245b4b999009225aeaa131ae1eb16535",
+            "name": "20200526_Tama89910968_a.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_Tama89910968_a.jpg",
+            "size": {
+                "width": 360,
+                "height": 187
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e909bfb2b4fbbbedc8a9729fc18a7ec": {
+            "format": "jpg",
+            "id": "1e909bfb2b4fbbbedc8a9729fc18a7ec",
+            "name": "20200526_Tama89910968_b.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_Tama89910968_b.jpg",
+            "size": {
+                "width": 360,
+                "height": 209
+            },
+            "state": 2,
+            "type": 1
+        },
+        "469def2adc4217b76fb8fe7ede2e2a42": {
+            "format": "jpg",
+            "id": "469def2adc4217b76fb8fe7ede2e2a42",
+            "name": "20200526_Tama89910968_c.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_Tama89910968_c.jpg",
+            "size": {
+                "width": 680,
+                "height": 279
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d1114772e7d74cebe65240f0c31db9a2": {
+            "format": "png",
+            "id": "d1114772e7d74cebe65240f0c31db9a2",
+            "name": "20200526_Tama89910968_d.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_Tama89910968_d.png",
+            "size": {
+                "width": 680,
+                "height": 223
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f58c15604a2fe12f96ce9114a65c58e2": {
+            "format": "jpg",
+            "id": "f58c15604a2fe12f96ce9114a65c58e2",
+            "name": "20200526_ToppanPress.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200526_ToppanPress.jpg",
+            "size": {
+                "width": 680,
+                "height": 383
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a18c79925465cc5a583f924f5c30e3d4": {
+            "format": "jpg",
+            "id": "a18c79925465cc5a583f924f5c30e3d4",
+            "name": "20200527_RringFF14_a.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200527_RringFF14_a.jpg",
+            "size": {
+                "width": 680,
+                "height": 383
+            },
+            "state": 1,
+            "type": 1
+        },
+        "3604d097b2e5bbd95b75948c8e4dc523": {
+            "format": "jpg",
+            "id": "3604d097b2e5bbd95b75948c8e4dc523",
+            "name": "20200528_CocoNatade_b.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200528_CocoNatade_b.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9195ce3d48a4f9bcdddd34d2d7fc8e4a": {
+            "format": "jpg",
+            "id": "9195ce3d48a4f9bcdddd34d2d7fc8e4a",
+            "name": "20200528_CocoNatade_c.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200528_CocoNatade_c.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
             "type": 1
         }
     }
