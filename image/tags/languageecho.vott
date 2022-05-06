@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDk4OThmOWE1MDYxMTdmMDMzNGI3Nzc3ZDg3YWQwYWI1ZWIzNGViMGE0YzkzNjNhNjZhM2FjMmVlNTE3M2U5NmQ0YzNlOTllZmE5MTUwODYwYTY5Yjc2YWQxNzlhNTY3NmVlNmJjYjk2YTlkNzVhNDNhYzQ2MTE4NDhlZTU1MGVkNzhmMDlmNGJmY2RhODVkZTk2YTQ2YzFhYTMzNTdjYiIsIml2IjoiNWQzYTE4YzE0MmQ2NmUxMTQ2NWIwYzUzOTA5ODMwNWM5ODAwZjQ3MTMyYTEwYTcyIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjdjYWRhNDhmMjY0YmZjMGYyYmY2N2NlZjE4NjJmYzliYzE2N2YzZTNlMThkOThhZjA2OTNjY2FhYTc0MzQxZGFiMjg2NWE0NTBmNGMxMTZiOGM3ODcxZWUxNTFjY2Y3MDZjZDIyZGM3ODAxYTJkOGE1YzBmNWM5MDE5MzQ2Y2YyNzRhY2MxMWJhNTU1Yzk4YmRjYTdhYTZkY2MyNjBlYyIsIml2IjoiOTQxMmQ1MjQ5N2FhNjNhNTllZDYwYTE5NTA3NDI4Yjc2MjU1MGZmMTM1OGM3NzE2In0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTYwMDRiNjllNjIxMjFkNzgyYmMxNjhhMmJkMWIyMTVmNzFkNDM4NzIzYmM4NzVmMGM3MWYxZDg1NDE3NmRkOWZiNTIxMzJhN2VjYmJjNDRjNGQ4OTA2MmE3ODhiYzU4OGI4N2IxZDBmYWZhZWNiMWZjNDE5Yjg1NzU5ZGU1NjJjYWQyZDI3ZmRjY2FmODEwN2I2YzBmOGQzZWU2MzE0ZiIsIml2IjoiNDAyMzZkNjVhYmE1MDY2MjY1NWM5M2FlM2QwZTJhN2Y0OTQzNzU3MzQ2MmNiN2MzIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzI2OWM4ZTQwMTIxZjc4NDI1ZGZhMzQ5YmJjMGY2MTgwZDMxMjhmNTViMmRhZWIzZGYzNTdmOTdkYWNlMGJmZDczNWE1YTkzYTdjODA2M2Y5YjgyNWYzYTA2NzRhNGJjOGZhNjBkMTJmNGI1OThmMDZhMWZlN2NhYjBkYzFiMWZiNDczZmZjZjY0MmFmYzkyYjJhY2Q2MzZjYzdkMjM0MyIsIml2IjoiYjkyZDU4YmZhYzA5MDA2OTRhNWVmNDRmNDdiYWYyMDU1MGE4NjMxNDVhNGFhMDJhIn0="
         },
         "id": "UZ9ESivVk"
     },
@@ -281,11 +281,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzQ4ZjkzMzU3ZTNmOTBiMDJlMGVmZmUyMzgzMGVlMWU1YjNjODZhYjYyN2FhZmU2NjIwNDJlMTNkZWM0NWMyMCIsIml2IjoiYTIxYjA1YmI0MWZiY2RiYmM1MWRiYjQxYjQyMTYyNzgzZWFhMjRjNzk3MGM1MTI3In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzliNGViMDQ2Y2E0OWNhOWYwNGY4OTNlNmVhNDZiMTViNTU2NGNlNmNhNzA3NzBiNWU3MjMwMDlhNTkwNGI3YSIsIml2IjoiYjhmMWMzNTA1MTQ4YmRjNDJkNmYyN2NiYzA4OWRkYTNhNDJkZjZjMjU5NGQ0MmNlIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "9dd4a47135e16a6619c25d4a0483c4d6",
+    "lastVisitedAssetId": "9476d8c9d91f9225c469cdb17f81d5e5",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -4464,6 +4464,55 @@
                 "type": 2
             },
             "timestamp": 178.066667
+        },
+        "989397afc0c8b1a93e5cbe10e9d16632": {
+            "format": "mp4",
+            "id": "989397afc0c8b1a93e5cbe10e9d16632",
+            "name": "score.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/score.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "9476d8c9d91f9225c469cdb17f81d5e5": {
+            "format": "mp4",
+            "id": "9476d8c9d91f9225c469cdb17f81d5e5",
+            "name": "input_movie_hildi.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/input_movie_hildi.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "14d00edee5ead258ccb4d7b3f6dbd3a0": {
+            "id": "14d00edee5ead258ccb4d7b3f6dbd3a0",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "input_movie_hildi.mp4#t=0",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/input_movie_hildi.mp4#t=0",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9476d8c9d91f9225c469cdb17f81d5e5",
+                "name": "input_movie_hildi.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/input_movie_hildi.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0
         }
     }
 }
