@@ -2,5 +2,6 @@
 /env20220427
 /test.mp4
 /test/*
+/image/input/*.mp4
 /models/research/exported_graphs
 /models/research/saved_model_01

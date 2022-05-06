@@ -1,0 +1,16 @@
+{
+    "asset": {
+        "format": "mp4",
+        "id": "5d217656ea3f8c7354d81a6956aee406",
+        "name": "input_movie_aero.mp4",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/input_movie_aero.mp4",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 2
+    },
+    "regions": [],
+    "version": "2.2.0"
+}
