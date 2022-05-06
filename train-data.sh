@@ -5,7 +5,7 @@ if [ -e ./models/research/saved_model_01 ]; then
 fi
 
 # 保存先のデータの保管
-dir="./models/research/object_detection_tools/data/"
+dir="./models/research/object_detection_tools_gelehrte/data/"
 train_dir=$dir"train/"
 val_dir=$dir"val/"
 
@@ -22,7 +22,7 @@ for file in `\find ./image/tags/languageecho-TFRecords-export -maxdepth 1 -type 
 	fi
 done
 
-cd ./models/research/object_detection_tools/data
+cd ./models/research/object_detection_tools_gelehrte/data
 ./change_tfrecord_filename.sh
 
 cd ../../../../
