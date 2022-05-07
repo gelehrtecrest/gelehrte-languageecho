@@ -166,7 +166,7 @@ if __name__ == '__main__':
 
         detection_score = output_dict['detection_scores'][i]
 
-        if detection_score > 0.3:
+        if detection_score > 0.5:
             # Define bounding box
             h, w, c = img.shape
             box = output_dict['detection_boxes'][i] * np.array( \
@@ -186,7 +186,8 @@ if __name__ == '__main__':
                 (box[1], box[0]), (box[3], box[2]), color, 3)
 
               # Put label near bounding box
-              information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
+              # information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
+              information = '%s' % (label)
               cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
                 cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
             elif mode == 'mosaic':
