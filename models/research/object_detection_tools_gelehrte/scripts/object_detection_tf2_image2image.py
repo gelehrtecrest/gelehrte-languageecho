@@ -136,9 +136,9 @@ if __name__ == '__main__':
           #information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
           information = '%s' % (label)
           cv2.putText(img, information, (box[1] + 17, box[2] - 17), \
-            cv2.FONT_HERSHEY_TRIPLEX, 1, (0, 0, 0), 3, cv2.LINE_AA)
+            cv2.FONT_HERSHEY_TRIPLEX, 1.5, (0, 0, 0), 3, cv2.LINE_AA)
           cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
-            cv2.FONT_HERSHEY_TRIPLEX, 1, color, 3, cv2.LINE_AA)
+            cv2.FONT_HERSHEY_TRIPLEX, 1.5, color, 3, cv2.LINE_AA)
           #  cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
         elif mode == 'mosaic':
           img = mosaic_area(img, box[1], box[0], box[3], box[2], ratio=0.05)
