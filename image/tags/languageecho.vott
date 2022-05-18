@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWQ1NzViMTJmMjI2OWI5ZmYwZjBjYTllYmE4OTc5MjE2MWEzOTdiZjEzNTU0NGUzMzZjZTgyMGNjYTIxODdlN2YxYWE5MjVmN2JmNjM4ZTM0NWEzNjYyMzI4YTRkOGI4YTIzYzAyYmRhNTBiZmNmNDE4NmQwMDJiMzBhOTFiMDQwZmVmNzQ4Y2FmMzg3NGJjMTJmMDkzYWY4Yjk2NzkxYSIsIml2IjoiMzFjYzBiNjA0NTcwNTc0NjNhMTMwY2I2NjEwYzdmM2Q0MGQzNmI4YWFlNDU3ZDdhIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjFkYjhhNTM5ODJmZDU0MjVlYjI3NDRjNDgxNmFjMTI2MDhhODZjYTQxNDI3OWUyYWU1M2NlNjc3MzU2MGMyNTUwZDJiYjViNGY0Yjc1NzhhMDY0Y2MyMTg0ODRjZWRkNDIyYjc2ZDBiNGRjZjY0ZjkxNjJmODgwZGJjN2EyYzIwYWM5YzA1ZmFmZGYxYTcyYTlhNTdjMjhmZDkxOWNhYSIsIml2IjoiMzAxYTI1ZmY2NjU0MDRlZDUwM2UyOTJiOThkYjc1OWI5MzgxMjBlMzkzNGUwNmE1In0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODNhZjM0MWVlMDUyYjZkYzA2YjY1ZGMxZTUxMjNkNWIzYTMzZDk3ZTdhZGNlZGI1NzE1ZDBlNzVlMTczMDMwODlmZmJkODUxMmE5ZTgyMDZkN2NiZGM5NWEwYjlhMWJmMTdjYjUxNTEzOTg0M2Y0NjQ4Mjc4NjI0YzljMGM3MTA4ZmMwYmU1NmNjOWIyOTg1OGFlOTAzYmVmOGZiNGE2YiIsIml2IjoiNWUyNDEyNWEzZDliMmY0Y2E3ZmJhNjU2YjkyMGMyYzM4ZjdjNmU3YzZhNTAyZGUwIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTk5MmFhNWY0NzhlZTRjOGZiNTU2YzY0N2YyOTA4MjlkM2Y4YzlhMzllOTA2OTUwNGNjNGU0MDExN2NmNzZiZDE2MmUyNDhiMTE1ZWM4NjgzNThiY2EyZjI1NTJmYmQxOTBjYTA4OTVlZmE4ZWUwYTRkZWVmNWQ4ZjI5ZWZmNTlkYTY1YTQzMTViMjg4MDkxMjEyZTcyZGU1NGNmYjE3ZSIsIml2IjoiZDBkYzczYmY1N2E5NjNkZTliNTg4NjVhNDJjZDI4NzljZWJlNTE1ZWM0MWZlOTJiIn0="
         },
         "id": "UZ9ESivVk"
     },
@@ -281,11 +281,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWZmZGY0MzhiNzU5Yjk4MGZhYjM5YWE1ODNlMGI3ZDQzMDAwODJhNWNmYWU0MWUyMjlhNjJmNTU2ZWFjZWFjMSIsIml2IjoiOTM3ZThkOGYyZmRkMzA0ZTY1N2M5M2EyYWZhZWM5MmRiNjg1ZDIyOWFkN2U3M2I2In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDk3NTU4ZWExNzQ5YTViOTIxNWQwNDhjZjY0MDEyNjI1OGUxYTI3NWM0NzQ1ODcxNzg5OTM3N2I2OTI3OTZlYSIsIml2IjoiYjQ1M2IxNjEzNDcwNTY3M2QwMzkyMTY5NWMxYTJmNzU3MDYzMThmY2I5OTVmMmRiIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "72b2bbff82fc64b2599176361df69e4a",
+    "lastVisitedAssetId": "a5c3378f25c25832ac702c7708d1284a",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -860,7 +860,7 @@
                 "width": 1920,
                 "height": 1080
             },
-            "state": 1,
+            "state": 2,
             "type": 1
         },
         "83080302be95ab03e74b532ab1ed7684": {
@@ -5714,6 +5714,90 @@
             "size": {
                 "width": 329,
                 "height": 116
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e240159e265c4f2cb746e26794b4a605": {
+            "format": "png",
+            "id": "e240159e265c4f2cb746e26794b4a605",
+            "name": "upperdecks_01.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/limsalominsa/upperdecks_01.png",
+            "size": {
+                "width": 393,
+                "height": 138
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55d41678a669e69f4f7e77a9ba38b919": {
+            "format": "png",
+            "id": "55d41678a669e69f4f7e77a9ba38b919",
+            "name": "upperdecks_02.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/limsalominsa/upperdecks_02.png",
+            "size": {
+                "width": 358,
+                "height": 167
+            },
+            "state": 2,
+            "type": 1
+        },
+        "13f4c09fff05d738bbe52ed1e8900ade": {
+            "format": "png",
+            "id": "13f4c09fff05d738bbe52ed1e8900ade",
+            "name": "upperdecks_03.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/limsalominsa/upperdecks_03.png",
+            "size": {
+                "width": 370,
+                "height": 179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ed5ea765fa9b61ddf0deb986f4d0590": {
+            "format": "png",
+            "id": "9ed5ea765fa9b61ddf0deb986f4d0590",
+            "name": "upperdecks_04.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/limsalominsa/upperdecks_04.png",
+            "size": {
+                "width": 552,
+                "height": 156
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e21aecadf212b5599ec582a9f28ed6ab": {
+            "format": "png",
+            "id": "e21aecadf212b5599ec582a9f28ed6ab",
+            "name": "upperdecks_05.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/limsalominsa/upperdecks_05.png",
+            "size": {
+                "width": 411,
+                "height": 187
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0375ace17abd427917418fbe916399e5": {
+            "format": "png",
+            "id": "0375ace17abd427917418fbe916399e5",
+            "name": "upperdecks_06.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/limsalominsa/upperdecks_06.png",
+            "size": {
+                "width": 544,
+                "height": 118
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a5c3378f25c25832ac702c7708d1284a": {
+            "format": "png",
+            "id": "a5c3378f25c25832ac702c7708d1284a",
+            "name": "ffxiv_20220519_004440_349.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220519_004440_349.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
             },
             "state": 2,
             "type": 1
