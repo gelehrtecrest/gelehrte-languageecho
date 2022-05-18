@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTBmNjAxNDM0M2U2NDliNjM5NzliMzAwMWYwYWM5OTU5ZTJhODMyNzE2ZWY2ZDRkMDdkMWU2NjIwMWI4ZjQ0MDI3ZTE2YTMyODk2NWFjZTUwMjUxYWZhZjBmYWQ2ODMzM2MwYWVjOTRjYjU0ODg5ZjE3N2ZjNjBiZDJlYTkyMWNkNDJjYmQyYTJmZWNkNmJmOWFiYzk1YTk2OWU3ZDA4NiIsIml2IjoiOTA1MWQ5OWFkMDIxYzRiYjY3MzZmMjZlYzM1ZjY3ODVhNzU4YTcyYTYxN2E5NTVlIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWQ1NzViMTJmMjI2OWI5ZmYwZjBjYTllYmE4OTc5MjE2MWEzOTdiZjEzNTU0NGUzMzZjZTgyMGNjYTIxODdlN2YxYWE5MjVmN2JmNjM4ZTM0NWEzNjYyMzI4YTRkOGI4YTIzYzAyYmRhNTBiZmNmNDE4NmQwMDJiMzBhOTFiMDQwZmVmNzQ4Y2FmMzg3NGJjMTJmMDkzYWY4Yjk2NzkxYSIsIml2IjoiMzFjYzBiNjA0NTcwNTc0NjNhMTMwY2I2NjEwYzdmM2Q0MGQzNmI4YWFlNDU3ZDdhIn0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTlkZTRhZjY4YzI2ZDY3ZTdmMTQ5OTNiNTc0OTY5NWUyMjgyZjIyODZjOGExNWVjNmEwNTJlNzA4NjNhZjA0MDg0NGFiYzZjNzkzZTdmOGRlYTkzNTRkN2ZhZTE2YWNkMjQ5ZDQyZDZjMzY2MGJlYzRiOTgwNWRhZjBjOTU0OWM1MWM0NDQwZTYxMDQ2Y2IwZjM3NzEyNDhkZGM0MGU0NyIsIml2IjoiNjA0YmIwNTFjM2RiMTNhNWI3MGMyZTZlYTgyMjk1MjIzM2NkNTVhMTQzMzg2NzRlIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODNhZjM0MWVlMDUyYjZkYzA2YjY1ZGMxZTUxMjNkNWIzYTMzZDk3ZTdhZGNlZGI1NzE1ZDBlNzVlMTczMDMwODlmZmJkODUxMmE5ZTgyMDZkN2NiZGM5NWEwYjlhMWJmMTdjYjUxNTEzOTg0M2Y0NjQ4Mjc4NjI0YzljMGM3MTA4ZmMwYmU1NmNjOWIyOTg1OGFlOTAzYmVmOGZiNGE2YiIsIml2IjoiNWUyNDEyNWEzZDliMmY0Y2E3ZmJhNjU2YjkyMGMyYzM4ZjdjNmU3YzZhNTAyZGUwIn0="
         },
         "id": "UZ9ESivVk"
     },
@@ -281,11 +281,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjMxMWFkMGYzMWVhYWYzNWE3MWVjYTA5NjU5ODVlZjJkMzgzYTA0YmEwMmM2YzIxMmVlNzhkMWJhMTVkOTNjNCIsIml2IjoiNWE1YjFiMjk0NDk4YzUwNjk3MThjNmMyNGJkNWFkZTc2Y2E2NzEzMWQyNDViZDk1In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWZmZGY0MzhiNzU5Yjk4MGZhYjM5YWE1ODNlMGI3ZDQzMDAwODJhNWNmYWU0MWUyMjlhNjJmNTU2ZWFjZWFjMSIsIml2IjoiOTM3ZThkOGYyZmRkMzA0ZTY1N2M5M2EyYWZhZWM5MmRiNjg1ZDIyOWFkN2U3M2I2In0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "222bb62c9048dec95a27fe738b992f79",
+    "lastVisitedAssetId": "72b2bbff82fc64b2599176361df69e4a",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -848,7 +848,7 @@
                 "width": 1920,
                 "height": 1080
             },
-            "state": 1,
+            "state": 2,
             "type": 1
         },
         "1e02b2b574d98c1a55d72315d90676b8": {
@@ -5438,6 +5438,282 @@
             "size": {
                 "width": 1920,
                 "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdc7b6aa4344307e215f237c148b61b9": {
+            "format": "png",
+            "id": "fdc7b6aa4344307e215f237c148b61b9",
+            "name": "ffxiv_20220517_223727_523.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220517_223727_523.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ff79d60ef88c70a642843930f867770": {
+            "format": "png",
+            "id": "3ff79d60ef88c70a642843930f867770",
+            "name": "ffxiv_20220517_081230_689.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220517_081230_689.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3d00912336012aa824a163f7504f770": {
+            "format": "png",
+            "id": "c3d00912336012aa824a163f7504f770",
+            "name": "ffxiv_20220518_025003_759.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220518_025003_759.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "377ecd96f71c247c6916fbc771b1d631": {
+            "format": "png",
+            "id": "377ecd96f71c247c6916fbc771b1d631",
+            "name": "20201102_GelehrteCrest_c.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20201102_GelehrteCrest_c.png",
+            "size": {
+                "width": 423,
+                "height": 165
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e9987151ce6667894e21a1c61fa100dc": {
+            "format": "png",
+            "id": "e9987151ce6667894e21a1c61fa100dc",
+            "name": "20200905_GelehrteCrest_h.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200905_GelehrteCrest_h.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7244a3a6d41f6d40115a237413101209": {
+            "format": "png",
+            "id": "7244a3a6d41f6d40115a237413101209",
+            "name": "20200831_GelehrteCrest_h.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200831_GelehrteCrest_h.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a141e60a524b35f5d50b20574a9ec73d": {
+            "format": "jpg",
+            "id": "a141e60a524b35f5d50b20574a9ec73d",
+            "name": "20200819_Unatu_misato.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200819_Unatu_misato.jpg",
+            "size": {
+                "width": 1083,
+                "height": 650
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8cf3ca9a9d23c589f574e40c25646bea": {
+            "format": "png",
+            "id": "8cf3ca9a9d23c589f574e40c25646bea",
+            "name": "20200819_GelehrteCrest_c.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200819_GelehrteCrest_c.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "724249f5bd52e107021337bb0024fde2": {
+            "format": "png",
+            "id": "724249f5bd52e107021337bb0024fde2",
+            "name": "20200819_GelehrteCrest_a.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200819_GelehrteCrest_a.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed6c9de137bf0ad91a4458ce9d043ef0": {
+            "format": "png",
+            "id": "ed6c9de137bf0ad91a4458ce9d043ef0",
+            "name": "mordhona_03.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_03.png",
+            "size": {
+                "width": 234,
+                "height": 93
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0147a3d506d66598640e2191e29ae07b": {
+            "format": "png",
+            "id": "0147a3d506d66598640e2191e29ae07b",
+            "name": "mordhona_04.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_04.png",
+            "size": {
+                "width": 423,
+                "height": 195
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a0450f7e13e5a882abfe60e07a9c300": {
+            "format": "png",
+            "id": "8a0450f7e13e5a882abfe60e07a9c300",
+            "name": "mordhona_05.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_05.png",
+            "size": {
+                "width": 417,
+                "height": 56
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0614579cdf9125bb4764f71879769a6": {
+            "format": "png",
+            "id": "b0614579cdf9125bb4764f71879769a6",
+            "name": "mordhona_07.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_07.png",
+            "size": {
+                "width": 218,
+                "height": 98
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8f54e9dae09ad2c74bf6b903b581151": {
+            "format": "png",
+            "id": "c8f54e9dae09ad2c74bf6b903b581151",
+            "name": "mordhona_06.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_06.png",
+            "size": {
+                "width": 408,
+                "height": 204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51c72864b011b1a3e81826d2b3677d60": {
+            "format": "png",
+            "id": "51c72864b011b1a3e81826d2b3677d60",
+            "name": "mordhona_08.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_08.png",
+            "size": {
+                "width": 320,
+                "height": 69
+            },
+            "state": 2,
+            "type": 1
+        },
+        "953a0bfb3b3c070ab438c0fbb06f7299": {
+            "format": "png",
+            "id": "953a0bfb3b3c070ab438c0fbb06f7299",
+            "name": "mordhona_09.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_09.png",
+            "size": {
+                "width": 171,
+                "height": 77
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a38493a54cd8e9e7722bb9c78ece4385": {
+            "format": "png",
+            "id": "a38493a54cd8e9e7722bb9c78ece4385",
+            "name": "mordhona_10.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_10.png",
+            "size": {
+                "width": 384,
+                "height": 105
+            },
+            "state": 2,
+            "type": 1
+        },
+        "36d37bcd86b8e33d5ecaa502fc6aa38b": {
+            "format": "png",
+            "id": "36d37bcd86b8e33d5ecaa502fc6aa38b",
+            "name": "mordhona_11.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_11.png",
+            "size": {
+                "width": 235,
+                "height": 83
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0f392e8984e4a36ae4eafbefa9bc69d5": {
+            "format": "png",
+            "id": "0f392e8984e4a36ae4eafbefa9bc69d5",
+            "name": "mordhona_12.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_12.png",
+            "size": {
+                "width": 414,
+                "height": 184
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a415338bcf0ca171a03b31ac42bed6a8": {
+            "format": "png",
+            "id": "a415338bcf0ca171a03b31ac42bed6a8",
+            "name": "mordhona_13.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_13.png",
+            "size": {
+                "width": 468,
+                "height": 173
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ada549fc98d73cff7fddce023fd780a5": {
+            "format": "png",
+            "id": "ada549fc98d73cff7fddce023fd780a5",
+            "name": "mordhona_14.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_14.png",
+            "size": {
+                "width": 358,
+                "height": 148
+            },
+            "state": 2,
+            "type": 1
+        },
+        "741c67f555f001e1f101e7e5365f1e73": {
+            "format": "png",
+            "id": "741c67f555f001e1f101e7e5365f1e73",
+            "name": "mordhona_15.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_15.png",
+            "size": {
+                "width": 298,
+                "height": 134
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa18c1d66c861460ea5cb1d3d0a91be9": {
+            "format": "png",
+            "id": "fa18c1d66c861460ea5cb1d3d0a91be9",
+            "name": "mordhona_16.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/mordhona/mordhona_16.png",
+            "size": {
+                "width": 329,
+                "height": 116
             },
             "state": 2,
             "type": 1
