@@ -134,15 +134,24 @@ if __name__ == '__main__':
 
           # Draw bounding box
           cv2.rectangle(img, \
-            (box[1], box[0]), (box[3], box[2]), color, 3)
+          #  (box[1], box[0]), (box[3], box[2]), color, 3)
+            (box[1], box[0]), (box[3], box[2]), (255, 255, 255), -1)
+
+          font_size = 1.0
+          box_w = box[3] - box[1]
+          box_y = box[2] - box[0]
+          if box_w < box_y :
+            font_size = font_size * ( box_w / 40.0 )
+          else :
+            font_size = font_size * ( box_y / 40.0 )
 
           # Put label near bounding box
           #information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
           information = '%s' % (label)
-          cv2.putText(img, information, (box[1] + 17, box[2] - 17), \
-            cv2.FONT_HERSHEY_TRIPLEX, 1.5, (0, 0, 0), 1, cv2.LINE_AA)
+          #cv2.putText(img, information, (box[1] + 17, box[2] - 17), \
+          #  cv2.FONT_HERSHEY_TRIPLEX, 1.5, (0, 0, 0), 1, cv2.LINE_AA)
           cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
-            cv2.FONT_HERSHEY_TRIPLEX, 1.5, color, 1, cv2.LINE_AA)
+            cv2.FONT_HERSHEY_TRIPLEX, font_size, (0, 0, 0), 1, cv2.LINE_AA)
           #  cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
         elif mode == 'mosaic':
           img = mosaic_area(img, box[1], box[0], box[3], box[2], ratio=0.05)
