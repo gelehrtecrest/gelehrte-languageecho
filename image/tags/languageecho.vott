@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjI3MzQ2N2JiN2UzMzE1ZjY4MDI2ZmE4NWVlOWM5MmVlNGViZDg0N2U4NGIwZmI4OTA2YzM3MjljZjJiNGNmOGU4YWIxMDcwNTg5ZTVhMjA5ZDM3YjZjMWQ5MmZhOGMwOGNlMzhhNTcyZDc1Yjc5MGNhMjUyMDE5MTBlMjc2YzM1YzMxNjgwNTI5OWQ5NzMzYWRkYTdmMzEwZDZlNjE5NiIsIml2IjoiNWJmN2Y4ZTk5NDlmMmVjZjlkNGU1OTBlYWVhMGFkYzc0NTc3NzA2OTQ0MjljZWM2In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjhmMTIwNDFjN2JmODk4Mjk1NjE3NjljOTBjYzlmNGVlZTZhNWU2N2Q5NTc4NzQwZTNkZmMyOGE1NGU4NzRjNmMzODJlNzM3ZWVlZDQ5NzQyMGJmMmRjYTJhY2Y4ZDNkYTMyNmIxZWQ3NTE1OGQ4N2I3Yzk0NmI5N2UzMDE1NjI5YjQzZDA3MzMzNTBhZWEwNzI5OTc4MGE2YTI5Y2FkYSIsIml2IjoiYzVhOTc0ZjliZjA4ZjNjMDY5MTQxOTVmYjE1NGQzNzkzNDI2N2U0N2FkYjFjZjk5In0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGY4YTUyMTY1M2IxMTQyOWU5ZTlmYzJlMTE4YmQzNzYyNjkyZWU5OTMwNDMzNjVlMWZmZjE1YWM2YTFhNWE1OTJmMjMyN2RiNjdlMWNkZDk1ZmI2MGZiNDIwZDJmNDRhN2FmN2Y2OWMyZDFjMTYyZThlMmY4MzQ5ZWVlMWE5NGJjNmMxY2FiNDU5OGIwYjE0ZTIxOTE1ZjM5NWQzOTg5MCIsIml2IjoiMmM0ZDljYjA0MmRiODgxMWFlZGM4N2RjYWEzMzNiMWU0MzYxODYyMTVjZWJlZjIzIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTc0OWQyNjI4NzU2ZGNkNmFlYzc4YmI0NjI3NTMyNmE0YTNjMTFiZjFjODU2NTY2NzExMDQ2OWVmZDVlYWUxYTdkNzgxZGM5YzFkY2EzN2FlODg0MWI5YjVhMDJlMmRmZTBmM2M3NGVhOGM0YTc1NzkzNDI4NDdjZmI2NTA0OTZhMWFkY2I3YTcyYjYwMTY5OTljYzlhODRkNTg1M2I0YSIsIml2IjoiYzVmMDUyZGFhMjRkYmM1ZjJiYWM1OTE2Y2NjZDQxOThjMzJiOGQwNDRkNzY3MzE0In0="
         },
         "id": "UZ9ESivVk"
     },
@@ -281,11 +281,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmQ3OGQwNmZjYTliNWRkMmJiYTVkNGI3MWNiZDRhMTMzNTY2YjMzNzA5OWQxYmFiNjU4ODhlZWE1NTMzM2UwNiIsIml2IjoiMzgzY2Y2ZThjZDdhZmRkM2MxNWNlMDBhYjRiM2E5MThiZTk1NmRjYTNiNGUxZjRmIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTMzNTRiYWQzYzYxZTI1YjIwOGM3NDllNWZjMGVlOWUyYTk3ZmEyNjkyMDc5ZTQ3M2QxNGQ0YTU2NWQ3MDRkMSIsIml2IjoiNDdmM2MxNGYyZjJiY2FmMTY5MmMxYjFmNDlkYTdhOWMzZDYyMzc3ZjNhNDkzOTA3In0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "2de8c11e2546e6228bb7a2469dbb9d2e",
+    "lastVisitedAssetId": "d6a19be94d90cd152b85ced97d66344e",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -6071,6 +6071,90 @@
             "id": "2de8c11e2546e6228bb7a2469dbb9d2e",
             "name": "ffxiv_20220525_003714_865.png",
             "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220525_003714_865.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19e710d16b5d91d6ac4034715a1699e5": {
+            "format": "jpg",
+            "id": "19e710d16b5d91d6ac4034715a1699e5",
+            "name": "20200602_Tama_c.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200602_Tama_c.jpg",
+            "size": {
+                "width": 1423,
+                "height": 777
+            },
+            "state": 2,
+            "type": 1
+        },
+        "35db39887b3156ba4c49e73ace485417": {
+            "format": "jpg",
+            "id": "35db39887b3156ba4c49e73ace485417",
+            "name": "20200604_SUPIPI00_a.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200604_SUPIPI00_a.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        },
+        "873e8b035bc8fe6a404ca5d9059e5bab": {
+            "format": "png",
+            "id": "873e8b035bc8fe6a404ca5d9059e5bab",
+            "name": "20200604_SUPIPI00_b.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200604_SUPIPI00_b.png",
+            "size": {
+                "width": 680,
+                "height": 383
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ac4e92c648c410feb098c6906325d8a5": {
+            "format": "png",
+            "id": "ac4e92c648c410feb098c6906325d8a5",
+            "name": "ffxiv_20220528_120320_580.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220528_120320_580.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e59b164fe035d4e3f63e0d1992de2adb": {
+            "format": "png",
+            "id": "e59b164fe035d4e3f63e0d1992de2adb",
+            "name": "ffxiv_20220528_120148_400.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220528_120148_400.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad98d8ac559f9c2ca192725bd9d69ad0": {
+            "format": "png",
+            "id": "ad98d8ac559f9c2ca192725bd9d69ad0",
+            "name": "ffxiv_20220528_023759_476.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220528_023759_476.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6a19be94d90cd152b85ced97d66344e": {
+            "format": "png",
+            "id": "d6a19be94d90cd152b85ced97d66344e",
+            "name": "ffxiv_20220526_082151_871.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/ffxiv_20220526_082151_871.png",
             "size": {
                 "width": 1920,
                 "height": 1080
