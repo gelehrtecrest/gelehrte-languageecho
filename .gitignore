@@ -5,3 +5,4 @@
 /image/input/*.mp4
 /models/research/exported_graphs
 /models/research/saved_model_01
+/new_user_credentials.csv
