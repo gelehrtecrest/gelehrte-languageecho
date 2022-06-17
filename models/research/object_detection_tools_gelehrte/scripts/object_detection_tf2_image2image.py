@@ -100,9 +100,15 @@ if __name__ == '__main__':
 
   img = cv2.imread(args.input_image)
   #img_bgr = cv2.resize(img, (300,  300))
-  width = 1920
+  size = 1920
+  size = size * 8
   h, w = img.shape[:2]
-  height = round(h * (width / w))
+  if h < w:
+    width = size
+    height = round(h * (width / w))
+  else :
+    height = size
+    width = round(w * (height / h))
   img_bgr = cv2.resize(img, (width,  height))
 
   # convert bgr to rgb

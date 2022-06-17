@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiY2UzM2U3NzdkMzYyNDM2ZWJlMzJmYjI3MzU5ZmM0MDQyNzBiMDI5YjM5MWViYTcxZGFjZGFkNjlhNzdlYzYwMjk2MjM0MTZhYmIxZTA3NzA0NDAzZGJjZGE5NjMyZDkzYmZhMTBlYzY5OTQ0MTA0NDMxM2JiZTY2MDQzMTQ3MzNiM2U5OWEyMTM1YWExZTE2NzU5NjUyYjdmMTE3MDRjMCIsIml2IjoiNmY4Nzg3MzRjOGVmYWI5NTU2NGVhZDUyOTg2NWE4YWZhOGY5OWVlMTllM2NjYmQ4In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWFmZWE2ZTkzMDRjM2I1MjEyZDlhZmEyNTMzYjhmNjY0MjRiYWIzOTZhZTQwNWJjNGIwZmM2ODM5ZDUwNjEzNzQxN2RiNGNhNGIwNjc3Y2VlYmQwNTc0MTZlYTg0OGEyY2MyM2VmNDk4NjFlYWVhY2Q3MTZlOTY2ZjQxOTBiNTYzZDcwZWYwYWM2NmIyN2ViYWEyMzkyOTNkM2VjZDU1OSIsIml2IjoiNDA4MmViYmM5ODI1YmJiYTU3OTNlYTRmYjcyZjg1NjYzNTRkYTY2NTQ5NGIzMGU5In0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNWJlNzRkNGU1NDQzNzIxNjI0OTdmYTUzODA2YjVmZmZmM2VmNzQzMmE3M2YzZDI4NGRjNmJiMGUwMTQ1ODYwMDlkNzA0ZjRkOWJmNTc1MWI0NThmMzY0M2NjYmMyN2VjMmEwNGY3MjA3MGZkMTI5ZjVlYzY3ZDc0NDA1Mjg2ZmJjY2NjYWE2YWYxMTgzMTliNmExMTZhZmQ4NTllZjdmMiIsIml2IjoiMzEwYmRhMGM5MzA3MmE0YjQ5ZjIzMWE4YTUzOGQzNTFjODQ3NmY0MTllMGQ1ZmYzIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGI5OTA1ZDdlODRhNzQ0ZWE1ZTNlM2Q2OTU0MzM4NDgwMTZkMDU0ZDUwZTRlMDQ4YWMzNDdlZDhjYjVjNzRmYTgyNzI2NTEyNGY5Mjc4YjcxNjdmYzc4ZDQ1NGQ2ZmRkZTY0YzY1NjZjMmJkMDIzNWY4Mzg0Y2ZmZmRkMTMwMWRiMjExNmI3MjA1ZGY3ZGYyZWY0OWZhYjI3ODJmNDY0NyIsIml2IjoiM2YxMWJlYjRjZjQ4NTMzNGJjZWVmYzE1NjkxZWU3MmUzMGUxM2JhZjlkZjIyNWFjIn0="
         },
         "id": "UZ9ESivVk"
     },
@@ -281,11 +281,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWQ2ZWFiYWM1OTExOGUzN2M0M2MxMWM4Mjg1ZmIxNjY3YTM3Njg4MDg3YjU2NWU0YmNhYTE5ZDVmNmIxZjE2NSIsIml2IjoiMzAwZWRlZDRhMDVhYThjYmFlNjFjMzhiZDQ2MTFkZTBiMzc4MTE0OTNmNDk4MzBlIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZThiMWUwMWRiY2EyOGVlODI3YzExN2Y4NDAwNTdlZWM5NzU0NTBjZWE5NDcxMzM4ZWQ5YTgxNWFkNDE2OTg4NiIsIml2IjoiNWM5MTUyZjlhY2ZlMzA1MzMwMTc0OWRlYTk0ZGU2NjE1NTRiMWU1Y2FjOGFmNGE5In0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "3f8bdb6d766316665c9e53a41d6ba619",
+    "lastVisitedAssetId": "86b9845a111bf1a45eaa3db89d689799",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -6641,6 +6641,43 @@
             },
             "state": 2,
             "type": 1
+        },
+        "86b9845a111bf1a45eaa3db89d689799": {
+            "format": "mp4",
+            "id": "86b9845a111bf1a45eaa3db89d689799",
+            "name": "goldsaucer_festival_2022.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/goldsaucer_festival_2022.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 2
+        },
+        "f754b3d85851d456dc73889e1a1ba2da": {
+            "id": "f754b3d85851d456dc73889e1a1ba2da",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=19.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/goldsaucer_festival_2022.mp4#t=19.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "86b9845a111bf1a45eaa3db89d689799",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 19.4
         }
     }
 }
