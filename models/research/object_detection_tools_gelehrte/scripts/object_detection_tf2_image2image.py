@@ -104,10 +104,16 @@ if __name__ == '__main__':
   size = size * 8
   h, w = img.shape[:2]
   if h < w:
-    width = size
+    if h < w * 2:
+      width = size * 2
+    else :
+      width = size
     height = round(h * (width / w))
   else :
-    height = size
+    if h * 2 > w:
+      height = size * 2
+    else :
+      height = size
     width = round(w * (height / h))
   img_bgr = cv2.resize(img, (width,  height))
 
