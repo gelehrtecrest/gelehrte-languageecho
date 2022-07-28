@@ -210,7 +210,7 @@ if __name__ == '__main__':
           colorBGR = (0,0,0)
           img = cv2_putText_2(img = img,
                         text = information,
-                        org = (box[1] + 15, box[2] - 15),
+                        org = (box[1] + 5, box[2] - 15),
                         fontFace = font_name,
                         fontScale = int(font_size),
                         color = colorBGR)
