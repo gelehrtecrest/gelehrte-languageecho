@@ -8,6 +8,9 @@ import sys
 import time
 import tensorflow as tf
 
+from PIL import Image, ImageDraw, ImageFont
+
+
 from distutils.version import StrictVersion
 
 try:
@@ -56,6 +59,9 @@ colors = [
   (64, 0, 255),
 ]
 
+#フォントの指定
+font_name = '..\\..\\fonts\\NotoSansJP-Bold.otf'
+
 
 def mosaic(src, ratio=0.1):
     small = cv2.resize(src, None, fx=ratio, fy=ratio, interpolation=cv2.INTER_NEAREST)
@@ -88,6 +94,41 @@ def run_inference_for_single_image(image, graph):
 
   return output_dict
 
+def pil2cv(image):
+    ''' PIL型 -> OpenCV型 '''
+    new_image = np.array(image, dtype=np.uint8)
+    if new_image.ndim == 2:  # モノクロ
+        pass
+    elif new_image.shape[2] == 3:  # カラー
+        new_image = cv2.cvtColor(new_image, cv2.COLOR_RGB2BGR)
+    elif new_image.shape[2] == 4:  # 透過
+        new_image = cv2.cvtColor(new_image, cv2.COLOR_RGBA2BGRA)
+    return new_image
+
+def cv2pil(image):
+    ''' OpenCV型 -> PIL型 '''
+    new_image = image.copy()
+    if new_image.ndim == 2:  # モノクロ
+        pass
+    elif new_image.shape[2] == 3:  # カラー
+        new_image = cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB)
+    elif new_image.shape[2] == 4:  # 透過
+        new_image = cv2.cvtColor(new_image, cv2.COLOR_BGRA2RGBA)
+    new_image = Image.fromarray(new_image)
+    return new_image
+
+def cv2_putText_2(img, text, org, fontFace, fontScale, color):
+    x, y = org
+    b, g, r = color
+    colorRGB = (r, g, b)
+    imgPIL = cv2pil(img)
+    draw = ImageDraw.Draw(imgPIL)
+    fontPIL = ImageFont.truetype(font = fontFace, size = fontScale)
+    w, h = draw.textsize(text, font = fontPIL)
+    draw.text(xy = (x,y-h), text = text, fill = colorRGB, font = fontPIL)
+    imgCV = pil2cv(imgPIL)
+    return imgCV
+
 count_max = 0
 
 if __name__ == '__main__':
@@ -101,7 +142,6 @@ if __name__ == '__main__':
   img = cv2.imread(args.input_image)
   #img_bgr = cv2.resize(img, (300,  300))
   size = 1920
-  size = size * 8
   h, w = img.shape[:2]
   if h < w:
     if h < w * 2:
@@ -149,7 +189,7 @@ if __name__ == '__main__':
           #  (box[1], box[0]), (box[3], box[2]), color, 3)
             (box[1], box[0]), (box[3], box[2]), (255, 255, 255), -1)
 
-          font_size = 1.0
+          font_size = 30.0
           box_w = box[3] - box[1]
           box_y = box[2] - box[0]
           if box_w < box_y :
@@ -162,9 +202,18 @@ if __name__ == '__main__':
           information = '%s' % (label)
           #cv2.putText(img, information, (box[1] + 17, box[2] - 17), \
           #  cv2.FONT_HERSHEY_TRIPLEX, 1.5, (0, 0, 0), 1, cv2.LINE_AA)
-          cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
-            cv2.FONT_HERSHEY_TRIPLEX, font_size, (0, 0, 0), 1, cv2.LINE_AA)
+          #cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
+          #  cv2.FONT_HERSHEY_TRIPLEX, font_size, (0, 0, 0), 1, cv2.LINE_AA)
           #  cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
+          #draw.text((box[1] + 15, box[2] - 15), information, (0, 0, 0), font=font)
+          print(font_size)
+          colorBGR = (0,0,0)
+          img = cv2_putText_2(img = img,
+                        text = information,
+                        org = (box[1] + 15, box[2] - 15),
+                        fontFace = font_name,
+                        fontScale = int(font_size),
+                        color = colorBGR)
         elif mode == 'mosaic':
           img = mosaic_area(img, box[1], box[0], box[3], box[2], ratio=0.05)
 
