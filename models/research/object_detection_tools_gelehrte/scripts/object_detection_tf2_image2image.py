@@ -7,6 +7,7 @@ import os
 import sys
 import time
 import tensorflow as tf
+from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -131,7 +132,19 @@ def cv2_putText_2(img, text, org, fontFace, fontScale, color):
 
 count_max = 0
 
+def workingfilewrite(filename, fix, message):
+  filepath = 'D:\workspace\github\gelehrte-languageecho\\test\work\\' + filename + '-' + fix + '.txt'
+  f = open(filepath, 'w')
+  f.write(message)
+
+  now = datetime.now()
+  d = now.strftime('%Y/%m/%d %H:%M:%S')
+  f.write('\n' + d)
+
+  f.close()
+
 if __name__ == '__main__':
+  workingfilewrite('test', '01', 'モデル読み込みました')
   count = 0
 
   labels = ['blank']
