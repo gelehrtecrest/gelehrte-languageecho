@@ -151,11 +151,11 @@ def is_near(word, box):
 
   #Y軸チェック
   box_height = box[2] - box[0]
-  #Y軸でboxの高さの小さいほうから1/4より下に、word_last_letterのY軸の下部が入っていないとFalse
-  if word_last_letter_box[2] < box[0] + box_height / 4 :
+  #Y軸でboxの高さの小さいほうから1/2より下に、word_last_letterのY軸の下部が入っていないとFalse
+  if word_last_letter_box[2] < box[0] + box_height / 2 :
     return False
-  #Y軸でboxの高さの高いほうから1/4より上に、word_last_letterのY軸の上部が入っていないとFalse
-  if word_last_letter_box[0] > box[2] - box_height / 4 :
+  #Y軸でboxの高さの高いほうから1/2より上に、word_last_letterのY軸の上部が入っていないとFalse
+  if word_last_letter_box[0] > box[2] - box_height / 2 :
     return False
 
   #X軸チェック
@@ -189,6 +189,12 @@ def add_word_2_word_list(word_list, label, box):
     word = word_list[word_number]
     #より距離が近いletterを持つwordを探す
     if is_near(word, box):
+      print("")
+      print("---------")
+      print(word[-1])
+      print(label)
+      print(box)
+      print("---------")
       new_distance = distance_word(word, box)
       if near_distance < 0 or near_distance > new_distance:
         near_word = word
@@ -378,10 +384,10 @@ if __name__ == '__main__':
   #全体の文字を入れる連想配列
   word_list = {}
   for letter in letter_list:
-    #print(letter["label"], end='')
-    #print(",", end='')
+    print(letter["label"], end='')
+    print(",", end='')
     word_list = add_word_2_word_list(word_list, letter["label"], letter["box"])
-  #print(" / ")
+  print(" / ")
 
 
   sentence_list = get_sentence_list(word_list)
@@ -390,9 +396,7 @@ if __name__ == '__main__':
     for word in sentence:
       for letter in word:
         text += letter["label"]
-
-    print(text)
-            
+      text += " "            
     
     sentence_box = get_sentence_box(sentence)
     cv2.rectangle(img, (sentence_box[1], sentence_box[0]), (sentence_box[3], sentence_box[2]), (255, 255, 255), -1)
