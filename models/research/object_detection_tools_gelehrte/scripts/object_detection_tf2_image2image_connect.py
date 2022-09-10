@@ -189,12 +189,6 @@ def add_word_2_word_list(word_list, label, box):
     word = word_list[word_number]
     #より距離が近いletterを持つwordを探す
     if is_near(word, box):
-      print("")
-      print("---------")
-      print(word[-1])
-      print(label)
-      print(box)
-      print("---------")
       new_distance = distance_word(word, box)
       if near_distance < 0 or near_distance > new_distance:
         near_word = word
@@ -269,14 +263,37 @@ def get_word_box(word):
 
   return word_box
 
+def is_near_sentence_lastword_2_word(sentence, word):
+  #sentenceの最後のletterとwordの最初のletterのX軸の距離が、幅の平均より広ければFalse
+  sentence_lastletter = sentence[-1][-1]
+  word_firstletter = word[0]
+
+  #sentenceの最後のletterの幅
+  sentence_lastletter_width = sentence_lastletter["box"][3] - sentence_lastletter["box"][1]
+  #wordの最初のletterの幅
+  word_firstletter_width = word_firstletter["box"][3] - word_firstletter["box"][1]
+
+  #距離
+  distance = word_firstletter["box"][1] - sentence_lastletter["box"][3]
+
+  #幅の平均
+  width_2 = (sentence_lastletter_width + word_firstletter_width) / 2
+
+  if distance > width_2:
+    return False
+  return True
+
 def in_sentence(sentence_list, word):
   num = 0
   word_box = get_word_box(word)
   word_y_half = (word_box[2] - word_box[0]) / 2 + word_box[0]
+
+
   for sentence in sentence_list:
     sentence_box = get_sentence_box(sentence)
     if word_y_half > sentence_box[0] and word_y_half < sentence_box[2]:
-      return (sentence, num)
+      if is_near_sentence_lastword_2_word(sentence, word):
+        return (sentence, num)
     num = num + 1
 
   return (None, -1)
@@ -348,7 +365,7 @@ if __name__ == '__main__':
 
     detection_score = output_dict['detection_scores'][i]
 
-    if detection_score > 0.5:
+    if detection_score > 0.6:
         h, w, c = img.shape
         box = output_dict['detection_boxes'][i] * np.array( \
           [h, w,  h, w])
