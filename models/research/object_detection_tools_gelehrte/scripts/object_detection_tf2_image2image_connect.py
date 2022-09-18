@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 from distutils.version import StrictVersion
 
+
 try:
   if StrictVersion(tf.__version__) < StrictVersion('2.0'):
     raise ImportError('Please upgrade your TensorFlow installation to v2.x.')
@@ -326,6 +327,10 @@ if __name__ == '__main__':
   #img_bgr = cv2.resize(img, (300,  300))
   size = 1920
   h, w = img.shape[:2]
+
+  font_scale = np.log10(1080 / h) + 1.0
+  #font_size = 120.0 * font_scale
+
   if h < w:
     if h < w * 2:
       if h < w * 4:
@@ -380,17 +385,17 @@ if __name__ == '__main__':
         #cv2.rectangle(img, \
         #  (box[1], box[0]), (box[3], box[2]), (255, 255, 255), -1)
 
-        font_size = 30.0
-        box_w = box[3] - box[1]
-        box_y = box[2] - box[0]
-        if box_w < box_y :
-          font_size = font_size * ( box_w / 40.0 )
-        else :
-          font_size = font_size * ( box_y / 40.0 )
+        #font_size = 30.0
+        #box_w = box[3] - box[1]
+        #box_y = box[2] - box[0]
+        #if box_w < box_y :
+        #  font_size = font_size * ( box_w / 40.0 )
+        #else :
+        #  font_size = font_size * ( box_y / 40.0 )
 
-        information = '%s' % (label)
+        #information = '%s' % (label)
         #print(font_size)
-        colorBGR = (0,0,0)
+        #colorBGR = (0,0,0)
         #img = cv2_putText_2(img = img,
         #              text = information,
         #              org = (box[1] + 5, box[2] - 15),
@@ -417,7 +422,9 @@ if __name__ == '__main__':
     
     sentence_box = get_sentence_box(sentence)
     cv2.rectangle(img, (sentence_box[1], sentence_box[0]), (sentence_box[3], sentence_box[2]), (255, 255, 255), -1)
-    font_size = 0.3 * (sentence_box[2] - sentence_box[0])
+    font_size = 0.3 * (sentence_box[2] - sentence_box[0]) * font_scale
+    print(font_size)
+    print(font_scale)
     colorBGR = (0,0,0)
     img = cv2_putText_2(img = img,
                         text = text,
