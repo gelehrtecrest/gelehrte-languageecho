@@ -216,20 +216,45 @@ def add_word_2_word_list(word_list, label, box):
   return word_list
 
 
-def add_letter_2_letter_list(letter_list, label, box):
+def add_letter_2_letter_list(letter_list, label, box, detection_score):
   new_letter_list = []
   new_letter_x = box[1]
-  new_letter = {"x": new_letter_x, "label": label, "box": box}
+  new_letter = {"x": new_letter_x, "label": label, "box": box, "detection_score": detection_score}
   append_flag = True
+  print("----------------------------------------")
+  print(new_letter)
+  print_letter_list(letter_list)
+  #まず予め、似ている文字のが存在する場合はscoreの高い文字を残す
+  similar_flag = False
+  tmp_letter_list = []
   for letter in letter_list:
-    letter_x = letter["x"]
-    if new_letter_x < letter_x and (append_flag):
+    if is_similar_letter(letter, new_letter):
+      print("is_similar_letter-------------")
+      print(letter)
+      print(new_letter)
+      similar_flag = True
+      if letter["detection_score"] > new_letter["detection_score"]:
+        tmp_letter_list.append(letter)
+      else:
+        tmp_letter_list.append(new_letter)
+    else:
+      tmp_letter_list.append(letter)
+
+  print_letter_list(tmp_letter_list)
+
+  if similar_flag:
+    #似ている文字が存在する場合はtmp_letter_listをそのままnew_letter_listとする
+    new_letter_list = tmp_letter_list
+  else :
+    for letter in tmp_letter_list:
+      letter_x = letter["x"]
+      if new_letter_x < letter_x and (append_flag):
+        new_letter_list.append(new_letter)
+        append_flag = False
+      new_letter_list.append(letter)
+    if (append_flag):
       new_letter_list.append(new_letter)
-      append_flag = False
-    new_letter_list.append(letter)
-  if (append_flag):
-    new_letter_list.append(new_letter)
-  
+  print_letter_list(new_letter_list)
   return new_letter_list
 
 
@@ -314,6 +339,86 @@ def get_sentence_list(word_list):
 
   return sentence_list
 
+#認識が難しいラベルかどうか
+lowScoreLabel = ["B", "P", "Q", "Z", "b", "p", "q", "z"]
+def is_lowScoreLabel(label):
+  return (label in lowScoreLabel)
+
+#誤読が多いラベルかどうか
+misreadingLabel = ["I", "L", "O", "i", "I", "o", "O", "0"]
+def is_misreadingLabel(label):
+  return (label in misreadingLabel)
+
+#共通面積のしきい値
+similar_area = 0.8
+def is_similar_letter(letter1, letter2):
+  #誤読リストに入っているかどうかのチェック
+  if letter1["label"] in misreadingLabel and letter2["label"] in misreadingLabel:
+    print(letter1)
+    print(letter2)
+    #共通面積が、どちらかの面積のしきい値以上を占めている場合、似ているとする
+    x_1 = 0
+    x_2 = 0
+    y_1 = 0
+    y_2 = 0
+    box1 = letter1["box"]
+    box2 = letter2["box"]
+
+    #全く重なりがない場合は先にFalseと返す
+    if box1[3] < box2[1]:
+      return False
+    if box1[1] > box2[3]:
+      return False
+    if box2[2] < box2[0]:
+      return False
+    if box2[0] > box2[2]:
+      return False
+
+    #共通部分の座標取得
+    if box1[1] < box2[1]:
+      x_1 = box1[1]
+    else:
+      x_1 = box2[1]
+    if box1[3] < box2[3]:
+      x_2 = box1[3]
+    else:
+      x_2 = box2[3]
+    if box1[0] < box2[0]:
+      y_1 = box1[0]
+    else:
+      y_1 = box2[0]
+    if box1[2] < box2[2]:
+      y_2 = box1[2]
+    else:
+      y_2 = box2[2]
+    #共通部分の面積
+    common_area = (x_2 - x_1) * (y_2 - y_1)
+    
+    #各letterの面積を求める
+    area1 = (box1[3] - box1[1]) * (box1[2] - box1[0])
+    area2 = (box2[3] - box2[1]) * (box2[2] - box2[0])
+    #面積の狭い方と比較する
+    area = 0
+    if area1 < area2:
+      area = area1
+    else:
+      area = area2
+
+    print(common_area / area)
+    #しきい値より高い場合、同じ場所とする
+    if (common_area / area) > similar_area:
+      return True
+    return False
+  else:
+    return False
+
+def print_letter_list(letter_list):
+  for letter in letter_list:
+    print(letter["label"], end='')
+    print(",", end='')
+
+  print("")
+
 if __name__ == '__main__':
   workingfilewrite('test', '01', 'モデル読み込みました')
   count = 0
@@ -361,47 +466,29 @@ if __name__ == '__main__':
   #全体の文字を一時的に保管する配列
   letter_list = []
 
+  detection_score_base = 0.6 
   for i in range(output_dict['num_detections']):
+    detection_score_label = detection_score_base
     class_id = output_dict['detection_classes'][i].astype(np.int)
     if class_id < len(labels):
       label = labels[class_id]
+      if is_lowScoreLabel(label):
+        detection_score_label = 0.4
+      if is_misreadingLabel(label):
+        detection_score_label = 0.5
     else:
       label = 'unknown'
 
     detection_score = output_dict['detection_scores'][i]
 
-    if detection_score > 0.6:
+    if detection_score > detection_score_label:
         h, w, c = img.shape
         box = output_dict['detection_boxes'][i] * np.array( \
           [h, w,  h, w])
         box = box.astype(np.int)
 
-        #letter_listにxの値が小さい順に保管する
-        letter_list = add_letter_2_letter_list(letter_list, label, box)
+        letter_list = add_letter_2_letter_list(letter_list, label, box, detection_score)
 
-        class_id = class_id % len(colors)
-        color = colors[class_id]
-
-        #cv2.rectangle(img, \
-        #  (box[1], box[0]), (box[3], box[2]), (255, 255, 255), -1)
-
-        #font_size = 30.0
-        #box_w = box[3] - box[1]
-        #box_y = box[2] - box[0]
-        #if box_w < box_y :
-        #  font_size = font_size * ( box_w / 40.0 )
-        #else :
-        #  font_size = font_size * ( box_y / 40.0 )
-
-        #information = '%s' % (label)
-        #print(font_size)
-        #colorBGR = (0,0,0)
-        #img = cv2_putText_2(img = img,
-        #              text = information,
-        #              org = (box[1] + 5, box[2] - 15),
-        #              fontFace = font_name,
-        #              fontScale = int(font_size),
-        #              color = colorBGR)
 
   #全体の文字を入れる連想配列
   word_list = {}
