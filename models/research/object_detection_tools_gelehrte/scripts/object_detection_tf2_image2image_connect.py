@@ -240,7 +240,7 @@ def add_letter_2_letter_list(letter_list, label, box, detection_score):
     else:
       tmp_letter_list.append(letter)
 
-  print_letter_list(tmp_letter_list)
+  #print_letter_list(tmp_letter_list)
 
   if similar_flag:
     #似ている文字が存在する場合はtmp_letter_listをそのままnew_letter_listとする
@@ -341,10 +341,23 @@ def get_sentence_list(word_list):
 
 #一般的な判定基準
 base_score = 0.6
+#ILilは特に認識難しいので、特別扱い
+veryLowScoreLabel_score = 0.1
+veryLowScoreLabel = [
+  "I",
+  "i",
+  "l"
+]
+def is_veryLowScoreLabel(label):
+  return (label in veryLowScoreLabel)
 #認識が難しいラベルかどうか
-lowScoreLabel_score = 0.4
+lowScoreLabel_score = 0.3
 lowScoreLabel = [
   "B",
+  "C",
+  "D",
+  "E",
+  "L",
   "P",
   "Q",
   "Z",
@@ -357,7 +370,7 @@ def is_lowScoreLabel(label):
   return (label in lowScoreLabel)
 
 #誤読が多いラベルかどうか
-misreadingLabel_score = 0.4
+misreadingLabel_score = 0.5
 misreadingLabel = [
   [
     "A",
@@ -365,7 +378,14 @@ misreadingLabel = [
   ],
   [
     "C",
+    "D",
     "G",
+    "c",
+    "g"
+  ],
+  [
+    "d",
+    "b"
   ],
   [
     "F",
@@ -399,10 +419,6 @@ misreadingLabel = [
     "Y",
     "v",
     "y"
-  ],
-  [
-    "c",
-    "g"
   ]
   ]
 def is_misreadingLabel(label):
@@ -422,8 +438,8 @@ similar_area = 0.8
 def is_similar_letter(letter1, letter2):
   #誤読リストに入っているかどうかのチェック
   if is_misreadingLabel_in_same_list(letter1["label"], letter2["label"]):
-    print(letter1)
-    print(letter2)
+    #print(letter1)
+    #print(letter2)
     #共通面積が、どちらかの面積のしきい値以上を占めている場合、似ているとする
     x_1 = 0
     x_2 = 0
@@ -472,7 +488,7 @@ def is_similar_letter(letter1, letter2):
     else:
       area = area2
 
-    print(common_area / area)
+    #print(common_area / area)
     #しきい値より高い場合、同じ場所とする
     if (common_area / area) > similar_area:
       return True
@@ -530,24 +546,26 @@ if __name__ == '__main__':
   for i in range(output_dict['num_detections']):
     detection_score_label = detection_score_base
     class_id = output_dict['detection_classes'][i].astype(np.int)
+    #print("^^^^^^^^^^^^^^^^^^^^^^^")
     if class_id < len(labels):
       label = labels[class_id]
-      if is_lowScoreLabel(label):
+      #print(label)
+      if is_veryLowScoreLabel(label):
+        detection_score_label = veryLowScoreLabel_score
+      elif is_lowScoreLabel(label):
         detection_score_label = lowScoreLabel_score
-      if is_misreadingLabel(label):
+      elif is_misreadingLabel(label):
         detection_score_label = misreadingLabel_score
     else:
       label = 'unknown'
 
     detection_score = output_dict['detection_scores'][i]
-
+    #print(detection_score)
     if detection_score > detection_score_label:
         h, w, c = img.shape
         box = output_dict['detection_boxes'][i] * np.array( \
           [h, w,  h, w])
         box = box.astype(np.int)
-        print("|||||||||||||||||||||||||||||||||||||")
-        print(label)
         letter_list = add_letter_2_letter_list(letter_list, label, box, detection_score)
 
 
