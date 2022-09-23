@@ -339,21 +339,89 @@ def get_sentence_list(word_list):
 
   return sentence_list
 
+#一般的な判定基準
+base_score = 0.6
 #認識が難しいラベルかどうか
-lowScoreLabel = ["B", "P", "Q", "Z", "b", "p", "q", "z"]
+lowScoreLabel_score = 0.4
+lowScoreLabel = [
+  "B",
+  "P",
+  "Q",
+  "Z",
+  "b",
+  "p",
+  "q",
+  "z"
+  ]
 def is_lowScoreLabel(label):
   return (label in lowScoreLabel)
 
 #誤読が多いラベルかどうか
-misreadingLabel = ["I", "L", "O", "i", "I", "o", "O", "0"]
+misreadingLabel_score = 0.4
+misreadingLabel = [
+  [
+    "A",
+    "a"
+  ],
+  [
+    "C",
+    "G",
+  ],
+  [
+    "F",
+    "f"
+  ],
+  [
+    "I",
+    "L",
+    "i",
+    "l"
+  ],
+  [
+    "O",
+    "o",
+    "0"
+  ],
+  [
+    "R",
+    "r"
+  ],
+  [
+    "S",
+    "s"
+  ],
+  [
+    "T",
+    "t"
+  ],
+  [
+    "V",
+    "Y",
+    "v",
+    "y"
+  ],
+  [
+    "c",
+    "g"
+  ]
+  ]
 def is_misreadingLabel(label):
-  return (label in misreadingLabel)
+  for misreadingLabel_list in misreadingLabel:
+    if label in misreadingLabel_list:
+      return True
+  return False
+
+def is_misreadingLabel_in_same_list(label1, label2):
+  for misreadingLabel_list in misreadingLabel:
+    if label1 in misreadingLabel_list and label2 in misreadingLabel_list:
+      return True
+  return False
 
 #共通面積のしきい値
 similar_area = 0.8
 def is_similar_letter(letter1, letter2):
   #誤読リストに入っているかどうかのチェック
-  if letter1["label"] in misreadingLabel and letter2["label"] in misreadingLabel:
+  if is_misreadingLabel_in_same_list(letter1["label"], letter2["label"]):
     print(letter1)
     print(letter2)
     #共通面積が、どちらかの面積のしきい値以上を占めている場合、似ているとする
@@ -436,23 +504,15 @@ if __name__ == '__main__':
   font_scale = np.log10(1080 / h) + 1.0
   #font_size = 120.0 * font_scale
 
+
+  #1920*1920のサイズ感で同じような面積に拡大
   if h < w:
-    if h < w * 2:
-      if h < w * 4:
-        width = size * 4
-      else :
-        width = size * 2
-    else :
-      width = size
+    size_rate = int((w / h)**0.5)
+    width = size * size_rate
     height = round(h * (width / w))
   else :
-    if h * 2 > w:
-      if h * 4 > w:
-        height = size * 4
-      else :
-        height = size * 2
-    else :
-      height = size
+    size_rate = int((h / w)**0.5)
+    height = size * size_rate
     width = round(w * (height / h))
   img_bgr = cv2.resize(img, (width,  height))
 
@@ -473,9 +533,9 @@ if __name__ == '__main__':
     if class_id < len(labels):
       label = labels[class_id]
       if is_lowScoreLabel(label):
-        detection_score_label = 0.4
+        detection_score_label = lowScoreLabel_score
       if is_misreadingLabel(label):
-        detection_score_label = 0.5
+        detection_score_label = misreadingLabel_score
     else:
       label = 'unknown'
 
@@ -486,7 +546,8 @@ if __name__ == '__main__':
         box = output_dict['detection_boxes'][i] * np.array( \
           [h, w,  h, w])
         box = box.astype(np.int)
-
+        print("|||||||||||||||||||||||||||||||||||||")
+        print(label)
         letter_list = add_letter_2_letter_list(letter_list, label, box, detection_score)
 
 
