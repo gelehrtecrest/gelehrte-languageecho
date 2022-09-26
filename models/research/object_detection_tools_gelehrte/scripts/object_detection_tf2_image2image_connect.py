@@ -161,8 +161,8 @@ def is_near(word, box):
 
   #X軸チェック
   distance = distance_word(word, box)
-  #distanceがboxの幅の1/8以上である場合はFalse
-  if distance > (box[3] - box[1]) / 8:
+  #distanceがboxの幅の1/6以上である場合はFalse
+  if distance > (box[3] - box[1]) / 6 and distance > (word_last_letter_box[3] - word_last_letter_box[1]) / 6:
     return False
 
   return True
@@ -345,14 +345,14 @@ base_score = 0.6
 veryLowScoreLabel_score = 0.1
 veryLowScoreLabel = [
   "I",
-  "i",
-  "l"
+  "i"
 ]
 def is_veryLowScoreLabel(label):
   return (label in veryLowScoreLabel)
 #認識が難しいラベルかどうか
 lowScoreLabel_score = 0.3
 lowScoreLabel = [
+  "A",
   "B",
   "C",
   "D",
@@ -360,17 +360,24 @@ lowScoreLabel = [
   "L",
   "P",
   "Q",
+  "V",
+  "Y",
   "Z",
+  "a",
   "b",
+  "h",
+  "l",
   "p",
   "q",
+  "v",
+  "y",
   "z"
   ]
 def is_lowScoreLabel(label):
   return (label in lowScoreLabel)
 
 #誤読が多いラベルかどうか
-misreadingLabel_score = 0.5
+misreadingLabel_score = 0.6
 misreadingLabel = [
   [
     "A",
@@ -394,6 +401,7 @@ misreadingLabel = [
   [
     "I",
     "L",
+    "h",
     "i",
     "l"
   ],
@@ -546,10 +554,10 @@ if __name__ == '__main__':
   for i in range(output_dict['num_detections']):
     detection_score_label = detection_score_base
     class_id = output_dict['detection_classes'][i].astype(np.int)
-    #print("^^^^^^^^^^^^^^^^^^^^^^^")
+    print("^^^^^^^^^^^^^^^^^^^^^^^")
     if class_id < len(labels):
       label = labels[class_id]
-      #print(label)
+      print(label)
       if is_veryLowScoreLabel(label):
         detection_score_label = veryLowScoreLabel_score
       elif is_lowScoreLabel(label):
@@ -560,7 +568,7 @@ if __name__ == '__main__':
       label = 'unknown'
 
     detection_score = output_dict['detection_scores'][i]
-    #print(detection_score)
+    print(detection_score)
     if detection_score > detection_score_label:
         h, w, c = img.shape
         box = output_dict['detection_boxes'][i] * np.array( \
