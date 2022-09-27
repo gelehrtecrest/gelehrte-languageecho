@@ -342,7 +342,7 @@ def get_sentence_list(word_list):
 #一般的な判定基準
 base_score = 0.6
 #ILilは特に認識難しいので、特別扱い
-veryLowScoreLabel_score = 0.1
+veryLowScoreLabel_score = 0.3
 veryLowScoreLabel = [
   "I",
   "i"
@@ -401,9 +401,11 @@ misreadingLabel = [
   [
     "I",
     "L",
+    "W",
     "h",
     "i",
-    "l"
+    "l",
+    "w"
   ],
   [
     "O",
@@ -420,7 +422,9 @@ misreadingLabel = [
   ],
   [
     "T",
-    "t"
+    "W",
+    "t",
+    "w"
   ],
   [
     "V",
@@ -550,7 +554,7 @@ if __name__ == '__main__':
   #全体の文字を一時的に保管する配列
   letter_list = []
 
-  detection_score_base = 0.6 
+  detection_score_base = base_score
   for i in range(output_dict['num_detections']):
     detection_score_label = detection_score_base
     class_id = output_dict['detection_classes'][i].astype(np.int)
