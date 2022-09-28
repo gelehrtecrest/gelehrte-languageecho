@@ -63,6 +63,7 @@ colors = [
 
 #フォントの指定
 font_name = '..\\..\\fonts\\NotoSansJP-Bold.otf'
+#font_name = '..\\..\\fonts\\NieR-Regular.ttf'
 
 
 def mosaic(src, ratio=0.1):
