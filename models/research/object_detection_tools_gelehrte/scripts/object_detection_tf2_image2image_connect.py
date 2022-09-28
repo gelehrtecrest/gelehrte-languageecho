@@ -395,6 +395,10 @@ misreadingLabel = [
     "b"
   ],
   [
+    "E",
+    "e"
+  ],
+  [
     "F",
     "f"
   ],
