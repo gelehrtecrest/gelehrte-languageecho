@@ -381,7 +381,8 @@ misreadingLabel_score = 0.6
 misreadingLabel = [
   [
     "A",
-    "a"
+    "a",
+    "n"
   ],
   [
     "C",
