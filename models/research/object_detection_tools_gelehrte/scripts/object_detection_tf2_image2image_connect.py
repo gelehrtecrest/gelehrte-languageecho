@@ -450,7 +450,7 @@ def is_misreadingLabel_in_same_list(label1, label2):
   return False
 
 #共通面積のしきい値
-similar_area = 0.8
+similar_area = 0.9
 def is_similar_letter(letter1, letter2):
   #誤読リストに入っているかどうかのチェック
   if is_misreadingLabel_in_same_list(letter1["label"], letter2["label"]):
@@ -476,17 +476,17 @@ def is_similar_letter(letter1, letter2):
 
     #共通部分の座標取得
     if box1[1] < box2[1]:
-      x_1 = box1[1]
-    else:
       x_1 = box2[1]
+    else:
+      x_1 = box1[1]
     if box1[3] < box2[3]:
       x_2 = box1[3]
     else:
       x_2 = box2[3]
     if box1[0] < box2[0]:
-      y_1 = box1[0]
-    else:
       y_1 = box2[0]
+    else:
+      y_1 = box1[0]
     if box1[2] < box2[2]:
       y_2 = box1[2]
     else:
@@ -506,6 +506,10 @@ def is_similar_letter(letter1, letter2):
 
     #print(common_area / area)
     #しきい値より高い場合、同じ場所とする
+    print(common_area)
+    print(area1)
+    print(area2)
+    print(common_area / area)
     if (common_area / area) > similar_area:
       return True
     return False
