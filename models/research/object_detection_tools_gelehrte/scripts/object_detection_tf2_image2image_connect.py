@@ -120,7 +120,7 @@ def cv2pil(image):
     new_image = Image.fromarray(new_image)
     return new_image
 
-def cv2_putText_2(img, text, org, fontFace, fontScale, color):
+def cv2_putText_2(img, text, org, fontFace, fontScale, color, max_width):
     x, y = org
     b, g, r = color
     colorRGB = (r, g, b)
@@ -128,6 +128,10 @@ def cv2_putText_2(img, text, org, fontFace, fontScale, color):
     draw = ImageDraw.Draw(imgPIL)
     fontPIL = ImageFont.truetype(font = fontFace, size = fontScale)
     w, h = draw.textsize(text, font = fontPIL)
+    if w > max_width:
+      fontScale2 = int( fontScale * ( max_width / w ) )
+      fontPIL = ImageFont.truetype(font = fontFace, size = fontScale2)
+      w, h = draw.textsize(text, font = fontPIL)
     draw.text(xy = (x,y-h), text = text, fill = colorRGB, font = fontPIL)
     imgCV = pil2cv(imgPIL)
     return imgCV
@@ -383,7 +387,8 @@ misreadingLabel = [
   [
     "A",
     "a",
-    "n"
+    "n",
+    "y"
   ],
   [
     "C",
@@ -452,71 +457,77 @@ def is_misreadingLabel_in_same_list(label1, label2):
   return False
 
 #共通面積のしきい値
-similar_area = 0.9
+misreading_area = 0.7
+same_area = 0.9
+veryLowScore_area = 0.98
 def is_similar_letter(letter1, letter2):
+  print("is_similar_check------")
+  print(letter1)
+  print(letter2)
+  similar_area = same_area
   #誤読リストに入っているかどうかのチェック
   if is_misreadingLabel_in_same_list(letter1["label"], letter2["label"]):
-    #print(letter1)
-    #print(letter2)
-    #共通面積が、どちらかの面積のしきい値以上を占めている場合、似ているとする
-    x_1 = 0
-    x_2 = 0
-    y_1 = 0
-    y_2 = 0
-    box1 = letter1["box"]
-    box2 = letter2["box"]
+    similar_area = misreading_area
+  #特に難しいリストに入っているかどうかのチェック
+  if is_veryLowScoreLabel(letter1["label"]) or is_veryLowScoreLabel(letter2["label"]):
+    similar_area = veryLowScore_area
+  #共通面積が、どちらかの面積のしきい値以上を占めている場合、似ているとする
+  x_1 = 0
+  x_2 = 0
+  y_1 = 0
+  y_2 = 0
+  box1 = letter1["box"]
+  box2 = letter2["box"]
 
-    #全く重なりがない場合は先にFalseと返す
-    if box1[3] < box2[1]:
-      return False
-    if box1[1] > box2[3]:
-      return False
-    if box2[2] < box2[0]:
-      return False
-    if box2[0] > box2[2]:
-      return False
-
-    #共通部分の座標取得
-    if box1[1] < box2[1]:
-      x_1 = box2[1]
-    else:
-      x_1 = box1[1]
-    if box1[3] < box2[3]:
-      x_2 = box1[3]
-    else:
-      x_2 = box2[3]
-    if box1[0] < box2[0]:
-      y_1 = box2[0]
-    else:
-      y_1 = box1[0]
-    if box1[2] < box2[2]:
-      y_2 = box1[2]
-    else:
-      y_2 = box2[2]
-    #共通部分の面積
-    common_area = (x_2 - x_1) * (y_2 - y_1)
-    
-    #各letterの面積を求める
-    area1 = (box1[3] - box1[1]) * (box1[2] - box1[0])
-    area2 = (box2[3] - box2[1]) * (box2[2] - box2[0])
-    #面積の狭い方と比較する
-    area = 0
-    if area1 < area2:
-      area = area1
-    else:
-      area = area2
-
-    #print(common_area / area)
-    #しきい値より高い場合、同じ場所とする
-    print(common_area)
-    print(area1)
-    print(area2)
-    print(common_area / area)
-    if (common_area / area) > similar_area:
-      return True
+  #全く重なりがない場合は先にFalseと返す
+  if box1[3] < box2[1]:
     return False
+  if box1[1] > box2[3]:
+    return False
+  if box2[2] < box2[0]:
+    return False
+  if box2[0] > box2[2]:
+    return False
+
+  #共通部分の座標取得
+  if box1[1] < box2[1]:
+    x_1 = box2[1]
   else:
-    return False
+    x_1 = box1[1]
+  if box1[3] < box2[3]:
+    x_2 = box1[3]
+  else:
+    x_2 = box2[3]
+  if box1[0] < box2[0]:
+    y_1 = box2[0]
+  else:
+    y_1 = box1[0]
+  if box1[2] < box2[2]:
+    y_2 = box1[2]
+  else:
+    y_2 = box2[2]
+  #共通部分の面積
+  common_area = (x_2 - x_1) * (y_2 - y_1)
+  
+  #各letterの面積を求める
+  area1 = (box1[3] - box1[1]) * (box1[2] - box1[0])
+  area2 = (box2[3] - box2[1]) * (box2[2] - box2[0])
+  #面積の狭い方と比較する
+  area = 0
+  if area1 < area2:
+    area = area1
+  else:
+    area = area2
+
+  #print(common_area / area)
+  #しきい値より高い場合、同じ場所とする
+  print(common_area)
+  print(area1)
+  print(area2)
+  print(common_area / area)
+  if (common_area / area) > similar_area:
+    return True
+  return False
 
 def print_letter_list(letter_list):
   for letter in letter_list:
@@ -619,5 +630,7 @@ if __name__ == '__main__':
                         org = (sentence_box[1] + 5, sentence_box[2] - 15),
                         fontFace = font_name,
                         fontScale = int(font_size),
-                        color = colorBGR)
+                        color = colorBGR,
+                        max_width = sentence_box[3] - sentence_box[1]
+                        )
   cv2.imwrite(args.output_image, img)
