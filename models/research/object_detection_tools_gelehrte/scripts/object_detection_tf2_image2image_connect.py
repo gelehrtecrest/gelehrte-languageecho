@@ -1,6 +1,7 @@
 # coding: utf-8
 # Object Detection Demo
 import argparse
+from queue import Empty
 import cv2
 import numpy as np
 import os
@@ -344,6 +345,42 @@ def get_sentence_list(word_list):
 
   return sentence_list
 
+
+#自分のsentenceの高さ中央より、sentenceの頂点が低い場合、sentenceの順番を前にする
+def sort_sentence_list(sentence_list):
+  #まず頂点と中央の高さを保管する
+  sentence_height_data_list = []
+  for sentence in sentence_list:
+    sentence_box = get_sentence_box(sentence)
+    height = sentence_box[0]
+    center = (sentence_box[0] + sentence_box[2]) / 2
+    sentence_height_data = {"sentence" : sentence, "height": height, "center": center}
+    sentence_height_data_list.append(sentence_height_data)
+
+  #ソートする
+  return_sentence_height_data_list = []
+  for sentence_height_data in sentence_height_data_list:
+    flag = True
+    if not return_sentence_height_data_list:
+      return_sentence_height_data_list.append(sentence_height_data)
+    else:
+      tmp_sentence_height_data_list = []
+      for tmp_sentence_height_data in return_sentence_height_data_list:
+        if tmp_sentence_height_data["height"] > sentence_height_data["center"]:
+          tmp_sentence_height_data_list.append(sentence_height_data)
+          flag = False
+        tmp_sentence_height_data_list.append(tmp_sentence_height_data)
+      if flag:
+        tmp_sentence_height_data_list.append(sentence_height_data)
+      return_sentence_height_data_list = tmp_sentence_height_data_list
+
+  #結果を保存する
+  return_sentence_list = []
+  for return_sentence_height_data in return_sentence_height_data_list:
+    return_sentence_list.append(return_sentence_height_data["sentence"])
+
+  return return_sentence_list
+
 #一般的な判定基準
 base_score = 0.6
 #ILilは特に認識難しいので、特別扱い
@@ -412,10 +449,12 @@ misreadingLabel = [
   [
     "I",
     "L",
+    "Q",
     "W",
     "h",
     "i",
     "l",
+    "q",
     "w"
   ],
   [
@@ -612,18 +651,22 @@ if __name__ == '__main__':
 
 
   sentence_list = get_sentence_list(word_list)
+  sentence_list = sort_sentence_list(sentence_list)
+  #先に塗りつぶす
+  for sentence in sentence_list:
+    sentence_box = get_sentence_box(sentence)
+    cv2.rectangle(img, (sentence_box[1], sentence_box[0]), (sentence_box[3], sentence_box[2]), (255, 255, 255), -1)
+
+  #次に文字を描く
   for sentence in sentence_list:
     text = ""
     for word in sentence:
       for letter in word:
         text += letter["label"]
-      text += " "            
-    
+      text += " "
+    print(text)
     sentence_box = get_sentence_box(sentence)
-    cv2.rectangle(img, (sentence_box[1], sentence_box[0]), (sentence_box[3], sentence_box[2]), (255, 255, 255), -1)
     font_size = 0.3 * (sentence_box[2] - sentence_box[0]) * font_scale
-    print(font_size)
-    print(font_scale)
     colorBGR = (0,0,0)
     img = cv2_putText_2(img = img,
                         text = text,
