@@ -450,11 +450,13 @@ misreadingLabel = [
     "I",
     "L",
     "Q",
+    "T",
     "W",
     "h",
     "i",
     "l",
     "q",
+    "t",
     "w"
   ],
   [
@@ -498,7 +500,7 @@ def is_misreadingLabel_in_same_list(label1, label2):
 #共通面積のしきい値
 misreading_area = 0.7
 same_area = 0.9
-veryLowScore_area = 0.98
+veryLowScore_area = 0.9
 def is_similar_letter(letter1, letter2):
   print("is_similar_check------")
   print(letter1)
