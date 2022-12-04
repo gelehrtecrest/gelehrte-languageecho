@@ -384,7 +384,7 @@ def sort_sentence_list(sentence_list):
 #一般的な判定基準
 base_score = 0.6
 #ILilは特に認識難しいので、特別扱い
-veryLowScoreLabel_score = 0.3
+veryLowScoreLabel_score = 0.5
 veryLowScoreLabel = [
   "I",
   "i"
@@ -392,7 +392,7 @@ veryLowScoreLabel = [
 def is_veryLowScoreLabel(label):
   return (label in veryLowScoreLabel)
 #認識が難しいラベルかどうか
-lowScoreLabel_score = 0.3
+lowScoreLabel_score = 0.5
 lowScoreLabel = [
   "A",
   "B",
@@ -672,7 +672,7 @@ if __name__ == '__main__':
     colorBGR = (0,0,0)
     img = cv2_putText_2(img = img,
                         text = text,
-                        org = (sentence_box[1] + 5, sentence_box[2] - 15),
+                        org = (sentence_box[1] + 5, sentence_box[2] - 5),
                         fontFace = font_name,
                         fontScale = int(font_size),
                         color = colorBGR,
