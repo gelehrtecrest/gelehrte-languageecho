@@ -28,6 +28,7 @@ parser.add_argument('-l', '--labels', default='./models/coco-labels-paper.txt', 
 parser.add_argument('-m', '--model', default='./models/centernet_hg104_512x512_coco17_tpu-8/saved_model/', help="default: './models/centernet_hg104_512x512_coco17_tpu-8/saved_model/'")
 parser.add_argument('-i', '--input_image', default='', help="Input image file")
 parser.add_argument('-o', '--output_image', default='', help="Output Image file")
+parser.add_argument('-b', '--base_score', default='1', help="Base Score")
 
 args = parser.parse_args()
 
@@ -382,7 +383,9 @@ def sort_sentence_list(sentence_list):
   return return_sentence_list
 
 #一般的な判定基準
-base_score = 0.6
+base_score_1 = 0.6
+base_score_2 = 0.4
+base_score_3 = 0.2
 #ILilは特に認識難しいので、特別扱い
 veryLowScoreLabel_score = 0.5
 veryLowScoreLabel = [
@@ -616,6 +619,14 @@ if __name__ == '__main__':
   #全体の文字を一時的に保管する配列
   letter_list = []
 
+  #base_score
+  #判定しやすさを変える
+  base_score = base_score_1
+  if args.base_score == '2':
+    base_score = base_score_2
+  elif args.base_score == '3':
+    base_score = base_score_3
+
   detection_score_base = base_score
   for i in range(output_dict['num_detections']):
     detection_score_label = detection_score_base
@@ -632,6 +643,10 @@ if __name__ == '__main__':
         detection_score_label = misreadingLabel_score
     else:
       label = 'unknown'
+
+    #判定しやすいbase_scoreにした場合、それに対応させる
+    if detection_score_label > base_score:
+      detection_score_label = base_score
 
     detection_score = output_dict['detection_scores'][i]
     print(detection_score)
