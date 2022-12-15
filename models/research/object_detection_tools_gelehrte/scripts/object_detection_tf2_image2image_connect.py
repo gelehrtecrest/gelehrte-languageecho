@@ -29,6 +29,7 @@ parser.add_argument('-m', '--model', default='./models/centernet_hg104_512x512_c
 parser.add_argument('-i', '--input_image', default='', help="Input image file")
 parser.add_argument('-o', '--output_image', default='', help="Output Image file")
 parser.add_argument('-b', '--base_score', default='1', help="Base Score")
+parser.add_argument('-s', '--sentence', default='y', help="Create the sentences")
 
 args = parser.parse_args()
 
@@ -386,6 +387,7 @@ def sort_sentence_list(sentence_list):
 base_score_1 = 0.6
 base_score_2 = 0.4
 base_score_3 = 0.2
+base_score_hard_1 = 0.6
 #ILilは特に認識難しいので、特別扱い
 veryLowScoreLabel_score = 0.5
 veryLowScoreLabel = [
@@ -648,6 +650,10 @@ if __name__ == '__main__':
     if detection_score_label > base_score:
       detection_score_label = base_score
 
+    #ラベルによる重要度の区別をしない場合
+    if args.base_score == 'h1':
+      detection_score_label = base_score_hard_1
+
     detection_score = output_dict['detection_scores'][i]
     print(detection_score)
     if detection_score > detection_score_label:
@@ -658,39 +664,57 @@ if __name__ == '__main__':
         letter_list = add_letter_2_letter_list(letter_list, label, box, detection_score)
 
 
-  #全体の文字を入れる連想配列
-  word_list = {}
-  for letter in letter_list:
-    print(letter["label"], end='')
-    print(",", end='')
-    word_list = add_word_2_word_list(word_list, letter["label"], letter["box"])
-  print(" / ")
+  if args.sentence == 'y':
+    #全体の文字を入れる連想配列
+    word_list = {}
+    for letter in letter_list:
+      print(letter["label"], end='')
+      print(",", end='')
+      word_list = add_word_2_word_list(word_list, letter["label"], letter["box"])
+    print(" / ")
 
 
-  sentence_list = get_sentence_list(word_list)
-  sentence_list = sort_sentence_list(sentence_list)
-  #先に塗りつぶす
-  for sentence in sentence_list:
-    sentence_box = get_sentence_box(sentence)
-    cv2.rectangle(img, (sentence_box[1], sentence_box[0]), (sentence_box[3], sentence_box[2]), (255, 255, 255), -1)
+    sentence_list = get_sentence_list(word_list)
+    sentence_list = sort_sentence_list(sentence_list)
+    #先に塗りつぶす
+    for sentence in sentence_list:
+      sentence_box = get_sentence_box(sentence)
+      cv2.rectangle(img, (sentence_box[1], sentence_box[0]), (sentence_box[3], sentence_box[2]), (255, 255, 255), -1)
 
-  #次に文字を描く
-  for sentence in sentence_list:
-    text = ""
-    for word in sentence:
-      for letter in word:
-        text += letter["label"]
-      text += " "
-    print(text)
-    sentence_box = get_sentence_box(sentence)
-    font_size = 0.3 * (sentence_box[2] - sentence_box[0]) * font_scale
-    colorBGR = (0,0,0)
-    img = cv2_putText_2(img = img,
-                        text = text,
-                        org = (sentence_box[1] + 5, sentence_box[2] - 5),
-                        fontFace = font_name,
-                        fontScale = int(font_size),
-                        color = colorBGR,
-                        max_width = sentence_box[3] - sentence_box[1]
-                        )
+    #次に文字を描く
+    for sentence in sentence_list:
+      text = ""
+      for word in sentence:
+        for letter in word:
+          text += letter["label"]
+        text += " "
+      print(text)
+      sentence_box = get_sentence_box(sentence)
+      font_size = 0.3 * (sentence_box[2] - sentence_box[0]) * font_scale
+      colorBGR = (0,0,0)
+      img = cv2_putText_2(img = img,
+                          text = text,
+                          org = (sentence_box[1] + 5, sentence_box[2] - 5),
+                          fontFace = font_name,
+                          fontScale = int(font_size),
+                          color = colorBGR,
+                          max_width = sentence_box[3] - sentence_box[1]
+                          )
+  else :
+    #文字だけで処理する
+    #先に塗りつぶす
+    for letter in letter_list:
+      cv2.rectangle(img, (letter["box"][1], letter["box"][0]), (letter["box"][3], letter["box"][2]), (255, 255, 255), -1)
+    for letter in letter_list:
+      text = letter["label"]
+      font_size = 0.3 * (letter["box"][2] - letter["box"][0]) * font_scale
+      colorBGR = (0,0,0)
+      img = cv2_putText_2(img = img,
+                          text = text,
+                          org = (letter["box"][1] + 5, letter["box"][2] - 5),
+                          fontFace = font_name,
+                          fontScale = int(font_size),
+                          color = colorBGR,
+                          max_width = letter["box"][3] - letter["box"][1]
+                          )
   cv2.imwrite(args.output_image, img)
