@@ -30,6 +30,7 @@ parser.add_argument('-i', '--input_image', default='', help="Input image file")
 parser.add_argument('-o', '--output_image', default='', help="Output Image file")
 parser.add_argument('-b', '--base_score', default='1', help="Base Score")
 parser.add_argument('-s', '--sentence', default='y', help="Create the sentences")
+parser.add_argument('-sd', '--similar_delete', default='y', help="Delete similar characters")
 
 args = parser.parse_args()
 
@@ -507,6 +508,9 @@ misreading_area = 0.7
 same_area = 0.9
 veryLowScore_area = 0.9
 def is_similar_letter(letter1, letter2):
+  if args.similar_delete == 'n':
+    return False
+
   print("is_similar_check------")
   print(letter1)
   print(letter2)
