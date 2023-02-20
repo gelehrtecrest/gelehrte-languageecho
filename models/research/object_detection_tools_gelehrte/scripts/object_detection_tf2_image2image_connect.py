@@ -161,11 +161,11 @@ def is_near(word, box):
 
   #Y軸チェック
   box_height = box[2] - box[0]
-  #Y軸でboxの高さの小さいほうから1/2より下に、word_last_letterのY軸の下部が入っていないとFalse
-  if word_last_letter_box[2] < box[0] + box_height / 2 :
+  #Y軸でboxの高さの小さいほうから1/4より下に、word_last_letterのY軸の下部が入っていないとFalse
+  if word_last_letter_box[2] < box[0] + box_height / 4 :
     return False
-  #Y軸でboxの高さの高いほうから1/2より上に、word_last_letterのY軸の上部が入っていないとFalse
-  if word_last_letter_box[0] > box[2] - box_height / 2 :
+  #Y軸でboxの高さの高いほうから1/4より上に、word_last_letterのY軸の上部が入っていないとFalse
+  if word_last_letter_box[0] > box[2] - box_height / 4 :
     return False
 
   #X軸チェック
