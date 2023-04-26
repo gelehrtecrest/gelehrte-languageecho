@@ -613,6 +613,10 @@ if __name__ == '__main__':
     size_rate = int((h / w)**0.5)
     height = size * size_rate
     width = round(w * (height / h))
+
+  print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+  print(height)
+  print(width)
   img_bgr = cv2.resize(img, (width,  height))
 
   # convert bgr to rgb
