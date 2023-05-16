@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "347284c201ac7b1a3d9af58da505234c",
+        "name": "20200524_GelehrteCrest.png",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/20200524_GelehrteCrest.png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "X7DnjrfLf",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 71.26903553299492,
+                "width": 682.4839400428265,
+                "left": 657.8158458244111,
+                "top": 54.86516497461928
+            },
+            "points": [
+                {
+                    "x": 657.8158458244111,
+                    "y": 54.86516497461928
+                },
+                {
+                    "x": 1340.2997858672377,
+                    "y": 54.86516497461928
+                },
+                {
+                    "x": 1340.2997858672377,
+                    "y": 126.13420050761421
+                },
+                {
+                    "x": 657.8158458244111,
+                    "y": 126.13420050761421
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

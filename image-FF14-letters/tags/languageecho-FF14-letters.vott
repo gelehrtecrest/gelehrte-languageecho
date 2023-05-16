@@ -1,0 +1,117 @@
+{
+    "name": "languageecho-FF14-letters",
+    "securityToken": "languageecho Token",
+    "sourceConnection": {
+        "name": "languageecho-FF14-letters-input",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTQ2MTY0YmUxNDViY2M0N2YwZTMzMGUwMTIxYTg3ODAyMGM4N2U3MTc2NDNkNTUyOWFjMTczZTc5N2QzMTc3YjY1NzUyOGY4ODJmYzQ2NDY1NGZhOTU0MzE1YzRkMDY5Mzc5NTQ1ODM0NDFkMWU4MWYzYjZhZDFiMGE5NDFmYzdmZDFmYjVhZGU5OWJmZGY2ZDkwZmFhZjQzNzFhNjI5MDM3NjJiZGE2YWU4NDA2NjMzZGViZjNjNDI5YmIyNzRjIiwiaXYiOiI5YTc0ODRjZTUyOTVkYjkyNWExYTRiNWMzOGIyYTQ0N2MyNDQ3YmUxYmY3NDgzMzIifQ=="
+        },
+        "id": "dHgGwvrU0"
+    },
+    "targetConnection": {
+        "name": "languageecho-FF14-letters-tags",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODM2MjA4YjM3N2IyYTU5N2VmZTAxZjY3OTIyYmFlMmQwN2FkYzM2NDBhMTYxMzVhNmVkMWE4NDM1MmE5NjZiZjUyODJiOWEyNTY3ZGYyZWM4NDQ5NGFiOGY4ZmM5MzU2NGI2ZmNiNWZkODRjYzRkMDlkYzJjMWYxZmEzN2ViYTMyOGU0OTkyYjNmZWUwODg0MWM0YjJmM2RmYWQ1OThlZTk1YTVjNDM5MGJiZDhmMWNkMTJmOWE3NzI4MDY1OWE2IiwiaXYiOiJjYTZkZDIyMzNhNTY1YTA1MmIxNjVkODU1MzcxMzE1MmFiZmNlMjZiM2JmMDRjYTUifQ=="
+        },
+        "id": "KJLoiCZBI"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "letters",
+            "color": "#5db300"
+        }
+    ],
+    "id": "sSZqU76Ms",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "tensorFlowRecords",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDBiMTJkYzVlZmQwOGJhNjRkZjQ3NGRkMTZlODU4YzcwZWRhNDM3MzU3ZjkyYjE5YWE0ZTU5Yjk1YTE4ODVlOSIsIml2IjoiOWZhMDAwZTBiNDRlNzMzNmJiOGMwMWZjYjg4YTY3MTA3MDhkZTIxNWJjOGEyZWZjIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "3f7f1153f2f3f048aa0e192eabecdfc5",
+    "assets": {
+        "dd1e25be3ca29dcccab59f8ba6d2e431": {
+            "format": "jpg",
+            "id": "dd1e25be3ca29dcccab59f8ba6d2e431",
+            "name": "20200523_ToppanPress.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/20200523_ToppanPress.jpg",
+            "size": {
+                "width": 680,
+                "height": 383
+            },
+            "state": 2,
+            "type": 1
+        },
+        "347284c201ac7b1a3d9af58da505234c": {
+            "format": "png",
+            "id": "347284c201ac7b1a3d9af58da505234c",
+            "name": "20200524_GelehrteCrest.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/20200524_GelehrteCrest.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b1d19704cc655f9d5d19b7b2fc1148dc": {
+            "format": "jpg",
+            "id": "b1d19704cc655f9d5d19b7b2fc1148dc",
+            "name": "2020064_Tabi_a.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2020064_Tabi_a.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68ee0915b902695e7a229ce9f61210a0": {
+            "format": "jpg",
+            "id": "68ee0915b902695e7a229ce9f61210a0",
+            "name": "2020064_Tabi_b.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2020064_Tabi_b.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e73ed5b431498982ae1a1e33ef460be0": {
+            "format": "jpg",
+            "id": "e73ed5b431498982ae1a1e33ef460be0",
+            "name": "2020064_Tabi_c.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2020064_Tabi_c.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f7f1153f2f3f048aa0e192eabecdfc5": {
+            "format": "jpg",
+            "id": "3f7f1153f2f3f048aa0e192eabecdfc5",
+            "name": "2020064_Tabi_d.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2020064_Tabi_d.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

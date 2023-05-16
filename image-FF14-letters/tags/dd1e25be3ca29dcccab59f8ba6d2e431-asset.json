@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "dd1e25be3ca29dcccab59f8ba6d2e431",
+        "name": "20200523_ToppanPress.jpg",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/20200523_ToppanPress.jpg",
+        "size": {
+            "width": 680,
+            "height": 383
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "stRrsKhlh",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 35.65595294676803,
+                "width": 224.23982869379014,
+                "left": 223.26909350463956,
+                "top": 194.4353018060837
+            },
+            "points": [
+                {
+                    "x": 223.26909350463956,
+                    "y": 194.4353018060837
+                },
+                {
+                    "x": 447.50892219842973,
+                    "y": 194.4353018060837
+                },
+                {
+                    "x": 447.50892219842973,
+                    "y": 230.0912547528517
+                },
+                {
+                    "x": 223.26909350463956,
+                    "y": 230.0912547528517
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
