@@ -192,7 +192,7 @@ if __name__ == '__main__':
 
     detection_score = output_dict['detection_scores'][i]
 
-    if detection_score > 0.3:
+    if detection_score > 0.1:
         # Define bounding box
         h, w, c = img.shape
         box = output_dict['detection_boxes'][i] * np.array( \
@@ -205,10 +205,10 @@ if __name__ == '__main__':
 
           # Draw bounding box
           cv2.rectangle(img, \
-          #  (box[1], box[0]), (box[3], box[2]), color, 3)
-            (box[1], box[0]), (box[3], box[2]), (255, 255, 255), -1)
+            (box[1], box[0]), (box[3], box[2]), color, 3)
+          #  (box[1], box[0]), (box[3], box[2]), (255, 255, 255), -1)
 
-          font_size = 30.0
+          font_size = 5.0
           box_w = box[3] - box[1]
           box_y = box[2] - box[0]
           if box_w < box_y :
@@ -217,22 +217,22 @@ if __name__ == '__main__':
             font_size = font_size * ( box_y / 40.0 )
 
           # Put label near bounding box
-          #information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
-          information = '%s' % (label)
+          information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
+          #information = '%s' % (label)
           #cv2.putText(img, information, (box[1] + 17, box[2] - 17), \
           #  cv2.FONT_HERSHEY_TRIPLEX, 1.5, (0, 0, 0), 1, cv2.LINE_AA)
-          #cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
+          cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
           #  cv2.FONT_HERSHEY_TRIPLEX, font_size, (0, 0, 0), 1, cv2.LINE_AA)
-          #  cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
+            cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
           #draw.text((box[1] + 15, box[2] - 15), information, (0, 0, 0), font=font)
-          print(font_size)
-          colorBGR = (0,0,0)
-          img = cv2_putText_2(img = img,
-                        text = information,
-                        org = (box[1] + 5, box[2] - 15),
-                        fontFace = font_name,
-                        fontScale = int(font_size),
-                        color = colorBGR)
+          #print(font_size)
+          #colorBGR = (0,0,0)
+          #img = cv2_putText_2(img = img,
+          #              text = information,
+          #              org = (box[1] + 5, box[2] - 15),
+          #              fontFace = font_name,
+          #              fontScale = int(font_size),
+          #              color = colorBGR)
         elif mode == 'mosaic':
           img = mosaic_area(img, box[1], box[0], box[3], box[2], ratio=0.05)
 

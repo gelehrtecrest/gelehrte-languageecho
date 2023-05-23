@@ -5,7 +5,7 @@
         "name": "languageecho-FF14-letters-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTQ2MTY0YmUxNDViY2M0N2YwZTMzMGUwMTIxYTg3ODAyMGM4N2U3MTc2NDNkNTUyOWFjMTczZTc5N2QzMTc3YjY1NzUyOGY4ODJmYzQ2NDY1NGZhOTU0MzE1YzRkMDY5Mzc5NTQ1ODM0NDFkMWU4MWYzYjZhZDFiMGE5NDFmYzdmZDFmYjVhZGU5OWJmZGY2ZDkwZmFhZjQzNzFhNjI5MDM3NjJiZGE2YWU4NDA2NjMzZGViZjNjNDI5YmIyNzRjIiwiaXYiOiI5YTc0ODRjZTUyOTVkYjkyNWExYTRiNWMzOGIyYTQ0N2MyNDQ3YmUxYmY3NDgzMzIifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZThiZmUwZmVhYTYzY2RhMDljMjI5ZWRmMTM1YzY4OWVmY2NkNTg4N2U3OTcyZmE5NWIxYzk1ODQ2NzUzYjRlNzM1Yjg1NTQ0Yzc1ZDM4YWQ2YTU2NmUwNzIyZThmN2ZiZDQ2YzAxOWIwOGY4YjJjOGFhMDA1ZGVkMjc5ZGY5YTBlNWUyYzZmYTUwZWJhMjI1ODFmNDgyZjZlNDhiN2FhYTcxNDI3MDJkMzlkN2M5NDJjODk3NTZmNzBkMzM3NjllIiwiaXYiOiI2MGRhZWQ0ZDQyYTM1NDVmOTZjMDU3M2M0Y2M5NzViZTVkNzM0YjFkYmVhNDk1YzAifQ=="
         },
         "id": "dHgGwvrU0"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-FF14-letters-tags",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODM2MjA4YjM3N2IyYTU5N2VmZTAxZjY3OTIyYmFlMmQwN2FkYzM2NDBhMTYxMzVhNmVkMWE4NDM1MmE5NjZiZjUyODJiOWEyNTY3ZGYyZWM4NDQ5NGFiOGY4ZmM5MzU2NGI2ZmNiNWZkODRjYzRkMDlkYzJjMWYxZmEzN2ViYTMyOGU0OTkyYjNmZWUwODg0MWM0YjJmM2RmYWQ1OThlZTk1YTVjNDM5MGJiZDhmMWNkMTJmOWE3NzI4MDY1OWE2IiwiaXYiOiJjYTZkZDIyMzNhNTY1YTA1MmIxNjVkODU1MzcxMzE1MmFiZmNlMjZiM2JmMDRjYTUifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWExZGY3Y2Q2Mzk2ZTNjZDlkZjdlOWYwOGY0NzQ2ZDlhOTcyZTQyNGEyYzkxYWI4Yzg0YTkxYTk4NjEyNjEzZWMzM2U4M2Y5Y2E2NTllYTY5ZDc0ZWM0OTdlMjY5NzQ1YWNiODc2NzcxMDA5NTEyYmJmNzc4ODU5ZTZhMjdjNjQyZWNiMDc1MWI4ZjNhMWQzY2ZlOWU0MTQ0NDBkNjkwMzY0MDgwOWEzOTU2NzdmNzg3NDU4ZjRkYjRjMTdiYzRmIiwiaXYiOiI1Njk1MGJlY2I4NjQ3MDAyZDI5NmU4OTM5NWQxNjUwMWIwZGJkODc3YTc5ZjNmODkifQ=="
         },
         "id": "KJLoiCZBI"
     },
@@ -24,6 +24,10 @@
         {
             "name": "letters",
             "color": "#5db300"
+        },
+        {
+            "name": "letters_r_90",
+            "color": "#6917aa"
         }
     ],
     "id": "sSZqU76Ms",
@@ -35,11 +39,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDBiMTJkYzVlZmQwOGJhNjRkZjQ3NGRkMTZlODU4YzcwZWRhNDM3MzU3ZjkyYjE5YWE0ZTU5Yjk1YTE4ODVlOSIsIml2IjoiOWZhMDAwZTBiNDRlNzMzNmJiOGMwMWZjYjg4YTY3MTA3MDhkZTIxNWJjOGEyZWZjIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDliYjJmMzYyNTI1MmU5MTc2ODFiY2FhM2VkYjY2OWMzYjM1MjdmODJiN2I0NDNhMTViNDIyM2Y4NjI3NTJiMyIsIml2IjoiY2E2MDgwYzM0NDNhMWMzNWE3M2Y3YmFmY2FjMjBjZjQ0NzdlZTNjMGFlM2Y5ZGI5In0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "3f7f1153f2f3f048aa0e192eabecdfc5",
+    "lastVisitedAssetId": "92a347df91cecffde92c0e6604715d0c",
     "assets": {
         "dd1e25be3ca29dcccab59f8ba6d2e431": {
             "format": "jpg",
@@ -106,6 +110,3293 @@
             "id": "3f7f1153f2f3f048aa0e192eabecdfc5",
             "name": "2020064_Tabi_d.jpg",
             "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2020064_Tabi_d.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a8f73379816b2bfdddf9fdd9c002d65": {
+            "format": "png",
+            "id": "6a8f73379816b2bfdddf9fdd9c002d65",
+            "name": "ffxiv_20230516_235315_388.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230516_235315_388.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "73b8013cc32da68ac910159ea5dd1ada": {
+            "format": "png",
+            "id": "73b8013cc32da68ac910159ea5dd1ada",
+            "name": "ffxiv_20230517_103349_995.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230517_103349_995.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05e63a8b42f58e8242c4b9cc6db7cd78": {
+            "format": "png",
+            "id": "05e63a8b42f58e8242c4b9cc6db7cd78",
+            "name": "ffxiv_20230519_085629_046.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230519_085629_046.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "251815d104274940bde8aecf6dd7d693": {
+            "format": "jpg",
+            "id": "251815d104274940bde8aecf6dd7d693",
+            "name": "FwU1MuOakAAdDZL.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/FwU1MuOakAAdDZL.jpg",
+            "size": {
+                "width": 3024,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78b0f1de7167585835c465a1f6867dc6": {
+            "format": "jpg",
+            "id": "78b0f1de7167585835c465a1f6867dc6",
+            "name": "FwU5CXLaAAAfait.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/FwU5CXLaAAAfait.jpg",
+            "size": {
+                "width": 3024,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "215272f41442bc63bb287bf1f32960b6": {
+            "format": "jpg",
+            "id": "215272f41442bc63bb287bf1f32960b6",
+            "name": "FeN9lvraUAIGd_D.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/FeN9lvraUAIGd_D.jpg",
+            "size": {
+                "width": 680,
+                "height": 677
+            },
+            "state": 2,
+            "type": 1
+        },
+        "573ae175694da32b099872c13222020e": {
+            "format": "mp4",
+            "id": "573ae175694da32b099872c13222020e",
+            "name": "goldsaucer_festival_2022.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 2
+        },
+        "958d13e995fd085781357c18a7e509e4": {
+            "id": "958d13e995fd085781357c18a7e509e4",
+            "format": "733333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=3.733333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=3.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.733333
+        },
+        "2c9de18b84f1d8494ee8500dde64a793": {
+            "id": "2c9de18b84f1d8494ee8500dde64a793",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=11",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=11",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 11
+        },
+        "cc252a094edd5d88e84660e28dc4eb7e": {
+            "id": "cc252a094edd5d88e84660e28dc4eb7e",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=0",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=0",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0
+        },
+        "5531aff832b6dcc4f44d6b42351491de": {
+            "id": "5531aff832b6dcc4f44d6b42351491de",
+            "format": "933333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.933333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.933333
+        },
+        "4eff00927914a693e0f9b9f9565ae12c": {
+            "id": "4eff00927914a693e0f9b9f9565ae12c",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=21.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=21.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 21.4
+        },
+        "9275d7cdcde61662e58b5a24c4f094d9": {
+            "id": "9275d7cdcde61662e58b5a24c4f094d9",
+            "format": "666667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=23.666667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=23.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 23.666667
+        },
+        "d21b4a7327f291f38c7c497a75b0ce6e": {
+            "id": "d21b4a7327f291f38c7c497a75b0ce6e",
+            "format": "066667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=25.066667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=25.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 25.066667
+        },
+        "63887bec637b77ebf79f22bf1af01d3c": {
+            "id": "63887bec637b77ebf79f22bf1af01d3c",
+            "format": "933333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.933333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.933333
+        },
+        "3acd64a9c3ebe0d98a041c05b1785f31": {
+            "id": "3acd64a9c3ebe0d98a041c05b1785f31",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=33.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=33.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 33.4
+        },
+        "9644e2fa1eb118c65f9c9c8b357f1fb2": {
+            "id": "9644e2fa1eb118c65f9c9c8b357f1fb2",
+            "format": "6",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=36.6",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=36.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 36.6
+        },
+        "7eabe927a4aa02e7e9cd02ede2e2e5d1": {
+            "id": "7eabe927a4aa02e7e9cd02ede2e2e5d1",
+            "format": "8",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=41.8",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=41.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 41.8
+        },
+        "8a5b9e200b10a34570e5f8341677ccc9": {
+            "id": "8a5b9e200b10a34570e5f8341677ccc9",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=45.533333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=45.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 45.533333
+        },
+        "8e8e8306cc1de9b42c1bc51ea235cb86": {
+            "id": "8e8e8306cc1de9b42c1bc51ea235cb86",
+            "format": "333333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=47.333333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=47.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 47.333333
+        },
+        "3a2889319f3ed32a4a746e8e6c77cd15": {
+            "id": "3a2889319f3ed32a4a746e8e6c77cd15",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=50.866667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=50.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 50.866667
+        },
+        "966f13e3a26ec464d2495bdda562a556": {
+            "id": "966f13e3a26ec464d2495bdda562a556",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=51.466667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=51.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 51.466667
+        },
+        "412854c0479df8774e7992bf1cf3c6c5": {
+            "id": "412854c0479df8774e7992bf1cf3c6c5",
+            "format": "2",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=55.2",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=55.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 55.2
+        },
+        "b1ef8913d4c25386164717b382368b16": {
+            "id": "b1ef8913d4c25386164717b382368b16",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=57.466667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=57.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 57.466667
+        },
+        "4a769ca64ad4a2717a5a9e52ee3397c3": {
+            "id": "4a769ca64ad4a2717a5a9e52ee3397c3",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=60.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=60.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 60.4
+        },
+        "7528f535fb75dab2ffdf08c40de48084": {
+            "id": "7528f535fb75dab2ffdf08c40de48084",
+            "format": "733333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=62.733333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=62.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 62.733333
+        },
+        "7c0eb271e17ac961c7adfa08799b5a20": {
+            "id": "7c0eb271e17ac961c7adfa08799b5a20",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=65",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=65",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 65
+        },
+        "da1abb573874af71114147cb498aec20": {
+            "id": "da1abb573874af71114147cb498aec20",
+            "format": "6",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=67.6",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=67.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 67.6
+        },
+        "4ad2051782bf2fd17892973db1ad36e1": {
+            "id": "4ad2051782bf2fd17892973db1ad36e1",
+            "format": "733333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=70.733333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=70.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 70.733333
+        },
+        "5f44cfef107d4189011d00e39ea6288d": {
+            "id": "5f44cfef107d4189011d00e39ea6288d",
+            "format": "866667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=13.866667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=13.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 13.866667
+        },
+        "a986e013d84df2e20fdeccf4133a85bd": {
+            "id": "a986e013d84df2e20fdeccf4133a85bd",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=16.8",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=16.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 16.8
+        },
+        "84758a86592bdcd74361e42cc17ded14": {
+            "id": "84758a86592bdcd74361e42cc17ded14",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.866667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.866667
+        },
+        "c0db7989ee07e9b3e1f5405246d8283b": {
+            "id": "c0db7989ee07e9b3e1f5405246d8283b",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.8",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.8
+        },
+        "9ed20e1d1661520fdc97a01edde06a0f": {
+            "id": "9ed20e1d1661520fdc97a01edde06a0f",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.733333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.733333
+        },
+        "e9bf54b74876d3bdbd3958f85aebf4c3": {
+            "id": "e9bf54b74876d3bdbd3958f85aebf4c3",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.666667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.666667
+        },
+        "f563215ec92bda6e6222e30eee7e5049": {
+            "id": "f563215ec92bda6e6222e30eee7e5049",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.6",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.6
+        },
+        "a4d44dbc49481db9d903335ad1dd66fe": {
+            "id": "a4d44dbc49481db9d903335ad1dd66fe",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.533333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.533333
+        },
+        "2eecc7b7165347f76783e63ddbb80987": {
+            "id": "2eecc7b7165347f76783e63ddbb80987",
+            "format": "466667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.466667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.466667
+        },
+        "32bad80bf75b48a8272f4fe32cfe31b8": {
+            "id": "32bad80bf75b48a8272f4fe32cfe31b8",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.4
+        },
+        "df3077397783f287320a07678775c82a": {
+            "id": "df3077397783f287320a07678775c82a",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.333333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.333333
+        },
+        "db57a7d7f0b20f34b9dd320891726237": {
+            "id": "db57a7d7f0b20f34b9dd320891726237",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.266667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.266667
+        },
+        "29a89690458c08c00e797ef9a6f5bd01": {
+            "id": "29a89690458c08c00e797ef9a6f5bd01",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.2",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.2
+        },
+        "3aaa998cb20f51a5af5b3d7a79f3a36a": {
+            "id": "3aaa998cb20f51a5af5b3d7a79f3a36a",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.133333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.133333
+        },
+        "53eb50a2e0a9ad642efdb3c23d914029": {
+            "id": "53eb50a2e0a9ad642efdb3c23d914029",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18.066667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.066667
+        },
+        "a31bbfbcc5b38e8e60457e10f83ef0fe": {
+            "id": "a31bbfbcc5b38e8e60457e10f83ef0fe",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=18",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=18",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18
+        },
+        "147d77328691c4c9c1c0ee6eb5765b20": {
+            "id": "147d77328691c4c9c1c0ee6eb5765b20",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=17.933333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=17.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 17.933333
+        },
+        "20e7000b1d2fbdeefa986776e7946455": {
+            "id": "20e7000b1d2fbdeefa986776e7946455",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=22.133333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=22.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 22.133333
+        },
+        "589a5376ee0ec599433c3394bc3a0f48": {
+            "id": "589a5376ee0ec599433c3394bc3a0f48",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=20.533333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=20.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 20.533333
+        },
+        "650b80476c303490ad9a402cb3900624": {
+            "id": "650b80476c303490ad9a402cb3900624",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=22.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=22.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 22.4
+        },
+        "095b46dad4cfad05f001407cd7590b3c": {
+            "id": "095b46dad4cfad05f001407cd7590b3c",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=27",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=27",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 27
+        },
+        "1b7baf85e7a3056069de34be1c95c46f": {
+            "id": "1b7baf85e7a3056069de34be1c95c46f",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.866667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.866667
+        },
+        "0cfd114b5bf8d43b462e82f8336ebb43": {
+            "id": "0cfd114b5bf8d43b462e82f8336ebb43",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.8",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.8
+        },
+        "a738054cd88ef0b1f55e5f279f7c83dc": {
+            "id": "a738054cd88ef0b1f55e5f279f7c83dc",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.733333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.733333
+        },
+        "23d97c66a64a984e9363f4753de3fdb0": {
+            "id": "23d97c66a64a984e9363f4753de3fdb0",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.666667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.666667
+        },
+        "788924a14579855a87a72aa2a633fc02": {
+            "id": "788924a14579855a87a72aa2a633fc02",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.6",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.6
+        },
+        "caf618c17f6e324787a9ea38dfc85a9e": {
+            "id": "caf618c17f6e324787a9ea38dfc85a9e",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=26.533333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=26.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.533333
+        },
+        "28d538f23a0b769e17174f7022925986": {
+            "id": "28d538f23a0b769e17174f7022925986",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=29.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=29.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 29.4
+        },
+        "5419774c2883d7a4d778f77fc20a78f4": {
+            "id": "5419774c2883d7a4d778f77fc20a78f4",
+            "format": "4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=73.4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=73.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 73.4
+        },
+        "95d4204a264ee05eb5233c1ed94a1040": {
+            "id": "95d4204a264ee05eb5233c1ed94a1040",
+            "format": "2",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=75.2",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=75.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 75.2
+        },
+        "e999a4cf03f7afb96b82b81f79d361d1": {
+            "id": "e999a4cf03f7afb96b82b81f79d361d1",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=77.466667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=77.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 77.466667
+        },
+        "7ccebde1974810ab26f60f2daa13e26d": {
+            "id": "7ccebde1974810ab26f60f2daa13e26d",
+            "format": "2",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=83.2",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=83.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 83.2
+        },
+        "c08deb5a7adad34ab9fd3bbbb5b77f81": {
+            "id": "c08deb5a7adad34ab9fd3bbbb5b77f81",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=89",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=89",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 89
+        },
+        "22ddcc1011d7c7a3f164b1025f8fc460": {
+            "id": "22ddcc1011d7c7a3f164b1025f8fc460",
+            "format": "266667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=91.266667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=91.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 91.266667
+        },
+        "40cf4621b9ad5b9021338d7d36c5bb4a": {
+            "id": "40cf4621b9ad5b9021338d7d36c5bb4a",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=93",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=93",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 93
+        },
+        "fb4210a3f4af4cd103622b7a152d86ee": {
+            "id": "fb4210a3f4af4cd103622b7a152d86ee",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=97",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=97",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 97
+        },
+        "9485ab4d2325ef1bf47e467fd3061ddf": {
+            "id": "9485ab4d2325ef1bf47e467fd3061ddf",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=102",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=102",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 102
+        },
+        "6572ee3bfa2bf78b7c588058894f8d1a": {
+            "id": "6572ee3bfa2bf78b7c588058894f8d1a",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=104.466667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=104.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 104.466667
+        },
+        "eea905808c7254aab9a5af9df51c7e7b": {
+            "id": "eea905808c7254aab9a5af9df51c7e7b",
+            "format": "333333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=109.333333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=109.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 109.333333
+        },
+        "6bb5f5d987d6a1bb4667a349f662c2fa": {
+            "id": "6bb5f5d987d6a1bb4667a349f662c2fa",
+            "format": "533333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=111.533333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=111.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 111.533333
+        },
+        "b2020e87406ec8581ad4e937f3335092": {
+            "id": "b2020e87406ec8581ad4e937f3335092",
+            "format": "866667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=114.866667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=114.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 114.866667
+        },
+        "e863234ef853a381095220601b3ee33b": {
+            "id": "e863234ef853a381095220601b3ee33b",
+            "format": "266667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=118.266667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=118.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 118.266667
+        },
+        "f559056132fd836dd418484df33b4d4f": {
+            "id": "f559056132fd836dd418484df33b4d4f",
+            "format": "466667",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=123.466667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=123.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 123.466667
+        },
+        "da91cd07c036ba77bf542cb2f57390f9": {
+            "id": "da91cd07c036ba77bf542cb2f57390f9",
+            "format": "133333",
+            "state": 2,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=126.133333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=126.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 126.133333
+        },
+        "cd462d2d4a238fe2e65467d1e4c864c0": {
+            "format": "png",
+            "id": "cd462d2d4a238fe2e65467d1e4c864c0",
+            "name": "ffxiv_20230520_082259_915.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230520_082259_915.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "310a52d5f597224a86b6a5a654e0ec71": {
+            "format": "png",
+            "id": "310a52d5f597224a86b6a5a654e0ec71",
+            "name": "ffxiv_20230519_002803_624.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230519_002803_624.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3cf5efe37f888c898365d90183245c1": {
+            "format": "jpg",
+            "id": "e3cf5efe37f888c898365d90183245c1",
+            "name": "input_mozi.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_mozi.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c35fb48b2480bb09e863f66dfd86f0c2": {
+            "format": "png",
+            "id": "c35fb48b2480bb09e863f66dfd86f0c2",
+            "name": "input_ohalala.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e947ac7be02bb20bffbe450ffcf0fdf9": {
+            "format": "png",
+            "id": "e947ac7be02bb20bffbe450ffcf0fdf9",
+            "name": "input_ohalala_20220429.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220429.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8649c61d8ae92c6e49648b7f04ac900a": {
+            "format": "png",
+            "id": "8649c61d8ae92c6e49648b7f04ac900a",
+            "name": "input_ohalala_20220430.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220430.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50296b8f1df2971555f6393b06c6d5ce": {
+            "format": "png",
+            "id": "50296b8f1df2971555f6393b06c6d5ce",
+            "name": "input_ohalala_20220503.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220503.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "951914dfe788f5e864693015a72f7a64": {
+            "format": "png",
+            "id": "951914dfe788f5e864693015a72f7a64",
+            "name": "input_ohalala_20220504.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220504.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "394eda0be00604cb93ff1acc9548b83c": {
+            "format": "png",
+            "id": "394eda0be00604cb93ff1acc9548b83c",
+            "name": "input_ohalala_20220505.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220505.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "521f1105f57823f31ae51b5208d5e914": {
+            "format": "png",
+            "id": "521f1105f57823f31ae51b5208d5e914",
+            "name": "input_ohalala_20220506.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220506.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c7614cb44f6fc965341b4cf83b3d5d1": {
+            "format": "png",
+            "id": "8c7614cb44f6fc965341b4cf83b3d5d1",
+            "name": "input_ohalala_20220507.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220507.png",
+            "size": {
+                "width": 1080,
+                "height": 1920
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c4fc32461d5236217e9ed800a2f800f": {
+            "format": "png",
+            "id": "9c4fc32461d5236217e9ed800a2f800f",
+            "name": "input_ohalala_20220508.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220508.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "566adee4af0ad6f1c30b944adf869dc5": {
+            "format": "png",
+            "id": "566adee4af0ad6f1c30b944adf869dc5",
+            "name": "input_ohalala_20220509.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220509.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "72d7e73e4689be5920b3fa158d757dc3": {
+            "format": "png",
+            "id": "72d7e73e4689be5920b3fa158d757dc3",
+            "name": "input_ohalala_20220510.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220510.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44c2b80dd278297df40dab5d212416eb": {
+            "format": "png",
+            "id": "44c2b80dd278297df40dab5d212416eb",
+            "name": "input_ohalala_20220511.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220511.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e43416300a62a84fed5bf5050fd50ddd": {
+            "format": "png",
+            "id": "e43416300a62a84fed5bf5050fd50ddd",
+            "name": "input_ohalala_20220512.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220512.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fcc2e2aff6350a65148d30819bc12fb7": {
+            "format": "png",
+            "id": "fcc2e2aff6350a65148d30819bc12fb7",
+            "name": "input_ohalala_20220513.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220513.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6f5fa1806b3a7764475e087362c0d292": {
+            "format": "png",
+            "id": "6f5fa1806b3a7764475e087362c0d292",
+            "name": "input_ohalala_20220514.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220514.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c07bc5a46c4db80efc4280ec7702e044": {
+            "format": "png",
+            "id": "c07bc5a46c4db80efc4280ec7702e044",
+            "name": "input_ohalala_20220515.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220515.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f2ef18011f55385d5134a5d6683d42d": {
+            "format": "png",
+            "id": "8f2ef18011f55385d5134a5d6683d42d",
+            "name": "input_ohalala_20220516.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220516.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61937753d350a478472332702f51de32": {
+            "format": "png",
+            "id": "61937753d350a478472332702f51de32",
+            "name": "input_ohalala_20220517.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220517.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd7e94a94188f6bf2c63d2536f039d82": {
+            "format": "png",
+            "id": "fd7e94a94188f6bf2c63d2536f039d82",
+            "name": "input_ohalala_20220518.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220518.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a62315728175767d967aeaf3ba96138": {
+            "format": "png",
+            "id": "7a62315728175767d967aeaf3ba96138",
+            "name": "input_ohalala_20220519.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220519.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c8ec8b00b08d4e41a5cae2b94317670": {
+            "format": "png",
+            "id": "5c8ec8b00b08d4e41a5cae2b94317670",
+            "name": "input_ohalala_20220520.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220520.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50d939fe7a8fcf0546deb8a1a47a10b0": {
+            "format": "png",
+            "id": "50d939fe7a8fcf0546deb8a1a47a10b0",
+            "name": "input_ohalala_20220520_a.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220520_a.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "896bb9994ef21121933da526ef8b0d6b": {
+            "format": "png",
+            "id": "896bb9994ef21121933da526ef8b0d6b",
+            "name": "input_ohalala_20220521.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220521.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a5c95e8713bd2a0d2aaf513991f9b5eb": {
+            "format": "png",
+            "id": "a5c95e8713bd2a0d2aaf513991f9b5eb",
+            "name": "input_ohalala_20220521_a.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220521_a.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af14c85b10e614792eb04cac3effdf91": {
+            "format": "png",
+            "id": "af14c85b10e614792eb04cac3effdf91",
+            "name": "input_ohalala_20220522.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220522.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "53aefc2f04adff4e7902f103e0eb7514": {
+            "format": "png",
+            "id": "53aefc2f04adff4e7902f103e0eb7514",
+            "name": "input_ohalala_20220523.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220523.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68a4274a1cde2ecf9cfc8a9efc9b0644": {
+            "format": "png",
+            "id": "68a4274a1cde2ecf9cfc8a9efc9b0644",
+            "name": "input_ohalala_20220524.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220524.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80d30a60ba592e5535f605279db3e388": {
+            "format": "png",
+            "id": "80d30a60ba592e5535f605279db3e388",
+            "name": "input_ohalala_20220525.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220525.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "281d8b55c38e0f99b9c6ead12c33badc": {
+            "format": "png",
+            "id": "281d8b55c38e0f99b9c6ead12c33badc",
+            "name": "input_ohalala_20220526.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220526.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1d39ad1d3bc37de076051c5f8582491": {
+            "format": "png",
+            "id": "c1d39ad1d3bc37de076051c5f8582491",
+            "name": "input_ohalala_20220527.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220527.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fab83852f04ac070903f54035f9b78f": {
+            "format": "png",
+            "id": "4fab83852f04ac070903f54035f9b78f",
+            "name": "input_ohalala_20220528_a.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220528_a.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c1e2d6f58bbff64851c570aca6689f9": {
+            "format": "png",
+            "id": "7c1e2d6f58bbff64851c570aca6689f9",
+            "name": "input_ohalala_20220528_b.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220528_b.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab2cbbba7dadd82220b2875d2bba3631": {
+            "format": "png",
+            "id": "ab2cbbba7dadd82220b2875d2bba3631",
+            "name": "input_ohalala_20220529.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220529.png",
+            "size": {
+                "width": 1080,
+                "height": 1920
+            },
+            "state": 2,
+            "type": 1
+        },
+        "99d0b40c265d6cbdf3ad07bb0b6a5d70": {
+            "format": "png",
+            "id": "99d0b40c265d6cbdf3ad07bb0b6a5d70",
+            "name": "input_ohalala_20220531.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220531.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9775ac8287169953e438739ff7c9ad74": {
+            "format": "png",
+            "id": "9775ac8287169953e438739ff7c9ad74",
+            "name": "input_otsulala_20220429.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220429.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e2a9e96905bb3e4b1e572f462ed2f4f": {
+            "format": "png",
+            "id": "0e2a9e96905bb3e4b1e572f462ed2f4f",
+            "name": "input_otsulala_20220430.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220430.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9987eb1839416a36b84fdd82f0084152": {
+            "format": "png",
+            "id": "9987eb1839416a36b84fdd82f0084152",
+            "name": "input_otsulala_20220501.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220501.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11a7fcfd0417ec5b96adec8b40471cb5": {
+            "format": "png",
+            "id": "11a7fcfd0417ec5b96adec8b40471cb5",
+            "name": "input_otsulala_20220502.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220502.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d809315077f41c3296ce0c3d536ec8f6": {
+            "format": "png",
+            "id": "d809315077f41c3296ce0c3d536ec8f6",
+            "name": "input_otsulala_20220503.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220503.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d075d1bbf0de09a5fefc54fa5e4b811d": {
+            "format": "png",
+            "id": "d075d1bbf0de09a5fefc54fa5e4b811d",
+            "name": "input_otsulala_20220504.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220504.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00842c8a404f9470bb0f90bf1a510f1f": {
+            "format": "png",
+            "id": "00842c8a404f9470bb0f90bf1a510f1f",
+            "name": "input_otsulala_20220505.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220505.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39f4fba95bf090bf279c6ed6fd7deff2": {
+            "format": "png",
+            "id": "39f4fba95bf090bf279c6ed6fd7deff2",
+            "name": "input_otsulala_20220506.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220506.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "402ab8a65878ea4e6b6f3ba59e1483f2": {
+            "format": "png",
+            "id": "402ab8a65878ea4e6b6f3ba59e1483f2",
+            "name": "input_otsulala_20220507.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220507.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "45685e7a3d4134c8c98a7640eb394adb": {
+            "format": "png",
+            "id": "45685e7a3d4134c8c98a7640eb394adb",
+            "name": "input_otsulala_20220508.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220508.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "accd13e8c76c1fd4c61fc41c033828b0": {
+            "format": "png",
+            "id": "accd13e8c76c1fd4c61fc41c033828b0",
+            "name": "input_otsulala_20220510.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220510.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e5680cb96625e1a96d558cfd2dd9190": {
+            "format": "png",
+            "id": "3e5680cb96625e1a96d558cfd2dd9190",
+            "name": "input_otsulala_20220511.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220511.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee4518079d3a305d0a929bc4786a4d0c": {
+            "format": "png",
+            "id": "ee4518079d3a305d0a929bc4786a4d0c",
+            "name": "input_otsulala_20220512.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220512.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca08212ab6562c0ad558b87f90b94d32": {
+            "format": "png",
+            "id": "ca08212ab6562c0ad558b87f90b94d32",
+            "name": "input_otsulala_20220513.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220513.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be698d432f0724f505e253431e11b8bb": {
+            "format": "png",
+            "id": "be698d432f0724f505e253431e11b8bb",
+            "name": "input_otsulala_20220514.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220514.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2753552ce5fa32fe6c7fa252341aeed6": {
+            "format": "png",
+            "id": "2753552ce5fa32fe6c7fa252341aeed6",
+            "name": "input_otsulala_20220515.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220515.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b83069c38f413041e84dd05c3ab6441e": {
+            "format": "png",
+            "id": "b83069c38f413041e84dd05c3ab6441e",
+            "name": "input_otsulala_20220516.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220516.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "076a7791770549197c97f95b5d9500f3": {
+            "format": "png",
+            "id": "076a7791770549197c97f95b5d9500f3",
+            "name": "input_otsulala_20220517.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220517.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cae4a36bcb74bfd627bf9a81fc4bf14a": {
+            "format": "png",
+            "id": "cae4a36bcb74bfd627bf9a81fc4bf14a",
+            "name": "input_otsulala_20220518.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220518.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6efe209c86d7e26d00b01bdb2ba63e15": {
+            "format": "png",
+            "id": "6efe209c86d7e26d00b01bdb2ba63e15",
+            "name": "input_otsulala_20220519.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220519.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "beaef19f354ced9acb2d2e6b8242fb35": {
+            "format": "png",
+            "id": "beaef19f354ced9acb2d2e6b8242fb35",
+            "name": "input_otsulala_20220522.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220522.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "afd445be22edbd6df5c61fa3746876fd": {
+            "format": "png",
+            "id": "afd445be22edbd6df5c61fa3746876fd",
+            "name": "input_otsulala_20220524.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220524.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8756a6e96af5a6b157bea4fab9287bd1": {
+            "format": "png",
+            "id": "8756a6e96af5a6b157bea4fab9287bd1",
+            "name": "input_otsulala_20220525.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220525.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e835722bfe326a3f81620fa844557d5": {
+            "format": "png",
+            "id": "7e835722bfe326a3f81620fa844557d5",
+            "name": "input_otsulala_20220604.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220604.png",
+            "size": {
+                "width": 1080,
+                "height": 1920
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9aa6f0de8442e24f188e2be4482f3518": {
+            "format": "png",
+            "id": "9aa6f0de8442e24f188e2be4482f3518",
+            "name": "input_otsulala_20220606.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220606.png",
+            "size": {
+                "width": 1080,
+                "height": 1920
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0fe2216861ac097a619392d12de9b20c": {
+            "format": "png",
+            "id": "0fe2216861ac097a619392d12de9b20c",
+            "name": "input_otsulala_20220613.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220613.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6634af309d31eb2d4a8c6eab91c5f7a0": {
+            "format": "png",
+            "id": "6634af309d31eb2d4a8c6eab91c5f7a0",
+            "name": "input_otsulala_20220615.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220615.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c4fb6e2ab7e6e9f91b8d2556485e961": {
+            "format": "png",
+            "id": "3c4fb6e2ab7e6e9f91b8d2556485e961",
+            "name": "input_otsulala_20220619.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220619.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e201ad245e965922e81470b1c50433f5": {
+            "format": "png",
+            "id": "e201ad245e965922e81470b1c50433f5",
+            "name": "input_otsulala_20220621.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220621.png",
+            "size": {
+                "width": 789,
+                "height": 1189
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6673736e4cc8fd4b725e84a22a339506": {
+            "format": "png",
+            "id": "6673736e4cc8fd4b725e84a22a339506",
+            "name": "input_otsulala_20220627.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220627.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c9ff86fcb34b3bb6bc6c89b06926c7f": {
+            "format": "png",
+            "id": "5c9ff86fcb34b3bb6bc6c89b06926c7f",
+            "name": "input_otsulala_20220623.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220623.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2bb020a1853157a7c7ff4e6bec8d4069": {
+            "format": "png",
+            "id": "2bb020a1853157a7c7ff4e6bec8d4069",
+            "name": "input_otsulala_20220625.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220625.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "943c5b09b1a0db70889cce0c4df4d7f9": {
+            "format": "png",
+            "id": "943c5b09b1a0db70889cce0c4df4d7f9",
+            "name": "input_otsulala_20220630.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220630.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f70ade985f3c448deeff5b20b87c74b8": {
+            "format": "png",
+            "id": "f70ade985f3c448deeff5b20b87c74b8",
+            "name": "input_otsulala_20220702.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220702.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "857f985d26f5ba722780bac87d2870c5": {
+            "format": "png",
+            "id": "857f985d26f5ba722780bac87d2870c5",
+            "name": "input_otsulala_20220704.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220704.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dca167bbaa39897ecfa0fef78e41b0a6": {
+            "format": "png",
+            "id": "dca167bbaa39897ecfa0fef78e41b0a6",
+            "name": "ffxiv_20221216_001837_157.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221216_001837_157.png",
+            "size": {
+                "width": 242,
+                "height": 164
+            },
+            "state": 1,
+            "type": 1
+        },
+        "7dc4c579e9df0c0310fbb7ee4eaccade": {
+            "id": "7dc4c579e9df0c0310fbb7ee4eaccade",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=11.666667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=11.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 11.666667
+        },
+        "00a01432062e872ecfa3d21ad5c0a7af": {
+            "id": "00a01432062e872ecfa3d21ad5c0a7af",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=7.933333",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=7.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 7.933333
+        },
+        "69b11863142a08a0dbc033248eb0b301": {
+            "id": "69b11863142a08a0dbc033248eb0b301",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=126.066667",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=126.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 126.066667
+        },
+        "e1bc3def43fa23a71664563a57c30e3e": {
+            "id": "e1bc3def43fa23a71664563a57c30e3e",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "goldsaucer_festival_2022.mp4#t=126",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=126",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "573ae175694da32b099872c13222020e",
+                "name": "goldsaucer_festival_2022.mp4",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 126
+        },
+        "bb5eea81ffcc20880c2b41035fb53b7d": {
+            "format": "png",
+            "id": "bb5eea81ffcc20880c2b41035fb53b7d",
+            "name": "ffxiv_20230119_082211_241_2.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230119_082211_241_2.png",
+            "size": {
+                "width": 430,
+                "height": 549
+            },
+            "state": 2,
+            "type": 1
+        },
+        "13355d210bea5b25a60d1e7e8f37cd2c": {
+            "format": "png",
+            "id": "13355d210bea5b25a60d1e7e8f37cd2c",
+            "name": "ffxiv_20230119_082211_241_3.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230119_082211_241_3.png",
+            "size": {
+                "width": 422,
+                "height": 545
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c999a218bf77324688d4b11d28983832": {
+            "format": "png",
+            "id": "c999a218bf77324688d4b11d28983832",
+            "name": "ffxiv_20230119_082214_190.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230119_082214_190.png",
+            "size": {
+                "width": 450,
+                "height": 479
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f9c31756765e8993a7ad7a7b6c1270ac": {
+            "format": "png",
+            "id": "f9c31756765e8993a7ad7a7b6c1270ac",
+            "name": "ffxiv_20230119_082332_056_2.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230119_082332_056_2.png",
+            "size": {
+                "width": 749,
+                "height": 963
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7724749670850ba5dedd597548597540": {
+            "format": "png",
+            "id": "7724749670850ba5dedd597548597540",
+            "name": "ffxiv_20221101_005925_819.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221101_005925_819.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e1dcb71bd49a9f7cc18d7f6219390ddd": {
+            "format": "png",
+            "id": "e1dcb71bd49a9f7cc18d7f6219390ddd",
+            "name": "ffxiv_20221104_004719_488.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221104_004719_488.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b95806b0eb4b4a9ca4fcc7a4f3c1062d": {
+            "format": "png",
+            "id": "b95806b0eb4b4a9ca4fcc7a4f3c1062d",
+            "name": "ffxiv_20221105_210113_185.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221105_210113_185.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "afb6cdd87070aa18da460c6984a71c30": {
+            "format": "png",
+            "id": "afb6cdd87070aa18da460c6984a71c30",
+            "name": "ffxiv_20221105_210114_752.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221105_210114_752.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50cee4506c461dece78dc59a2654799f": {
+            "format": "png",
+            "id": "50cee4506c461dece78dc59a2654799f",
+            "name": "ffxiv_20221105_210123_485.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221105_210123_485.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "541c69578e7f80cbda33f694f94dbe59": {
+            "format": "png",
+            "id": "541c69578e7f80cbda33f694f94dbe59",
+            "name": "ffxiv_20221109_005505_684.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221109_005505_684.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a62283458bbbb13749b1c59d74ac1ec3": {
+            "format": "png",
+            "id": "a62283458bbbb13749b1c59d74ac1ec3",
+            "name": "ffxiv_20221110_020200_366.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221110_020200_366.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27ba17f33c26009f7b032ad13c868e11": {
+            "format": "png",
+            "id": "27ba17f33c26009f7b032ad13c868e11",
+            "name": "ffxiv_20221112_013741_544.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221112_013741_544.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e1ca2ce4b204b50fffc8ec37e953b5d8": {
+            "format": "png",
+            "id": "e1ca2ce4b204b50fffc8ec37e953b5d8",
+            "name": "ffxiv_20221112_210110_073.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221112_210110_073.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3c513a90d230e6b44feb6acadbb2fb1": {
+            "format": "png",
+            "id": "f3c513a90d230e6b44feb6acadbb2fb1",
+            "name": "ffxiv_20221112_210111_440.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221112_210111_440.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22540b2ea39767ac091774e368b82169": {
+            "format": "png",
+            "id": "22540b2ea39767ac091774e368b82169",
+            "name": "ffxiv_20221113_011440_808.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221113_011440_808.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "709bdd2a271fc3799a82aa18c75ee615": {
+            "format": "png",
+            "id": "709bdd2a271fc3799a82aa18c75ee615",
+            "name": "ffxiv_20221118_002722_077.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221118_002722_077.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad3d7d7fb6928dce2e7888a66721a1e6": {
+            "format": "png",
+            "id": "ad3d7d7fb6928dce2e7888a66721a1e6",
+            "name": "ffxiv_20221118_081503_981.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221118_081503_981.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83a631c0f2c87017992041080fc37bcf": {
+            "format": "png",
+            "id": "83a631c0f2c87017992041080fc37bcf",
+            "name": "ffxiv_20221126_090344_214.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221126_090344_214.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8807ebf6fd121fe356263e6f45bb33ed": {
+            "format": "png",
+            "id": "8807ebf6fd121fe356263e6f45bb33ed",
+            "name": "ffxiv_20221127_104929_907.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221127_104929_907.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4c91a3cc931c9a238cf870190c67896": {
+            "format": "png",
+            "id": "c4c91a3cc931c9a238cf870190c67896",
+            "name": "ffxiv_20221128_075244_674.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221128_075244_674.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00fa3a9241032cda3fc456df000b52b2": {
+            "format": "png",
+            "id": "00fa3a9241032cda3fc456df000b52b2",
+            "name": "ffxiv_20221129_084207_677.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221129_084207_677.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a07b4790e757f1d9f78c5f3b0b6f26c": {
+            "format": "png",
+            "id": "0a07b4790e757f1d9f78c5f3b0b6f26c",
+            "name": "ffxiv_20221201_074127_598.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221201_074127_598.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a127e650450c821cee8a4cac60b1dff": {
+            "format": "png",
+            "id": "4a127e650450c821cee8a4cac60b1dff",
+            "name": "ffxiv_20221202_080949_173.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221202_080949_173.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b163755778845c0f8abed981df32fddd": {
+            "format": "png",
+            "id": "b163755778845c0f8abed981df32fddd",
+            "name": "ffxiv_20221203_074618_190.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221203_074618_190.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "589179bf4523d4b2a44599e67eff051f": {
+            "format": "png",
+            "id": "589179bf4523d4b2a44599e67eff051f",
+            "name": "ffxiv_20221203_210123_536.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221203_210123_536.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d3d5157f67f0e7b778af4c58b5e375b": {
+            "format": "png",
+            "id": "4d3d5157f67f0e7b778af4c58b5e375b",
+            "name": "ffxiv_20221203_210124_485.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221203_210124_485.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df3a36b10f2d022909c922c868469fb9": {
+            "format": "png",
+            "id": "df3a36b10f2d022909c922c868469fb9",
+            "name": "ffxiv_20221204_103929_661.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221204_103929_661.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b41ffc30aefd00537ada51f7662377f5": {
+            "format": "png",
+            "id": "b41ffc30aefd00537ada51f7662377f5",
+            "name": "ffxiv_20221205_101607_145.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221205_101607_145.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1f0891b4de76a252c266c9f12694e09": {
+            "format": "png",
+            "id": "f1f0891b4de76a252c266c9f12694e09",
+            "name": "ffxiv_20221206_081624_231.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221206_081624_231.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28f2c4e2d66c6bbaa81e155419db16d6": {
+            "format": "png",
+            "id": "28f2c4e2d66c6bbaa81e155419db16d6",
+            "name": "ffxiv_20221210_051824_087.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221210_051824_087.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e154e25b5d12f51ec979168838a6e02": {
+            "format": "png",
+            "id": "0e154e25b5d12f51ec979168838a6e02",
+            "name": "ffxiv_20221210_210110_527.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221210_210110_527.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba3b0a6bb368bdf26c8c9e04eb2962b0": {
+            "format": "png",
+            "id": "ba3b0a6bb368bdf26c8c9e04eb2962b0",
+            "name": "ffxiv_20221111_074608_332.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221111_074608_332.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "698697c7f467e1847199c761fab5f20b": {
+            "format": "png",
+            "id": "698697c7f467e1847199c761fab5f20b",
+            "name": "ffxiv_20221211_093542_606.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221211_093542_606.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "596862d25ee9a2a1932a48df1b4c226f": {
+            "format": "png",
+            "id": "596862d25ee9a2a1932a48df1b4c226f",
+            "name": "ffxiv_20221212_075608_311.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221212_075608_311.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4bec41f0d1a3001f772f1ae982edff03": {
+            "format": "png",
+            "id": "4bec41f0d1a3001f772f1ae982edff03",
+            "name": "ffxiv_20221213_114947_006.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221213_114947_006.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b45ef8c46e33639154e72d48bc0e254a": {
+            "format": "png",
+            "id": "b45ef8c46e33639154e72d48bc0e254a",
+            "name": "ffxiv_20221214_100026_580.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221214_100026_580.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "514c84752491a210d7c172a7aaf6ff67": {
+            "format": "png",
+            "id": "514c84752491a210d7c172a7aaf6ff67",
+            "name": "ffxiv_20221215_101428_144.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221215_101428_144.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c327e58439fc1505a4c1c88ac264f229": {
+            "format": "png",
+            "id": "c327e58439fc1505a4c1c88ac264f229",
+            "name": "ffxiv_20221216_111619_583.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221216_111619_583.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2287429b4116818134b33f98c9dc9e61": {
+            "format": "png",
+            "id": "2287429b4116818134b33f98c9dc9e61",
+            "name": "ffxiv_20221217_210107_870.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221217_210107_870.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b2b3a2932658dc8634509d3f2cff217": {
+            "format": "png",
+            "id": "5b2b3a2932658dc8634509d3f2cff217",
+            "name": "ffxiv_20221217_210109_320.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221217_210109_320.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8a81e7b43210eacaf8dfe19d199eaac": {
+            "format": "png",
+            "id": "c8a81e7b43210eacaf8dfe19d199eaac",
+            "name": "ffxiv_20221220_083750_018.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221220_083750_018.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4fb940004bc1c822c4d395ceff3670f": {
+            "format": "png",
+            "id": "b4fb940004bc1c822c4d395ceff3670f",
+            "name": "ffxiv_20221221_072930_487.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221221_072930_487.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e77bafcdbc5d5871c6dad3d700f9a6a": {
+            "format": "png",
+            "id": "7e77bafcdbc5d5871c6dad3d700f9a6a",
+            "name": "ffxiv_20221222_114625_376.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221222_114625_376.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f16a34a8241a95b9cf168dd623741c4f": {
+            "format": "png",
+            "id": "f16a34a8241a95b9cf168dd623741c4f",
+            "name": "ffxiv_20221223_075702_913.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221223_075702_913.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3ab7387ba8f32cbf0f8bd69eff72ffe": {
+            "format": "png",
+            "id": "f3ab7387ba8f32cbf0f8bd69eff72ffe",
+            "name": "ffxiv_20221224_090955_716.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221224_090955_716.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ff686325c806c09657adc8fa31b26bf1": {
+            "format": "png",
+            "id": "ff686325c806c09657adc8fa31b26bf1",
+            "name": "ffxiv_20221224_210106_913.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221224_210106_913.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db676f619bdbc15b37652bd7c68e4d93": {
+            "format": "png",
+            "id": "db676f619bdbc15b37652bd7c68e4d93",
+            "name": "ffxiv_20221224_210108_546.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221224_210108_546.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92a347df91cecffde92c0e6604715d0c": {
+            "format": "png",
+            "id": "92a347df91cecffde92c0e6604715d0c",
+            "name": "ffxiv_20221225_014834_181.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20221225_014834_181.png",
             "size": {
                 "width": 1920,
                 "height": 1080

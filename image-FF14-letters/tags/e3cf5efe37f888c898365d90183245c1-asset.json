@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "e3cf5efe37f888c898365d90183245c1",
+        "name": "input_mozi.jpg",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_mozi.jpg",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "6oxrC1zVU",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 148.0203045685279,
+                "width": 661.9271948608136,
+                "left": 646.8522483940043,
+                "top": 265.93115482233503
+            },
+            "points": [
+                {
+                    "x": 646.8522483940043,
+                    "y": 265.93115482233503
+                },
+                {
+                    "x": 1308.7794432548178,
+                    "y": 265.93115482233503
+                },
+                {
+                    "x": 1308.7794432548178,
+                    "y": 413.9514593908629
+                },
+                {
+                    "x": 646.8522483940043,
+                    "y": 413.9514593908629
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

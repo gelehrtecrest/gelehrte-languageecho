@@ -1,0 +1,92 @@
+{
+    "asset": {
+        "id": "7ccebde1974810ab26f60f2daa13e26d",
+        "format": "2",
+        "state": 2,
+        "type": 3,
+        "name": "goldsaucer_festival_2022.mp4#t=83.2",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=83.2",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "573ae175694da32b099872c13222020e",
+            "name": "goldsaucer_festival_2022.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 83.2
+    },
+    "regions": [
+        {
+            "id": "NOSKr9DY1",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 445.43147208121826,
+                "width": 145.26766595289078,
+                "left": 1193.661670235546,
+                "top": 30.195114213197968
+            },
+            "points": [
+                {
+                    "x": 1193.661670235546,
+                    "y": 30.195114213197968
+                },
+                {
+                    "x": 1338.9293361884368,
+                    "y": 30.195114213197968
+                },
+                {
+                    "x": 1338.9293361884368,
+                    "y": 475.6265862944162
+                },
+                {
+                    "x": 1193.661670235546,
+                    "y": 475.6265862944162
+                }
+            ]
+        },
+        {
+            "id": "14wopuaIg",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 382.38578680203045,
+                "width": 124.71092077087793,
+                "left": 387.83725910064237,
+                "top": 152.17480964467003
+            },
+            "points": [
+                {
+                    "x": 387.83725910064237,
+                    "y": 152.17480964467003
+                },
+                {
+                    "x": 512.5481798715203,
+                    "y": 152.17480964467003
+                },
+                {
+                    "x": 512.5481798715203,
+                    "y": 534.5605964467005
+                },
+                {
+                    "x": 387.83725910064237,
+                    "y": 534.5605964467005
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

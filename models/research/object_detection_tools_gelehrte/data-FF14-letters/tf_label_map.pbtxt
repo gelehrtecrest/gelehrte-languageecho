@@ -2,3 +2,7 @@ item {
  id: 1
  name: 'letters'
 }
+item {
+ id: 2
+ name: 'letters_r_90'
+}

@@ -1,0 +1,123 @@
+{
+    "asset": {
+        "id": "7528f535fb75dab2ffdf08c40de48084",
+        "format": "733333",
+        "state": 2,
+        "type": 3,
+        "name": "goldsaucer_festival_2022.mp4#t=62.733333",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=62.733333",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "573ae175694da32b099872c13222020e",
+            "name": "goldsaucer_festival_2022.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 62.733333
+    },
+    "regions": [
+        {
+            "id": "lY6_5DS5i",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 368.68020304568523,
+                "width": 82.22698072805139,
+                "left": 899.0149892933619,
+                "top": 31.565672588832484
+            },
+            "points": [
+                {
+                    "x": 899.0149892933619,
+                    "y": 31.565672588832484
+                },
+                {
+                    "x": 981.2419700214132,
+                    "y": 31.565672588832484
+                },
+                {
+                    "x": 981.2419700214132,
+                    "y": 400.24587563451774
+                },
+                {
+                    "x": 899.0149892933619,
+                    "y": 400.24587563451774
+                }
+            ]
+        },
+        {
+            "id": "DdVpDBLke",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 82.23350253807106,
+                "width": 185.0107066381156,
+                "left": 353.576017130621,
+                "top": 686.6925761421319
+            },
+            "points": [
+                {
+                    "x": 353.576017130621,
+                    "y": 686.6925761421319
+                },
+                {
+                    "x": 538.5867237687365,
+                    "y": 686.6925761421319
+                },
+                {
+                    "x": 538.5867237687365,
+                    "y": 768.926078680203
+                },
+                {
+                    "x": 353.576017130621,
+                    "y": 768.926078680203
+                }
+            ]
+        },
+        {
+            "id": "G0qJ6GshY",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 223.4010152284264,
+                "width": 64.41113490364025,
+                "left": 0,
+                "top": 285.11897208121826
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 285.11897208121826
+                },
+                {
+                    "x": 64.41113490364025,
+                    "y": 285.11897208121826
+                },
+                {
+                    "x": 64.41113490364025,
+                    "y": 508.51998730964465
+                },
+                {
+                    "x": 0,
+                    "y": 508.51998730964465
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

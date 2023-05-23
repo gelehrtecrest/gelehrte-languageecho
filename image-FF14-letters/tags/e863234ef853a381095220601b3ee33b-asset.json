@@ -1,0 +1,123 @@
+{
+    "asset": {
+        "id": "e863234ef853a381095220601b3ee33b",
+        "format": "266667",
+        "state": 2,
+        "type": 3,
+        "name": "goldsaucer_festival_2022.mp4#t=118.266667",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4#t=118.266667",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "573ae175694da32b099872c13222020e",
+            "name": "goldsaucer_festival_2022.mp4",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/goldsaucer_festival_2022.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 118.266667
+    },
+    "regions": [
+        {
+            "id": "LhdJjPQjT",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 149.433692893401,
+                "width": 84.96788008565309,
+                "left": 1592.4625267665951,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 1592.4625267665951,
+                    "y": 0
+                },
+                {
+                    "x": 1677.4304068522483,
+                    "y": 0
+                },
+                {
+                    "x": 1677.4304068522483,
+                    "y": 149.433692893401
+                },
+                {
+                    "x": 1592.4625267665951,
+                    "y": 149.433692893401
+                }
+            ]
+        },
+        {
+            "id": "3NMgW3NIc",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 206.99714467005074,
+                "width": 112.37687366167023,
+                "left": 912.7194860813704,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 912.7194860813704,
+                    "y": 0
+                },
+                {
+                    "x": 1025.0963597430407,
+                    "y": 0
+                },
+                {
+                    "x": 1025.0963597430407,
+                    "y": 206.99714467005074
+                },
+                {
+                    "x": 912.7194860813704,
+                    "y": 206.99714467005074
+                }
+            ]
+        },
+        {
+            "id": "we-7HMcvG",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters_r_90"
+            ],
+            "boundingBox": {
+                "height": 138.4263959390863,
+                "width": 38.37259100642398,
+                "left": 93.19057815845824,
+                "top": 8.266180203045685
+            },
+            "points": [
+                {
+                    "x": 93.19057815845824,
+                    "y": 8.266180203045685
+                },
+                {
+                    "x": 131.56316916488223,
+                    "y": 8.266180203045685
+                },
+                {
+                    "x": 131.56316916488223,
+                    "y": 146.69257614213197
+                },
+                {
+                    "x": 93.19057815845824,
+                    "y": 146.69257614213197
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

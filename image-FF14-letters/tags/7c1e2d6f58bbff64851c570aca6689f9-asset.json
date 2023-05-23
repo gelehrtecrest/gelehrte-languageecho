@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "7c1e2d6f58bbff64851c570aca6689f9",
+        "name": "input_ohalala_20220528_b.png",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_ohalala_20220528_b.png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "H9B3l1FRU",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 342.6395939086294,
+                "width": 1162.1413276231262,
+                "left": 438.54389721627405,
+                "top": 34.30678934010152
+            },
+            "points": [
+                {
+                    "x": 438.54389721627405,
+                    "y": 34.30678934010152
+                },
+                {
+                    "x": 1600.6852248394002,
+                    "y": 34.30678934010152
+                },
+                {
+                    "x": 1600.6852248394002,
+                    "y": 376.9463832487309
+                },
+                {
+                    "x": 438.54389721627405,
+                    "y": 376.9463832487309
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

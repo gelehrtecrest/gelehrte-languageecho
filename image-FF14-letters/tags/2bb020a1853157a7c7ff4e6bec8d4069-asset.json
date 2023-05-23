@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "2bb020a1853157a7c7ff4e6bec8d4069",
+        "name": "input_otsulala_20220625.png",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_otsulala_20220625.png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "0eGje8kuV",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 274.11167512690355,
+                "width": 1208.7366167023554,
+                "left": 544.06852248394,
+                "top": 95.98191624365481
+            },
+            "points": [
+                {
+                    "x": 544.06852248394,
+                    "y": 95.98191624365481
+                },
+                {
+                    "x": 1752.8051391862955,
+                    "y": 95.98191624365481
+                },
+                {
+                    "x": 1752.8051391862955,
+                    "y": 370.09359137055833
+                },
+                {
+                    "x": 544.06852248394,
+                    "y": 370.09359137055833
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

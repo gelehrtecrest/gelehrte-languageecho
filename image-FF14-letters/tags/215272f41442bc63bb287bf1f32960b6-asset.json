@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "215272f41442bc63bb287bf1f32960b6",
+        "name": "FeN9lvraUAIGd_D.jpg",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/FeN9lvraUAIGd_D.jpg",
+        "size": {
+            "width": 680,
+            "height": 677
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "MTnsUcvIh",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters",
+                "letters_180"
+            ],
+            "boundingBox": {
+                "height": 135.25218340611355,
+                "width": 633.4347826086956,
+                "left": 23.30570652173913,
+                "top": 482.62117903930135
+            },
+            "points": [
+                {
+                    "x": 23.30570652173913,
+                    "y": 482.62117903930135
+                },
+                {
+                    "x": 656.7404891304348,
+                    "y": 482.62117903930135
+                },
+                {
+                    "x": 656.7404891304348,
+                    "y": 617.8733624454148
+                },
+                {
+                    "x": 23.30570652173913,
+                    "y": 617.8733624454148
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
