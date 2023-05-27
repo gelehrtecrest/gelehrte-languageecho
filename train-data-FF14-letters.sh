@@ -19,10 +19,28 @@ rm $val_dir*.tfrecord
 # 公開用フォルダのtfrecordの削除
 rm $open_dir*.tfrecord
 
+dir_t="./image-FF14-letters/tags/languageecho-FF14-letters-TFRecords-export/"
+cat FF14-letters_180_train.txt | while read line
+do
+	col1=`echo ${line} | cut -d ',' -f 1`
+	file=$dir_t$col1
+	echo "train--"
+	echo $file
+	cp $file $train_dir
+done
+
+cat FF14-letters_180_val.txt | while read line
+do
+	col1=`echo ${line} | cut -d ',' -f 1`
+	file=$dir_t$col1
+	echo "val--"
+	echo $file
+	cp $file $val_dir
+done
 
 for file in `\find ./image-FF14-letters/tags/languageecho-FF14-letters-TFRecords-export -maxdepth 1 -type f -name "*.tfrecord"` ; do
 	cp $file $open_dir
-    if [[ $(($RANDOM % 10)) -lt 7 ]] ; then
+	if [[ $(($RANDOM % 10)) -lt 7 ]] ; then
 	    cp $file $train_dir
 	else
 		cp $file $val_dir
