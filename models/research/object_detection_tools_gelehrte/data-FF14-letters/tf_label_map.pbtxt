@@ -10,3 +10,7 @@ item {
  id: 3
  name: 'letter_180'
 }
+item {
+ id: 4
+ name: 'letters_l_90'
+}

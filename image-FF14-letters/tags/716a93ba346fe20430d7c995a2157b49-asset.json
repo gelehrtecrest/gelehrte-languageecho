@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "716a93ba346fe20430d7c995a2157b49",
+        "name": "Terncliff.png",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/Terncliff.png",
+        "size": {
+            "width": 537,
+            "height": 267
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "oOX8fDTXQ",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 60.065843621399175,
+                "width": 221.0961145194274,
+                "left": 154.1083844580777,
+                "top": 35.05176183127572
+            },
+            "points": [
+                {
+                    "x": 154.1083844580777,
+                    "y": 35.05176183127572
+                },
+                {
+                    "x": 375.20449897750507,
+                    "y": 35.05176183127572
+                },
+                {
+                    "x": 375.20449897750507,
+                    "y": 95.1176054526749
+                },
+                {
+                    "x": 154.1083844580777,
+                    "y": 95.1176054526749
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
