@@ -14,3 +14,7 @@ item {
  id: 4
  name: 'letters_l_90'
 }
+item {
+ id: 5
+ name: 'letters_flip_h'
+}
