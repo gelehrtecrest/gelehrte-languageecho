@@ -31,6 +31,7 @@ parser.add_argument('-o', '--output_image', default='', help="Output Image file"
 parser.add_argument('-b', '--base_score', default='1', help="Base Score")
 parser.add_argument('-s', '--sentence', default='y', help="Create the sentences")
 parser.add_argument('-sd', '--similar_delete', default='y', help="Delete similar characters")
+parser.add_argument('-c', '--cut', default='n', help="Cut letters")
 
 args = parser.parse_args()
 
@@ -586,7 +587,7 @@ def print_letter_list(letter_list):
 
   print("")
 
-if __name__ == '__main__':
+def start_languageecho():
   workingfilewrite('test', '01', 'モデル読み込みました')
   count = 0
 
@@ -726,3 +727,93 @@ if __name__ == '__main__':
                           max_width = letter["box"][3] - letter["box"][1]
                           )
   cv2.imwrite(args.output_image, img)
+
+def start_languageecho_cut():
+  print("start_languageecho_cut")
+  workingfilewrite('test', '01', 'モデル読み込みました')
+  count = 0
+
+  labels = ['blank']
+  with open(args.labels,'r') as f:
+    for line in f:
+      labels.append(line.rstrip())
+
+  img = cv2.imread(args.input_image)
+  #img_bgr = cv2.resize(img, (300,  300))
+  size = 1920
+  h, w = img.shape[:2]
+  if h < w:
+    if h < w * 2:
+      if h < w * 4:
+        width = size * 4
+      else :
+        width = size * 2
+    else :
+      width = size
+    height = round(h * (width / w))
+  else :
+    if h * 2 > w:
+      if h * 4 > w:
+        height = size * 4
+      else :
+        height = size * 2
+    else :
+      height = size
+    width = round(w * (height / h))
+  img_bgr = cv2.resize(img, (width,  height))
+
+  # convert bgr to rgb
+  image_np = img_bgr[:,:,::-1]
+  image_np_expanded = np.expand_dims(image_np, axis=0)
+  start = time.time()
+  output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
+  elapsed_time = time.time() - start
+
+  for i in range(output_dict['num_detections']):
+    class_id = output_dict['detection_classes'][i].astype(np.int)
+    if class_id < len(labels):
+      label = labels[class_id]
+    else:
+      label = 'unknown'
+
+    detection_score = output_dict['detection_scores'][i]
+
+    if detection_score > 0.5:
+        # Define bounding box
+        h, w, c = img.shape
+        box = output_dict['detection_boxes'][i] * np.array( \
+          [h, w,  h, w])
+        box = box.astype(np.int)
+
+        if mode == 'bbox':
+          class_id = class_id % len(colors)
+          color = colors[class_id]
+
+          # Draw bounding box
+          cv2.rectangle(img, \
+            (box[1], box[0]), (box[3], box[2]), color, 3)
+
+          font_size = 5.0
+          box_w = box[3] - box[1]
+          box_y = box[2] - box[0]
+          if box_w < box_y :
+            font_size = font_size * ( box_w / 40.0 )
+          else :
+            font_size = font_size * ( box_y / 40.0 )
+
+          # Put label near bounding box
+          information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
+          cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
+            cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
+        elif mode == 'mosaic':
+          img = mosaic_area(img, box[1], box[0], box[3], box[2], ratio=0.05)
+
+  cv2.imwrite(args.output_image, img)
+
+
+
+if __name__ == '__main__':
+  if args.cut == 'y':
+    start_languageecho_cut()
+  else :
+    start_languageecho()

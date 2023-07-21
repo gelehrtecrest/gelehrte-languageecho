@@ -217,22 +217,12 @@ if __name__ == '__main__':
             font_size = font_size * ( box_y / 40.0 )
 
           # Put label near bounding box
+          # 後日の作業：この部分をimgに書き込むputTextするのではなく、imgから画像を切り抜く作業が必要
+          # またラベルに応じて、画像を回転させる作業が必要
+          # そのあと画像を保存する作業が必要
           information = '%s: %.1f%%' % (label, output_dict['detection_scores'][i] * 100.0)
-          #information = '%s' % (label)
-          #cv2.putText(img, information, (box[1] + 17, box[2] - 17), \
-          #  cv2.FONT_HERSHEY_TRIPLEX, 1.5, (0, 0, 0), 1, cv2.LINE_AA)
           cv2.putText(img, information, (box[1] + 15, box[2] - 15), \
-          #  cv2.FONT_HERSHEY_TRIPLEX, font_size, (0, 0, 0), 1, cv2.LINE_AA)
             cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1, cv2.LINE_AA)
-          #draw.text((box[1] + 15, box[2] - 15), information, (0, 0, 0), font=font)
-          #print(font_size)
-          #colorBGR = (0,0,0)
-          #img = cv2_putText_2(img = img,
-          #              text = information,
-          #              org = (box[1] + 5, box[2] - 15),
-          #              fontFace = font_name,
-          #              fontScale = int(font_size),
-          #              color = colorBGR)
         elif mode == 'mosaic':
           img = mosaic_area(img, box[1], box[0], box[3], box[2], ratio=0.05)
 
