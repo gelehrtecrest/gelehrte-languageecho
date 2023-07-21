@@ -192,7 +192,7 @@ if __name__ == '__main__':
 
     detection_score = output_dict['detection_scores'][i]
 
-    if detection_score > 0.1:
+    if detection_score > 0.5:
         # Define bounding box
         h, w, c = img.shape
         box = output_dict['detection_boxes'][i] * np.array( \
