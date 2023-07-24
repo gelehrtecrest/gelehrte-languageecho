@@ -769,6 +769,7 @@ def start_languageecho_cut():
   output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
   elapsed_time = time.time() - start
 
+  num = 0
   for i in range(output_dict['num_detections']):
     class_id = output_dict['detection_classes'][i].astype(np.int)
     if class_id < len(labels):
@@ -785,9 +786,23 @@ def start_languageecho_cut():
           [h, w,  h, w])
         box = box.astype(np.int)
 
-        if mode == 'bbox':
+        if mode == 'bbox':        
+          num = num + 1
+          base_filename = args.output_image
+          output_filename = base_filename + str(num) + ".png"
           class_id = class_id % len(colors)
           color = colors[class_id]
+
+          print(output_filename)
+          print(box[0])
+          print(box[1])
+          print(box[2])
+          print(box[3])
+
+          #これで切り抜きはOK
+          #ただ反転などは未実装これから実装する
+          img1 = img[box[0] : box[2], box[1] : box[3]]
+          cv2.imwrite(output_filename, img1)
 
           # Draw bounding box
           cv2.rectangle(img, \
