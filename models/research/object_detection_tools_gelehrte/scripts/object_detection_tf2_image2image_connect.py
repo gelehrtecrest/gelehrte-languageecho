@@ -800,8 +800,16 @@ def start_languageecho_cut():
           print(box[3])
 
           #これで切り抜きはOK
-          #ただ反転などは未実装これから実装する
           img1 = img[box[0] : box[2], box[1] : box[3]]
+          #ただ反転などは未実装これから実装する
+          if class_id == 2 : #右に90度なので反時計回りに90度戻す
+            img1 = cv2.rotate(img1, cv2.ROTATE_90_COUNTERCLOCKWISE)
+          elif class_id == 3 : #右に180度なので反時計回りに180度戻す
+            img1 = cv2.rotate(img1, cv2.ROTATE_180)
+          elif class_id == 4 : #左に90度なので時計回りに90度戻す
+            img1 = cv2.rotate(img1, cv2.ROTATE_90_CLOCKWISE)
+          elif class_id == 5 : #左右反転
+            img1 = cv2.flip(img1, 1)
           cv2.imwrite(output_filename, img1)
 
           # Draw bounding box
