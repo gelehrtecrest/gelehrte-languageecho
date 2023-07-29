@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "59da40f8f85c13cc1b41b109d3e6c625",
+        "name": "ffxiv_20190630_122737_529.png",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20190630_122737_529.png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ZNEIHWsVm",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 93.4487021013597,
+                "width": 410.9520500347463,
+                "left": 799.221681723419,
+                "top": 199.87175525339924
+            },
+            "points": [
+                {
+                    "x": 799.221681723419,
+                    "y": 199.87175525339924
+                },
+                {
+                    "x": 1210.1737317581653,
+                    "y": 199.87175525339924
+                },
+                {
+                    "x": 1210.1737317581653,
+                    "y": 293.32045735475896
+                },
+                {
+                    "x": 799.221681723419,
+                    "y": 293.32045735475896
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
