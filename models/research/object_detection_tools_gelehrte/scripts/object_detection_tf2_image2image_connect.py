@@ -739,6 +739,7 @@ def start_languageecho_cut():
       labels.append(line.rstrip())
 
   img = cv2.imread(args.input_image)
+  img_for_cut = cv2.imread(args.input_image)
   #img_bgr = cv2.resize(img, (300,  300))
   size = 1920
   h, w = img.shape[:2]
@@ -800,7 +801,7 @@ def start_languageecho_cut():
           print(box[3])
 
           #これで切り抜きはOK
-          img1 = img[box[0] : box[2], box[1] : box[3]]
+          img1 = img_for_cut[box[0] : box[2], box[1] : box[3]]
           if class_id == 2 : #右に90度なので反時計回りに90度戻す
             img1 = cv2.rotate(img1, cv2.ROTATE_90_COUNTERCLOCKWISE)
           elif class_id == 3 : #右に180度なので反時計回りに180度戻す
