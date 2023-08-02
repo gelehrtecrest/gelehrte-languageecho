@@ -5,7 +5,7 @@
         "name": "languageecho-FF14-letters-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDE2Mzg2MTg5NGZlMTk5OTc3MDFjNDljNDEyNTVlN2FmZmJjOTg2Njg3MTcxOGQyNGI1Y2Q1NDI4Yjg5Mzk2ZGI0NmU0NzI5NTU4ZmY3ZmVhYjIxZWViYjU4MmFlYmEzZDU4ZTQwMmRhNTM5NDg0M2Q2MDY5Nzc3MmRkZGQxM2UwYjE2ZjYwMjM5NDMzNTc4ZmM1MDEwOGQ0ZDY0ZjFkOGRmYjVlMDliNWMzMmUwY2UyZWE1ZGNlOWU3OTI5NTI2IiwiaXYiOiJjNDM0ZWNmMTQyMGViYmYwM2EwN2U3NDk0ODkwMjQyZDQ0YzZiNzQzMzQ2ZDY2MjkifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTU4NzFmZDEyMGU4NzZiMGJjMjQxZTRmN2ExNTE2NGJhMDUwODU0ZWRmMWJlZWNhMDhmY2EyYTFmNDZiNzc4N2U3ZGFjMTE4MGVlM2EwMzhiYWFhMWQzNzM0NjA3M2RmYzNhMzk1M2M3OTNhMmRiMWUyOTNhODYwMjQ5NzMzYzhkZWMxYmMxNmY2NmQxZWRiZjkwMmJkYTlkM2M0ZDA5NGZkNWRjNjMwNTg4MzZiMDEzZjI4ZTg3YWI3NGUzYmE3IiwiaXYiOiJhNDUzY2UzM2Q0YjdhNmI1ZDA1ODk5MjMyYjkyNzU0ZjY5YTkzZDliOTlmMDY5NTMifQ=="
         },
         "id": "dHgGwvrU0"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-FF14-letters-tags",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTMwMzEzODEyYmUwYjg3ZDQ5ODg0Yzk5NDQ0NmFmYTkyNThlZmQzMWY2ZWRhMjZhYWM4MDg5NDY3OWIyY2VlN2ExYTdmMGVmYjliNGZlZjE5YWE1ZjAzYTlmMjU5OGRhNWUxNWY1YWRhMzRjYzZmNzU1ODc1OTUyZmM2ZGUzMTc2ODZlY2VhNDRjMzVmZmQ4NDdjZGM3MDE5ZWFmN2IxNzI0NzBiYTQwM2QyZGYxZWJiZTNiNGExMTIzYjA5NTk4IiwiaXYiOiJjMTY3YWVjYWExYmRlZDc2NTE0Mzg0MmZjZTkyOTUzMzkwYzdiNTNmNDE5NDYyMzEifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjI2MGY5OGVhMjVlNzU2MzJkMWRlMTUzMzE1Y2YzNzEwOGI5NTdiNDcxYmJlMGU3YmJhM2ZkODY3YzgxN2UyMmZhNDRkYzI5NjJjMTM3M2U0NDFiZTRlNzVmMDM2MDAxYzZhZmVjODAxZTMyNDM5Y2Y2NzlmY2E2MmUyOWIxNDdjZDg2ZDZmNjIwNTZkZGUxNzZmMTY4NzkyZGFmM2ZmZjZmMjgxYjczZTY5ODNhMzU1NWJjMzIzMjgzNDM5YWZkIiwiaXYiOiJkMDQwYzU2NWJjZTdhMmQwYTA3N2MyMTJiMTg3NTYxYmMwMTUzNGFkNWY4ZWU1MTYifQ=="
         },
         "id": "KJLoiCZBI"
     },
@@ -51,11 +51,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZmJiZDUzOTdkOTlkNmYyN2QwMWE3YTViM2Q0YTI2YmU2M2VmZDcwNmU1NDQzNTRhZTNjNjdhMWE2OWRjYmI4NyIsIml2IjoiNjUxZWEzNjFiMjAxOTJiZDk4ODYxNjNiNWFiOTU4ZTQ2NmE2MDU5YWI0NTM0YzFlIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODEwYTVhYzU0ZWQ2OTdlMWU5YWRjOTg3YWQ2ZGI1ZjIyYTdjZmJlNmJlNThjNDczOWY0MjU1YWNiM2MxN2VlYSIsIml2IjoiNTFmOGY1Nzk5NTkyMjhlZDk3NjdmNzhlNGU3Y2Q0NjQzZTFhZDhlMGQwMTQ5MGVjIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "01ed3300ca40838eb3761dbfb7f6c5cd",
+    "lastVisitedAssetId": "8c65c1c0c4fc1b098707b200436bbaf4",
     "assets": {
         "dd1e25be3ca29dcccab59f8ba6d2e431": {
             "format": "jpg",
@@ -20746,6 +20746,42 @@
             "size": {
                 "width": 1920,
                 "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f11a8a3a1f2bc48cb946d2f9fea1c07b": {
+            "format": "png",
+            "id": "f11a8a3a1f2bc48cb946d2f9fea1c07b",
+            "name": "ffxiv_20230801_214258_387.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230801_214258_387.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0eaf8856457824b250d5c03a32357922": {
+            "format": "png",
+            "id": "0eaf8856457824b250d5c03a32357922",
+            "name": "ffxiv_20230802_080111_017.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20230802_080111_017.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c65c1c0c4fc1b098707b200436bbaf4": {
+            "format": "jpg",
+            "id": "8c65c1c0c4fc1b098707b200436bbaf4",
+            "name": "input_20230802.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/input_20230802.jpg",
+            "size": {
+                "width": 1024,
+                "height": 576
             },
             "state": 2,
             "type": 1

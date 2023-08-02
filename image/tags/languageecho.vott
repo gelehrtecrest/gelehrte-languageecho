@@ -5,7 +5,7 @@
         "name": "languageecho-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODA0Y2Q1NGZkMjQyMGY5NmEzZWVjMDM0YWQ0MzFlNWVhYWY0ZWUzZDljZjkxNGZjNDNjZTc2YjlmYjY3YWI5MTM2ZDQzMzJiZDFhNDMzMTUzNDVjYmMyOGM4MzVlM2MyMzZhYmQwNzAxZWY1MTNmYmQ1ZDJhY2NiMzYzMzhkMzQzODYzMzkzNjEyNWQ1Mzk4ZWNlZTEzMGFjN2YxMmMyMiIsIml2IjoiYTBkODNhNDk1NDMzZWRiNDZhOTM4YjYzYzhhODAzMjk5NmE1MTQyYjUxNzJhZWI1In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiY2Y0YWZhZjAwZjkyNTc0MWQ2MmNmMDUzMjBlMmIzZGM4ZjEwZDBjMjY2ZTBjZDI1NWVhODI2ODdhMGE0MGM4YzQ0YzAxOGQ0ZmYyOTNmZGVjZjM4MjczZGY3M2NkMGMxN2QwY2FlNzhiMTgwZWYwMzEzZWU2ZmM5ODE1ZWI0ODFiZmJmMTlhZjJmNjUzNDAxMmUzNGFkYTU4YzMzMjhjZSIsIml2IjoiZDIxOWJjNDAyZDdhZWMzZmNlMDM1OTgyYjJlMTA2ZTdiZDEzMTMwOTQ4MTQ3YzJiIn0="
         },
         "id": "FVS04T0_2"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDk5YjhkMDkwODYwMmViNzkyZDVlYTZkZTlhZjdiN2U1YzA1NDA0MjBjMmVjNTdkNzNiNTExNWMwZTY3MjY4NjMxNjhiZjgyYjE1NmM0NzIxMDVmYWNmNDk5NjNkYzM4Mjc1MTJkYzIxZjNkMTRkODNmOWM1ZDliNmE4ZGFlMzlhYjgyYjkwOWVkOGE0Zjg0ZDk5MjJkMDY4YzU0ODk5YiIsIml2IjoiMmM5OTU2OTJhMGY3NzFmOGMxY2EyOWQyYzc0MzhmNDUzYjAyMGRjNTM4MDFkZTdmIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOGZjMWEwZmFkMWVjOTQ3MTczZGQwNTQ4NmViNmFhMGI4MGY1MGU0YjdkMjk4ZjU3MWU0OThjNmFkOTFjOGM4ZmUzNWUzMThmNmQ0YmVkYWU5YTBkNjVlNmNkNzZjMTg4MDA2NmIwZjcwODhlMDUzN2VhZWQ3N2JhODJmOTMwZWMyMzQ5NmE3Y2NkNzNjMzI3YmQ4NWU0YmU5NzIyMGI4MSIsIml2IjoiYTBkMTIxMjRiYjdlNDU0MzQ1MTI4ZGMxNGNhNTExMGY1Zjc5ZmM0NTNmZDIzNTg4In0="
         },
         "id": "UZ9ESivVk"
     },
@@ -281,11 +281,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDQ4YzZiYTUwOWNiNTEyMTY1OGZkYjgxODU3ZTBhNjg5Y2RmYzE0MGE0NGUzZWJiZTNiYTZlZGIyZjNhNDcxYSIsIml2IjoiYmMxNjUwOWMyYmRkZjAxMDM1MDcwZTZmMzdmOTI0NmQ0MzBkYzkwZjMxZTUyOTIwIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjEwNDkyMzBkZjU1NDUwZWVmMTJiYzI0ZmYwOTBiNGUxYzkxMzg4YmYwZWUzNzY1ZGIzOTA2NzQ4MTU4NzMwYyIsIml2IjoiYTk3NDMyODJkNTAzNDdlOTZmNmUyMjU3NGNhMjEzNTAzM2QwNTg5ODM0ODA5NzYzIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "ccbb6e186e68c5ea4f7eecf286b20935",
+    "lastVisitedAssetId": "6d151d0449e66f181c2ba8068dd5df10",
     "assets": {
         "f88169b8566b438e736f7b36b13c9f53": {
             "format": "jpg",
@@ -12891,6 +12891,30 @@
             "size": {
                 "width": 1004,
                 "height": 142
+            },
+            "state": 2,
+            "type": 1
+        },
+        "adb33fa702522fa11f99fe7e4104b715": {
+            "format": "png",
+            "id": "adb33fa702522fa11f99fe7e4104b715",
+            "name": "20200529_IinoKorede_g1.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200529_IinoKorede_g1.png",
+            "size": {
+                "width": 160,
+                "height": 73
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6d151d0449e66f181c2ba8068dd5df10": {
+            "format": "png",
+            "id": "6d151d0449e66f181c2ba8068dd5df10",
+            "name": "20200529_IinoKorede_g2.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/20200529_IinoKorede_g2.png",
+            "size": {
+                "width": 452,
+                "height": 181
             },
             "state": 2,
             "type": 1
