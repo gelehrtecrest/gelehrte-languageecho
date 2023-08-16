@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "dac32276899de21652e1a710c2c3cb08",
+        "name": "QWW4JzoE.jpg",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/QWW4JzoE.jpg",
+        "size": {
+            "width": 1024,
+            "height": 1019
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ubtU9Mv3F",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 179.10371179039302,
+                "width": 996.1739130434783,
+                "left": 15.304347826086957,
+                "top": 776.4868995633188
+            },
+            "points": [
+                {
+                    "x": 15.304347826086957,
+                    "y": 776.4868995633188
+                },
+                {
+                    "x": 1011.4782608695652,
+                    "y": 776.4868995633188
+                },
+                {
+                    "x": 1011.4782608695652,
+                    "y": 955.5906113537119
+                },
+                {
+                    "x": 15.304347826086957,
+                    "y": 955.5906113537119
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "94f2d6d19f2caa88ab79cda98002204a",
+        "name": "0vUb-vMa.jpg",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/0vUb-vMa.jpg",
+        "size": {
+            "width": 1024,
+            "height": 1005
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "6rlsvG5uv",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 213.94650655021834,
+                "width": 735.3483386923901,
+                "left": 16.65166130760986,
+                "top": 708.7663755458515
+            },
+            "points": [
+                {
+                    "x": 16.65166130760986,
+                    "y": 708.7663755458515
+                },
+                {
+                    "x": 752,
+                    "y": 708.7663755458515
+                },
+                {
+                    "x": 752,
+                    "y": 922.7128820960698
+                },
+                {
+                    "x": 16.65166130760986,
+                    "y": 922.7128820960698
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

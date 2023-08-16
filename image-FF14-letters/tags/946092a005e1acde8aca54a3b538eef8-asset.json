@@ -1,0 +1,79 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "946092a005e1acde8aca54a3b538eef8",
+        "name": "kbppsung.jpg",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/kbppsung.jpg",
+        "size": {
+            "width": 1024,
+            "height": 445
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "XKFmFiPGP",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 100.392,
+                "width": 212.05837387074357,
+                "left": 23.48297428769979,
+                "top": 312.34549999999996
+            },
+            "points": [
+                {
+                    "x": 23.48297428769979,
+                    "y": 312.34549999999996
+                },
+                {
+                    "x": 235.54134815844336,
+                    "y": 312.34549999999996
+                },
+                {
+                    "x": 235.54134815844336,
+                    "y": 412.73749999999995
+                },
+                {
+                    "x": 23.48297428769979,
+                    "y": 412.73749999999995
+                }
+            ]
+        },
+        {
+            "id": "PQIefv4yF",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 96.3425,
+                "width": 390.67129951355105,
+                "left": 568.5726198749131,
+                "top": 288.1375
+            },
+            "points": [
+                {
+                    "x": 568.5726198749131,
+                    "y": 288.1375
+                },
+                {
+                    "x": 959.2439193884642,
+                    "y": 288.1375
+                },
+                {
+                    "x": 959.2439193884642,
+                    "y": 384.47999999999996
+                },
+                {
+                    "x": 568.5726198749131,
+                    "y": 384.47999999999996
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,374 @@
+{
+    "name": "languageecho-FF14-letters-Rhode_20230816",
+    "securityToken": "languageecho Token",
+    "sourceConnection": {
+        "name": "languageecho-FF14-letters-Rhode_20230816",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODg0YjcxOTQ4ZTRkMjRlNDViMGU1NjIwYWRiMmM1NTA4NGFkNDBhNjA4YmQ4YWIzM2U3M2Q0YTVjZWQ1M2EzMjlhODk5MjM1NTZhOTg2NjRlNWQxZGMwNTM1ZDY2N2Q3YWFiOTk0Nzk5NDlkNGJkZmQyNjk5MjFiOGZlOWU0Yjc1YTBiY2RhYmM3NjFjYTM4MDA2MmEzNzk2MDczOTcxNDEwNWQ1YWExZGRjYTgwMTFlZGM2NDVjYWJhMTM0N2JiZDYyOWY4NDE3NmQxMTU4ZDE5YmFiMTcyM2U1ZTE4Y2U2M2U5ZDAyYmY1MjY3YTY2MmRiMzYyYmM4YjY0OTIyOGVjYWVjMmZkZjRiYmYyNWE2ZmJlMzU5ZTNiYWVlODVkIiwiaXYiOiI4ZjQzOTdkNGI0NmE5ZTVkNDEzZjMyZTFjMGJkZjQ0YmM3ZjhiODY3YmFlNmM4MTIifQ=="
+        },
+        "id": "8nGeL7c2r"
+    },
+    "targetConnection": {
+        "name": "languageecho-FF14-letters-tags",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmRkNDlmMzA0NWMzOGM2MzI4Nzg4ODE4NDZmYmFmMGJjNGExYWY3ZjU4ODM3MWE0YmM4Y2YyMDkyODE5ODYxYzM4MjFlNzAxODU2MzEwYzFjMmQ5ZGNmNzUxNWM1NzljYjcxZTg0ZTcyNmE4NDdlNTI1NWViZmM3YmNkOTQ2YWFiZTI5NTZkMWFmMWM1MjM4OTNkMzdhNTE3NmZiNDI4Y2Y3MTc4OTA3ODEzMDA5NDE2YWFmNWEyMTMyYTZkZGI2IiwiaXYiOiI2MmQzNTkwOWFhMmFmODg2NzA3MzA3NjM0NmMxMThmZDRhY2NmMDEyNWEyOGFhZjUifQ=="
+        },
+        "id": "KJLoiCZBI"
+    },
+    "description": "Rhode_20230816のデータ。主にコースターのデータ―",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "letters",
+            "color": "#5db300"
+        },
+        {
+            "name": "letters_r_90",
+            "color": "#e81123"
+        },
+        {
+            "name": "letter_180",
+            "color": "#6917aa"
+        },
+        {
+            "name": "letters_l_90",
+            "color": "#015cda"
+        },
+        {
+            "name": "letters_flip_h",
+            "color": "#4894fe"
+        }
+    ],
+    "id": "UURkBi3ES",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDQzOTBjZDc1ZjhlMzIyMThhNDc4YjBmMTE2MWQ1NmUyYzRiMDM3ZTRkMjhlNDNkYjhmNTZjMTkwNjk2OWEzNzFiY2FmMzRhZjg0ODM1NGRkNjllMGIwZWQ4OWM4NDBlIiwiaXYiOiI0NmVlYjM1MTM0ZTg4ZTc0M2NmOTMyMDczM2Y2MmQ5OGE0MzdhNWQyOTRjNDlhMTAifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "66b9eff4c03454ef79d52d96f60fd8be",
+    "assets": {
+        "408960255e00dc60e97de08589f0100b": {
+            "format": "jpg",
+            "id": "408960255e00dc60e97de08589f0100b",
+            "name": "-b2oXoea.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/-b2oXoea.jpg",
+            "size": {
+                "width": 1024,
+                "height": 477
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ee45a1da131fab75343544cdd3f3104": {
+            "format": "jpg",
+            "id": "3ee45a1da131fab75343544cdd3f3104",
+            "name": "-BrCBK9s.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/-BrCBK9s.jpg",
+            "size": {
+                "width": 1024,
+                "height": 516
+            },
+            "state": 2,
+            "type": 1
+        },
+        "94f2d6d19f2caa88ab79cda98002204a": {
+            "format": "jpg",
+            "id": "94f2d6d19f2caa88ab79cda98002204a",
+            "name": "0vUb-vMa.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/0vUb-vMa.jpg",
+            "size": {
+                "width": 1024,
+                "height": 1005
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc16141b311f86000e7fe24e363e7805": {
+            "format": "jpg",
+            "id": "cc16141b311f86000e7fe24e363e7805",
+            "name": "19ZqzhSS.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/19ZqzhSS.jpg",
+            "size": {
+                "width": 1024,
+                "height": 513
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ec04f665221533fbd85074e4edb1a58": {
+            "format": "jpg",
+            "id": "6ec04f665221533fbd85074e4edb1a58",
+            "name": "5z_CO3D-.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/5z_CO3D-.jpg",
+            "size": {
+                "width": 1024,
+                "height": 473
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80d50684ad7c720bac1c4ecd6ef27964": {
+            "format": "jpg",
+            "id": "80d50684ad7c720bac1c4ecd6ef27964",
+            "name": "ALkivGez.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/ALkivGez.jpg",
+            "size": {
+                "width": 1024,
+                "height": 947
+            },
+            "state": 2,
+            "type": 1
+        },
+        "150a6879ec074c213d106d5fc568e48a": {
+            "format": "jpg",
+            "id": "150a6879ec074c213d106d5fc568e48a",
+            "name": "ApJkGejV.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/ApJkGejV.jpg",
+            "size": {
+                "width": 1024,
+                "height": 988
+            },
+            "state": 2,
+            "type": 1
+        },
+        "654df8733fab972b90076f0eaf4c3d96": {
+            "format": "jpg",
+            "id": "654df8733fab972b90076f0eaf4c3d96",
+            "name": "EUdlTD5I.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/EUdlTD5I.jpg",
+            "size": {
+                "width": 960,
+                "height": 1024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50e54e85ff6ba4cb303e799d3059915d": {
+            "format": "jpg",
+            "id": "50e54e85ff6ba4cb303e799d3059915d",
+            "name": "FlrMEv8f.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/FlrMEv8f.jpg",
+            "size": {
+                "width": 988,
+                "height": 1024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "847319b0628f12b3cfdc4715c90fa3a5": {
+            "format": "jpg",
+            "id": "847319b0628f12b3cfdc4715c90fa3a5",
+            "name": "Gh4_r0cT.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/Gh4_r0cT.jpg",
+            "size": {
+                "width": 1152,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c5029fbdcf7adc94c3151813921cf7a": {
+            "format": "jpg",
+            "id": "9c5029fbdcf7adc94c3151813921cf7a",
+            "name": "GQFWWW-W.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/GQFWWW-W.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1862
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b6633575ca01868c3170f00308fdfa7c": {
+            "format": "jpg",
+            "id": "b6633575ca01868c3170f00308fdfa7c",
+            "name": "jsJW4nDW.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/jsJW4nDW.jpg",
+            "size": {
+                "width": 1152,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "946092a005e1acde8aca54a3b538eef8": {
+            "format": "jpg",
+            "id": "946092a005e1acde8aca54a3b538eef8",
+            "name": "kbppsung.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/kbppsung.jpg",
+            "size": {
+                "width": 1024,
+                "height": 445
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54ae33280c6f6f165ee9a5c695420ab6": {
+            "format": "jpg",
+            "id": "54ae33280c6f6f165ee9a5c695420ab6",
+            "name": "Lb3vcKgR.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/Lb3vcKgR.jpg",
+            "size": {
+                "width": 2048,
+                "height": 2025
+            },
+            "state": 2,
+            "type": 1
+        },
+        "837634f9abb573972aa71006ecbb4da4": {
+            "format": "jpg",
+            "id": "837634f9abb573972aa71006ecbb4da4",
+            "name": "lFh1hbjS.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/lFh1hbjS.jpg",
+            "size": {
+                "width": 1024,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "99162cb9987fe936ecfdfc00ea4ddbbc": {
+            "format": "jpg",
+            "id": "99162cb9987fe936ecfdfc00ea4ddbbc",
+            "name": "n5OHh3mn.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/n5OHh3mn.jpg",
+            "size": {
+                "width": 1895,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "751d76954f1e3de5d56af2e8122f53f9": {
+            "format": "jpg",
+            "id": "751d76954f1e3de5d56af2e8122f53f9",
+            "name": "ofN9yl5C.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/ofN9yl5C.jpg",
+            "size": {
+                "width": 383,
+                "height": 680
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6684170c8476f9cc16515a519ccba69": {
+            "format": "jpg",
+            "id": "f6684170c8476f9cc16515a519ccba69",
+            "name": "qiiDGQxC.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/qiiDGQxC.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1915
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dac32276899de21652e1a710c2c3cb08": {
+            "format": "jpg",
+            "id": "dac32276899de21652e1a710c2c3cb08",
+            "name": "QWW4JzoE.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/QWW4JzoE.jpg",
+            "size": {
+                "width": 1024,
+                "height": 1019
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a06327e25642ee0eda8007f55df44af8": {
+            "format": "jpg",
+            "id": "a06327e25642ee0eda8007f55df44af8",
+            "name": "q_w_yc6n.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/q_w_yc6n.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1255
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f27978999587e2605205a48c962d0c57": {
+            "format": "jpg",
+            "id": "f27978999587e2605205a48c962d0c57",
+            "name": "RzGFKF_e.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/RzGFKF_e.jpg",
+            "size": {
+                "width": 1024,
+                "height": 835
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6471e28f470551698872aaa075a68b3f": {
+            "format": "jpg",
+            "id": "6471e28f470551698872aaa075a68b3f",
+            "name": "TgPo5QTl.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/TgPo5QTl.jpg",
+            "size": {
+                "width": 1024,
+                "height": 609
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80ae1919d88b428946b22d31daf0c2fb": {
+            "format": "jpg",
+            "id": "80ae1919d88b428946b22d31daf0c2fb",
+            "name": "ugGlY-6G.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/ugGlY-6G.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1873
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d0febd44043379c112e0fd8594ef328": {
+            "format": "jpg",
+            "id": "2d0febd44043379c112e0fd8594ef328",
+            "name": "wwvPHUMq.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/wwvPHUMq.jpg",
+            "size": {
+                "width": 2026,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d6e57f35d8b2c5f754177010e77929f": {
+            "format": "jpg",
+            "id": "8d6e57f35d8b2c5f754177010e77929f",
+            "name": "z0P3RRjJ.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/z0P3RRjJ.jpg",
+            "size": {
+                "width": 1024,
+                "height": 512
+            },
+            "state": 2,
+            "type": 1
+        },
+        "66b9eff4c03454ef79d52d96f60fd8be": {
+            "format": "jpg",
+            "id": "66b9eff4c03454ef79d52d96f60fd8be",
+            "name": "ZIUMZYTf.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/languageecho-FF14-letters-Rhode_20230816/ZIUMZYTf.jpg",
+            "size": {
+                "width": 1995,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
