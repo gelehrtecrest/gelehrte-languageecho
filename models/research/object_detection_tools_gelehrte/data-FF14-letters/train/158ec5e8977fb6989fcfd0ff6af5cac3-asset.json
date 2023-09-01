@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "158ec5e8977fb6989fcfd0ff6af5cac3",
+        "name": "ffxiv_20220602_235827_930.png",
+        "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/ffxiv_20220602_235827_930.png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "FsiO-bxuS",
+            "type": "RECTANGLE",
+            "tags": [
+                "letters"
+            ],
+            "boundingBox": {
+                "height": 539.3325092707046,
+                "width": 1231.5218902015288,
+                "left": 137.42876997915218,
+                "top": 10.304388133498145
+            },
+            "points": [
+                {
+                    "x": 137.42876997915218,
+                    "y": 10.304388133498145
+                },
+                {
+                    "x": 1368.9506601806809,
+                    "y": 10.304388133498145
+                },
+                {
+                    "x": 1368.9506601806809,
+                    "y": 549.6368974042027
+                },
+                {
+                    "x": 137.42876997915218,
+                    "y": 549.6368974042027
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

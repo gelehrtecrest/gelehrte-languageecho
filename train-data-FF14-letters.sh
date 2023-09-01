@@ -4,6 +4,9 @@ if [ -e ./models/research/saved_model_01-FF14-letters ]; then
 	rm -rf ./models/research/saved_model_01-FF14-letters
 fi
 
+#.tfrecordのディレクトリリスト
+tfrecord_dirname=("languageecho-FF14-letters-TFRecords-export" "languageecho-FF14-letters-Rhode_20230816-TFRecords-export" "langaugeecho-FF14-letters-2023-TFRecords-export")
+
 # 保存先のデータの保管
 dir="./models/research/object_detection_tools_gelehrte/data-FF14-letters/"
 train_dir=$dir"train/"
@@ -38,13 +41,15 @@ do
 	cp $file $val_dir
 done
 
-for file in `\find ./image-FF14-letters/tags/languageecho-FF14-letters-TFRecords-export -maxdepth 1 -type f -name "*.tfrecord"` ; do
-	cp $file $open_dir
-	if [[ $(($RANDOM % 10)) -lt 7 ]] ; then
-	    cp $file $train_dir
-	else
-		cp $file $val_dir
-	fi
+for i in "${tfrecord_dirname[@]}" ; do
+	for file in `\find ./image-FF14-letters/tags/${i} -maxdepth 1 -type f -name "*.tfrecord"` ; do
+		cp $file $open_dir
+		if [[ $(($RANDOM % 10)) -lt 7 ]] ; then
+	    	cp $file $train_dir
+		else
+			cp $file $val_dir
+		fi
+	done
 done
 
 cd ./models/research/object_detection_tools_gelehrte/data-FF14-letters

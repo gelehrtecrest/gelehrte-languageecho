@@ -1,0 +1,20 @@
+item {
+ id: 1
+ name: 'letters'
+}
+item {
+ id: 2
+ name: 'letters_r_90'
+}
+item {
+ id: 3
+ name: 'letter_180'
+}
+item {
+ id: 4
+ name: 'letters_l_90'
+}
+item {
+ id: 5
+ name: 'letters_flip_h'
+}
