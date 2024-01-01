@@ -1,0 +1,325 @@
+{
+    "name": "languageecho-2024",
+    "securityToken": "languageecho Token",
+    "sourceConnection": {
+        "name": "languageecho-input-2024",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDllYTY4NjQ0N2YwNjcyMzdlMTI0ZjA5OTM3YjI5NjdmMWJkNTBkM2I5N2E4ZGViMmM3YTRiM2ViMGUwNDI1MzgwOWU3ZjE0NmM2ZDQ1ODFmZjZkMjUzNTdhMzY5Y2M5N2M4Y2E0NDdhMTVlMmE5MjI1MGUzMThjODI4Mzg0NDI0MGM2Zjk4OTRkMzJkZDdlODI3ODg4OWVmMzBhNmQxYmFkZWQ2NWI5MjlmNTMzMWNlZWU0YTg1NGRkYWUxYWJmIiwiaXYiOiI5ODRlODExZGMwMWYzNzgzY2QyOTIyYzY5MDYzNTlmZTlmOGE3YWFhOTgyMWVkM2QifQ=="
+        },
+        "id": "ozYsmCnOL"
+    },
+    "targetConnection": {
+        "name": "languageecho-output",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDdiMDhjYTdlZmVlN2VjMmVlMGU5ZTIzZjc4MTQ0NWE2YzA4YWExODVkZmYzMmIyMGY2M2NjMmQ5NmQ2NDRkNzNlNjU1ODQyMTJhOGVhMDI0NTE5NjRjMTM4NTRkZDU1MWYwMmJiZDA1YzJmMTk1NTBhMDY2OTY4NTFkYzMzMDlhZjIzZGI1MzE1YmJmODM5ZjM1YThlNmM0NWE1YzlmMiIsIml2IjoiYWZkNTg0MTQyZDVhNmE2MGNjNGY2OWQ2Y2E4OGYzYTVkNGE3ZDQ1MjZlNjUxYmI4In0="
+        },
+        "id": "UZ9ESivVk"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "0",
+            "color": "#5db300"
+        },
+        {
+            "name": "1",
+            "color": "#e81123"
+        },
+        {
+            "name": "2",
+            "color": "#6917aa"
+        },
+        {
+            "name": "3",
+            "color": "#015cda"
+        },
+        {
+            "name": "4",
+            "color": "#4894fe"
+        },
+        {
+            "name": "5",
+            "color": "#6b849c"
+        },
+        {
+            "name": "6",
+            "color": "#70c400"
+        },
+        {
+            "name": "7",
+            "color": "#f7929a"
+        },
+        {
+            "name": "8",
+            "color": "#257ffe"
+        },
+        {
+            "name": "9",
+            "color": "#ddabe9"
+        },
+        {
+            "name": "a",
+            "color": "#ff8c00"
+        },
+        {
+            "name": "b",
+            "color": "#386300"
+        },
+        {
+            "name": "c",
+            "color": "#b40e1b"
+        },
+        {
+            "name": "d",
+            "color": "#68217a"
+        },
+        {
+            "name": "e",
+            "color": "#33cccc"
+        },
+        {
+            "name": "f",
+            "color": "#016afe"
+        },
+        {
+            "name": "g",
+            "color": "#595959"
+        },
+        {
+            "name": "h",
+            "color": "#808080"
+        },
+        {
+            "name": "i",
+            "color": "#990066"
+        },
+        {
+            "name": "j",
+            "color": "#00bcf2"
+        },
+        {
+            "name": "k",
+            "color": "#5db300"
+        },
+        {
+            "name": "l",
+            "color": "#e81123"
+        },
+        {
+            "name": "m",
+            "color": "#6917aa"
+        },
+        {
+            "name": "n",
+            "color": "#015cda"
+        },
+        {
+            "name": "o",
+            "color": "#4894fe"
+        },
+        {
+            "name": "p",
+            "color": "#6b849c"
+        },
+        {
+            "name": "q",
+            "color": "#70c400"
+        },
+        {
+            "name": "r",
+            "color": "#f7929a"
+        },
+        {
+            "name": "s",
+            "color": "#257ffe"
+        },
+        {
+            "name": "t",
+            "color": "#ddabe9"
+        },
+        {
+            "name": "u",
+            "color": "#ff8c00"
+        },
+        {
+            "name": "v",
+            "color": "#386300"
+        },
+        {
+            "name": "w",
+            "color": "#b40e1b"
+        },
+        {
+            "name": "x",
+            "color": "#68217a"
+        },
+        {
+            "name": "y",
+            "color": "#33cccc"
+        },
+        {
+            "name": "z",
+            "color": "#016afe"
+        },
+        {
+            "name": "A",
+            "color": "#595959"
+        },
+        {
+            "name": "B",
+            "color": "#808080"
+        },
+        {
+            "name": "C",
+            "color": "#990066"
+        },
+        {
+            "name": "D",
+            "color": "#00bcf2"
+        },
+        {
+            "name": "E",
+            "color": "#5db300"
+        },
+        {
+            "name": "F",
+            "color": "#e81123"
+        },
+        {
+            "name": "G",
+            "color": "#6917aa"
+        },
+        {
+            "name": "H",
+            "color": "#015cda"
+        },
+        {
+            "name": "I",
+            "color": "#4894fe"
+        },
+        {
+            "name": "J",
+            "color": "#6b849c"
+        },
+        {
+            "name": "K",
+            "color": "#70c400"
+        },
+        {
+            "name": "L",
+            "color": "#f7929a"
+        },
+        {
+            "name": "M",
+            "color": "#257ffe"
+        },
+        {
+            "name": "N",
+            "color": "#ddabe9"
+        },
+        {
+            "name": "O",
+            "color": "#ff8c00"
+        },
+        {
+            "name": "P",
+            "color": "#386300"
+        },
+        {
+            "name": "Q",
+            "color": "#b40e1b"
+        },
+        {
+            "name": "R",
+            "color": "#68217a"
+        },
+        {
+            "name": "S",
+            "color": "#33cccc"
+        },
+        {
+            "name": "T",
+            "color": "#016afe"
+        },
+        {
+            "name": "U",
+            "color": "#595959"
+        },
+        {
+            "name": "V",
+            "color": "#808080"
+        },
+        {
+            "name": "W",
+            "color": "#990066"
+        },
+        {
+            "name": "X",
+            "color": "#00bcf2"
+        },
+        {
+            "name": "Y",
+            "color": "#5db300"
+        },
+        {
+            "name": "Z",
+            "color": "#e81123"
+        }
+    ],
+    "id": "RkhBf0lKz",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "tensorFlowRecords",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjUwMjRmZDdmNmM1OTRlMGMyY2U5YzdjNDI4M2YyOWM0MmIwZTVhMDA3MjIyOTdlMDAwZGQ1YmE3MDg5NzZiOCIsIml2IjoiMzM4Mjg4OTljNTAzNDRkMDU2MTFmYmEyNjk1YTc0YTEzNmE4Y2I1YWE1ZDg1M2E3In0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "5eb41f139cfed30ec342392e1ed24235",
+    "assets": {
+        "830b4debf9db374ce8b8ecbc6addb223": {
+            "format": "jpg",
+            "id": "830b4debf9db374ce8b8ecbc6addb223",
+            "name": "languageecho-20231230115640-54j63cz5gjrupei7xi4t1.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20231230115640-54j63cz5gjrupei7xi4t1.jpg",
+            "size": {
+                "width": 435,
+                "height": 224
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0342498cea6750375db39433d4375464": {
+            "format": "jpg",
+            "id": "0342498cea6750375db39433d4375464",
+            "name": "languageecho-20231230115640-54j63cz5gjrupei7xi4t2.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20231230115640-54j63cz5gjrupei7xi4t2.jpg",
+            "size": {
+                "width": 123,
+                "height": 118
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5eb41f139cfed30ec342392e1ed24235": {
+            "format": "jpg",
+            "id": "5eb41f139cfed30ec342392e1ed24235",
+            "name": "languageecho-20231231092623-dxljzyl6zt8z08bi6me12.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20231231092623-dxljzyl6zt8z08bi6me12.jpg",
+            "size": {
+                "width": 277,
+                "height": 133
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
