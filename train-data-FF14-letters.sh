@@ -5,7 +5,7 @@ if [ -e ./models/research/saved_model_01-FF14-letters ]; then
 fi
 
 #.tfrecordのディレクトリリスト
-tfrecord_dirname=("languageecho-FF14-letters-TFRecords-export" "languageecho-FF14-letters-Rhode_20230816-TFRecords-export" "langaugeecho-FF14-letters-2023-TFRecords-export")
+tfrecord_dirname=("languageecho-FF14-letters-TFRecords-export" "languageecho-FF14-letters-Rhode_20230816-TFRecords-export" "langaugeecho-FF14-letters-2023-TFRecords-export" "langaugeecho-FF14-letters-2024-TFRecords-export")
 
 # 保存先のデータの保管
 dir="./models/research/object_detection_tools_gelehrte/data-FF14-letters/"

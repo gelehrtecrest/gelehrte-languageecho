@@ -4,6 +4,9 @@ if [ -e ./models/research/saved_model_01 ]; then
 	rm -rf ./models/research/saved_model_01
 fi
 
+#.tfrecordのディレクトリリスト
+tfrecord_dirname=("languageecho-TFRecords-export" "langaugeecho-2024-TFRecords-export")
+
 # 保存先のデータの保管
 dir="./models/research/object_detection_tools_gelehrte/data/"
 train_dir=$dir"train/"
@@ -19,14 +22,15 @@ rm $val_dir*.tfrecord
 # 公開用フォルダのtfrecordの削除
 rm $open_dir*.tfrecord
 
-
-for file in `\find ./image/tags/languageecho-TFRecords-export -maxdepth 1 -type f -name "*.tfrecord"` ; do
-	cp $file $open_dir
-    if [[ $(($RANDOM % 10)) -lt 7 ]] ; then
-	    cp $file $train_dir
-	else
-		cp $file $val_dir
-	fi
+for i in "${tfrecord_dirname[@]}" ; do
+	for file in `\find ./image/tags/${i} -maxdepth 1 -type f -name "*.tfrecord"` ; do
+		cp -f $file $open_dir
+    	if [[ $(($RANDOM % 10)) -lt 7 ]] ; then
+	    	cp $file $train_dir
+		else
+			cp $file $val_dir
+		fi
+	done
 done
 
 cd ./models/research/object_detection_tools_gelehrte/data
