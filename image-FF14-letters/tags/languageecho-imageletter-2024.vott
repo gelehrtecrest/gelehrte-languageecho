@@ -1,0 +1,52 @@
+{
+    "name": "languageecho-imageletter-2024",
+    "securityToken": "languageecho Token",
+    "sourceConnection": {
+        "name": "langaugeecho-FF14-letters-input-204",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2EwYTJhOTJlNjljMWQ3ZTVkNTE0NGEzMjgxMWRmODUxNzcyMWI5ODcwNTVkZjEyOTk2ZWQxN2YyMTgwZWEyMmVlMGE2NGE0OTRiNWU5ZGVhNzZlOTNjOTAyZTgzNzc4MjJiNzk3YmU2NWI5OTMxMjQxNzhhMTM5ZTAwOWE4OWUxOTE1YTUzNmZiN2Q4NTA2MTAzZTMxYWJiNjRmNmIwNWFlODM1ZWE0ZWM2NzU3MGIzN2FlY2VjNDgxMzBkMDk4IiwiaXYiOiJhYTk0ZTI1MzViNmY5MmMzMzFmNDRkMWE0ZDQ5NmM4MGNmMDBhZDQxYjRmYjE5MzYifQ=="
+        },
+        "id": "wHAZPoVsu"
+    },
+    "targetConnection": {
+        "name": "languageecho-FF14-letters-tags",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzQ1NDJhMjA4OTc3MzFjZTgxZDU2NzkyZmMxY2YyMjA0Yjc5MzQ4NzUxYzdmZTY2MzRhYTI1ZWFlOGFhN2Y4ZmQzNGE4ZmFiOGNlZjcyMmFkMzQ0MjRkMTExYTI0NGViOGQyNzEyMWM2MmM2NGJiYTZmZmFiZDQ3NTgwYThjNDQwODgxZThlNWMzNmIwNDMxOWM4NGQ1ZmRhODg2Zjg4ZTg0M2IyNzE3NmI1NDE0NDg5ZDMwMjQ1NGNjY2Q2MzVmIiwiaXYiOiI2MjMyOTI2MDZmOWM3Nzk3YWZlMTNmYjljNTg3YmFhYTViNDIyNDVjOTJhNDdlNDEifQ=="
+        },
+        "id": "KJLoiCZBI"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [],
+    "id": "l8hU8WNa0",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzUzZDI3M2I3MTFhNDY4ZWVmNzM0MTM4NjYxMjVmYmFiMTRiMWMwMmM0NDBmZGI2YWMxNDE1Zjg4OTdmNzk5NGI4MjBlODNjN2ZhYjMxMWJlNmFiNzdlZGMwNDE5MGM3IiwiaXYiOiJjMjc0NzcxMDNjYjE0MmJmMzgxNzkyOGVjMmM1OTk5ZmNjNjc5NjZmOTY0YmZmOTIifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "61d0087d78b27e6af2e4a48d3e13d266",
+    "assets": {
+        "61d0087d78b27e6af2e4a48d3e13d266": {
+            "format": "png",
+            "id": "61d0087d78b27e6af2e4a48d3e13d266",
+            "name": "ffxiv_20240101_114022_336.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2024/ffxiv_20240101_114022_336.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}

@@ -5,7 +5,7 @@
         "name": "languageecho-FF14-letters-input-2023",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjFiMWZmMDQzY2M0NTAzZThhZTcwOTMwMjFmMWFiOWIxNzlhY2IzMzQ4Zjg0ZDM5OTliYTBjNjRhYTlkZGRlZjI0ZDlhNDMwNTZmYTVkYzA3ODM2OWRjYmI3YmY2ZjVkNGFhZDVmMzhjZGNlYWQ3NGVlZTU2YTdhNWFhODMxMzY5ZTAyODI1YThhODAzNTI0OTY1OTk5ZjI2YmFmYWE0ZmYyZDIxMjJiZGYzM2IyZWY2M2JmMzAzNDY5ZmFjZDcxIiwiaXYiOiI1NmNmZjVlNDVhNDNhZDU3ZDA0OGJmOWM2ZTA4ZDhlNjM5NTMzNjJkMzljNjUwMGUifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODg5NGQ4ZWY1NGZjN2Y3YTIxZTNjOThmOGU1OTc0ZThiYmJjNmFlMGE4MmRhMGNkOTBiZTkyYmM4MzI2ZWZkZjg0MWVkZTcyNzZmMjk1NDNhMmZmZGY1MTFhOGJjYWZkNjNlNmM3ZGIzZjc4ODYzOWMwMzhjNzQ3NTM3ODg4MTA1NzJhNmViMDNmOThiOGM5ZGViYWFiMzhjNDdjNWU2MDExM2I5MDI4MDFkZTNmNzM3NThhZjY5YmNiZWVjMjBmIiwiaXYiOiI2ODdiMWY4Y2FkZjRjZTE1MzhhMmExZDQ0ZTMwMTg5MGQyNjEzNmMxMzhlYmM5NjYifQ=="
         },
         "id": "suMM7sQ2R"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-FF14-letters-tags",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDhjZjM4NDk3NTNjNDAyMzA5NTA0N2Q5YzllZTE4ZGE4MDRiOGE1ZDNmMDM4ZmFiY2U5NGUyYzU0OTI2OThhODEzZWNhMDNjNWRlN2Y1Yjg3Mzc1Y2UxMWQ1YWNlN2JlNWMwYjFmZWU1MWJiY2UyZTZmMjE4NmI4ZTE3MDRmMmM3ODNlMjUyYjUyZDczNjRkNDAxNTY1ZmM1NzkxMGQ1MjM1M2M4YTAwZGYxYmJlOWM5OGFkZjNiNjYxY2U4YmFiIiwiaXYiOiI2YTZjNzNjZjljNjA1NjU1NTY1NjNhM2JiZTAzMjg4YTMyNGFkZDdkYmI1NDQwNDYifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTE1NDE4Y2ZmMjRmYTk3ZWRkODUwOGQwNWUxMDhhMTI1Yjk3OGQwNzhkZTE5YjVlYTg5ZTNjOWYyMzViMjcwOTlhZGJmNmUzN2Y1MGYxNzQ4MmNiN2Q5NGQzYTc1NTBkNTY0ZWVkZGIyODdiMzEyMTNmMTFhNmQ0NmY0ZjlmNDIzOTA2ZWI2ZWY0MzU1MjY2ZGI4YjZjNjlhNTBjMWZhNmNiMDM3YWFmZTRiM2FiY2RlYTYzMjljYzkzNzExMTJiIiwiaXYiOiIzZDEwZjRhY2NmZTc3OTczM2M5ZDU2OWU2MDYzMGI3MzY1ZWJlMWM2YmQzY2NiODgifQ=="
         },
         "id": "KJLoiCZBI"
     },
@@ -30,7 +30,7 @@
             "color": "#e81123"
         },
         {
-            "name": "letter_180",
+            "name": "letters_180",
             "color": "#6917aa"
         },
         {
@@ -51,11 +51,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzY1MTQxYWExMWQ5YjU0N2MxOTVkZDljYzZmZGRkMDIwNDE5OWQ5ZmFlMjc1MmYwNDU5NzgxMzQzZTc3OTc2MiIsIml2IjoiNTNkNWEyOThhZmI0YmYyZDQ4ZGZiYjI1YWI1NDFiMWRjODFjMDc2ODZjYzI2ZmI2In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzQ1YWQyYWFkY2Q3ZWQ1YjczMjZmYTE2NzA2NmI2YjJhNDE4YjcxYzAyZGYzMjMxYWQwMmZhNjBmNWNlOGY4MiIsIml2IjoiYmM0N2UzYmY2ZmJhOTY1OGQ1MmMwY2E2NjQyNmE0MjQ2ZjAyODcxNTllMjcyOGNmIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "b8ee9398d20d0efb77a1f29f7d14f78e",
+    "lastVisitedAssetId": "8cf41ce73a906fba888608bc08741045",
     "assets": {
         "d3a40f0c1cd1e3007a98ccfda5bc73e1": {
             "format": "png",
@@ -2798,6 +2798,78 @@
             "id": "b8ee9398d20d0efb77a1f29f7d14f78e",
             "name": "ffxiv_20231227_083201_234.png",
             "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231227_083201_234.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9045e99a14cac34f6fcc117dd72c174f": {
+            "format": "png",
+            "id": "9045e99a14cac34f6fcc117dd72c174f",
+            "name": "ffxiv_20231228_001226_175.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231228_001226_175.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bedea5c76813155caf8de614d8159043": {
+            "format": "png",
+            "id": "bedea5c76813155caf8de614d8159043",
+            "name": "ffxiv_20231229_012509_529.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231229_012509_529.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae183a15717080da95e27c660fb2a78e": {
+            "format": "png",
+            "id": "ae183a15717080da95e27c660fb2a78e",
+            "name": "ffxiv_20231229_012526_662.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231229_012526_662.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "796225757660fdb4cee91fc1528ed1d4": {
+            "format": "png",
+            "id": "796225757660fdb4cee91fc1528ed1d4",
+            "name": "ffxiv_20231230_021030_792.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231230_021030_792.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed00b4c5cbd6f2867b1c453ad2f1272f": {
+            "format": "png",
+            "id": "ed00b4c5cbd6f2867b1c453ad2f1272f",
+            "name": "ffxiv_20231230_154106_676.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231230_154106_676.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8cf41ce73a906fba888608bc08741045": {
+            "format": "png",
+            "id": "8cf41ce73a906fba888608bc08741045",
+            "name": "ffxiv_20231231_021058_441.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2023/ffxiv_20231231_021058_441.png",
             "size": {
                 "width": 1920,
                 "height": 1080

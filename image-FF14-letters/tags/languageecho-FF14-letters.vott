@@ -5,7 +5,7 @@
         "name": "languageecho-FF14-letters-input",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmRhOTYzZjFmZWI3YzEzNzg0M2ZhOGYyMGJlOWI4NDFjNWQ5ZGJlNGNkZmJmZjZkYTE5YTliYTg0YWQ1MTk0ZjgzNjUxMjBhNWM1ZjhmNGY5MGY2MWZkZjkzMWQ2ZDFmNWFlZWRjMzAwNzQ5YTg1ZGZhOWJkZDJlOGMxNzFiNzIxOGY5YmUyZTA2NzNlMjBhZmU5YmY2MWMxMTNlNWJmMzI0YzdkNmY3M2EyZmIzY2I2MGRmYWQ1Y2U5NmQzOTA4IiwiaXYiOiJjOTg3MDVkYzVjMzY1OTgzNGI1Yjc4Njk5ZGI5YTkzMjVjNzhjYjE4NWFhN2I4ZjEifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzM2NzMyNGIzNTIyYzVjMjRjZDA3ZmI4NDcyMTJkZTk0Y2Y3N2I3OTViYjQ2MDkyMzdiZTM1MDk4ZGFkNTI3YTc3Y2IwZWI4N2IxYmYzNmZjMzlmYjU0OTNhYjEyMmVlZTRmNjI5OGI5MmE3Zjk4NmY0ZGVjZmQ2OGJjMTIwZGZhMWZhOGFmOTYxNDZlYWIxYTZiNTZlNDk0MDcyNGMwNDQzNzU0YzhlYTY5MWM1YmQ1OTFlMDkyMDZlOTQwYTA4IiwiaXYiOiJiOWE2ZjhhOWM0ZTQ1NjZhYzZmNTc2MTM5OTlmNGY1ZDY1NmE0NzM0NjQ0YTdjNzkifQ=="
         },
         "id": "dHgGwvrU0"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-FF14-letters-tags",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzc3YTI0MTQ4NTBjNTk5NWNkYmZjYjYyNTViOWM2MzkxNTc4NjkxNWVkMzFlYThiOGFhMzNiYWY1M2Y0MzVlY2NiNzE5N2ZlNjJjM2MxYjQ4ZGYxMjdmZmVhMGU1ZGRhNTFjOGIyYmIyM2QxNDE0ODgzNTU4MDgwMzAyZDEwN2M2Nzc0NTM4N2FhN2Y5YjIzNWFlZTNhZDVmMjM0N2YzZjliZjA3NjAxMjU4MmJkMGE1ZTUzMDljYTk2NzU0N2UxIiwiaXYiOiJhYmNkNDM5YzQyYTlmZjE5YjlkZjVlOGEzNDdlZGE5NDM4MTk4OWJiNjgwZGM5MTYifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzlmNDNhZmIyODlmMjZhZTdjYTZiZTJmYjZiNzBjYzBlYzBhODIyZmJkYTQ4NDViN2JkZmZlMTYzNDY2M2JmMWY2YjQ3MGJmODhiNTg4OGQzNTU4NWZiMWEwZTFkOWMyYzc3MjE5NDA0MTFmZTVhODZiODY0ZDhmOGZhZmI4Mzg4MmQxYTc3M2Y0MDk2MGI4OGE4YWU1NWJkNTE4YzYzZGMwMDU2YWM3ZDU4MjA5NjI0ZGQ1MWJlYzMzYmRlNmNlIiwiaXYiOiI1ODRkMGM3NTk5NmRkYmQxNDZmMWRhMDJiNjRjOWFlYTM3MjdkZWY4YmE4NzZhNDEifQ=="
         },
         "id": "KJLoiCZBI"
     },
@@ -30,7 +30,7 @@
             "color": "#6917aa"
         },
         {
-            "name": "letter_180",
+            "name": "letters_180",
             "color": "#015cda"
         },
         {
@@ -51,11 +51,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTRmYzg1MmVlMGM3MGJlZDM5MDg1MjQ3NWEzMmQ4ZjQ0OWNiYWUzM2IxYzAwNGUwNmFiMzAxYTRmM2UxZjViMSIsIml2IjoiNTU5Y2E3ZDY1NjUzZjBjYjRlMzZhMzZkYzQwMzNlNGQ0N2U2YWY4ZjZjODc1N2QwIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGQxMTFhYWI0MmE2MzA0ZmFiN2FjODM4NTU0ZTVhOWQ3MDNiYjhiMzA2NWJkZDg5OTBjMGExNmI1MjhkMmZmMiIsIml2IjoiYWRkOTQ0MjkzZjA2MmM2ODZiM2M1YTYyOWUzZTRiMjE1ZWVhYTZjMjVlNjFiNDkwIn0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "c6e6756347351a1f40ac6e6e9087c657",
+    "lastVisitedAssetId": "72d73bb3029c6545830f3b16f15aafa0",
     "assets": {
         "dd1e25be3ca29dcccab59f8ba6d2e431": {
             "format": "jpg",

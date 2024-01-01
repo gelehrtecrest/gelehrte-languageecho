@@ -8,7 +8,7 @@ item {
 }
 item {
  id: 3
- name: 'letter_180'
+ name: 'letters_180'
 }
 item {
  id: 4

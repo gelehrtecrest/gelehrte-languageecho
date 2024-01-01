@@ -1,0 +1,180 @@
+{
+    "name": "langaugeecho-FF14-letters-2024",
+    "securityToken": "languageecho Token",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "letters",
+            "color": "#5db300"
+        },
+        {
+            "name": "letters_r_90",
+            "color": "#e81123"
+        },
+        {
+            "name": "letters_180",
+            "color": "#6917aa"
+        },
+        {
+            "name": "letters_l_90",
+            "color": "#015cda"
+        },
+        {
+            "name": "letters_flip_h",
+            "color": "#4894fe"
+        }
+    ],
+    "id": "l8hU8WNa0",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "61d0087d78b27e6af2e4a48d3e13d266",
+    "assets": {
+        "61d0087d78b27e6af2e4a48d3e13d266": {
+            "asset": {
+                "format": "png",
+                "id": "61d0087d78b27e6af2e4a48d3e13d266",
+                "name": "ffxiv_20240101_114022_336.png",
+                "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2024/ffxiv_20240101_114022_336.png",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "QqvYFfPgR",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "letters"
+                    ],
+                    "boundingBox": {
+                        "height": 102.79357231149567,
+                        "width": 192.133425990271,
+                        "left": 1136.7894371091033,
+                        "top": 8.969406674907292
+                    },
+                    "points": [
+                        {
+                            "x": 1136.7894371091033,
+                            "y": 8.969406674907292
+                        },
+                        {
+                            "x": 1328.9228630993744,
+                            "y": 8.969406674907292
+                        },
+                        {
+                            "x": 1328.9228630993744,
+                            "y": 111.76297898640296
+                        },
+                        {
+                            "x": 1136.7894371091033,
+                            "y": 111.76297898640296
+                        }
+                    ]
+                },
+                {
+                    "id": "j0bi6hFuN",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "letters"
+                    ],
+                    "boundingBox": {
+                        "height": 170.87762669962916,
+                        "width": 194.80194579569144,
+                        "left": 1130.1181375955523,
+                        "top": 130.4527194066749
+                    },
+                    "points": [
+                        {
+                            "x": 1130.1181375955523,
+                            "y": 130.4527194066749
+                        },
+                        {
+                            "x": 1324.920083391244,
+                            "y": 130.4527194066749
+                        },
+                        {
+                            "x": 1324.920083391244,
+                            "y": 301.33034610630403
+                        },
+                        {
+                            "x": 1130.1181375955523,
+                            "y": 301.33034610630403
+                        }
+                    ]
+                },
+                {
+                    "id": "n3JTtsM0k",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "letters"
+                    ],
+                    "boundingBox": {
+                        "height": 73.42398022249691,
+                        "width": 106.74079221681723,
+                        "left": 1128.7838776928422,
+                        "top": 328.0299752781211
+                    },
+                    "points": [
+                        {
+                            "x": 1128.7838776928422,
+                            "y": 328.0299752781211
+                        },
+                        {
+                            "x": 1235.5246699096595,
+                            "y": 328.0299752781211
+                        },
+                        {
+                            "x": 1235.5246699096595,
+                            "y": 401.453955500618
+                        },
+                        {
+                            "x": 1128.7838776928422,
+                            "y": 401.453955500618
+                        }
+                    ]
+                },
+                {
+                    "id": "nLHtKU_fn",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "letters_r_90"
+                    ],
+                    "boundingBox": {
+                        "height": 449.8887515451174,
+                        "width": 150.77136900625433,
+                        "left": 448.31132731063235,
+                        "top": 628.400803461063
+                    },
+                    "points": [
+                        {
+                            "x": 448.31132731063235,
+                            "y": 628.400803461063
+                        },
+                        {
+                            "x": 599.0826963168867,
+                            "y": 628.400803461063
+                        },
+                        {
+                            "x": 599.0826963168867,
+                            "y": 1078.2895550061803
+                        },
+                        {
+                            "x": 448.31132731063235,
+                            "y": 1078.2895550061803
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        }
+    }
+}

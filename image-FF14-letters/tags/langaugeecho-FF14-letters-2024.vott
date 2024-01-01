@@ -1,0 +1,73 @@
+{
+    "name": "langaugeecho-FF14-letters-2024",
+    "securityToken": "languageecho Token",
+    "sourceConnection": {
+        "name": "langaugeecho-FF14-letters-input-204",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmU1YzFmYTQ1OTk2NTgxZjQ2OTgzY2JlOTZhZjIzYjExMmQzODViZjNlNzhhNjY5Y2M2ZjMzOTJlYzUxOGNiNGZmMDYyZmMzMGE2NjE0OGE5NTNjNWJhNzRiZWFkMjZhY2QzODQ4YjU1ZWIwNmNjYjE2ODBjZGMzOTI3OTMzMDM2MzQ4MjgxZGIyYTIzZTE5ODRhYzcxYjE5MWZlOGExNDUzNzNjOWI1MzNmODhjZjBlYjIxNDMyMjk4MDcwZTZmIiwiaXYiOiI2ZjE4YzNhNDUwNzhmYzY3NjcwZTM1ZWZiODM3Y2IzNTMwMmVhMmI1YTRkZjQ1MGMifQ=="
+        },
+        "id": "wHAZPoVsu"
+    },
+    "targetConnection": {
+        "name": "languageecho-FF14-letters-tags",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzVhNDdiZWU4MzZlZWI2N2M2NjVmNTM4NzUyMTUzNDAxN2UwYjBmNTFkMDNmNWE2ODQ5MmFjYjU1NmE0YmU4YTI1ZjAwOGQwNDY0Y2Y2NzBlM2YyYWUxZTU5NDIzZmEyYzlmNGFmNzljNzY1ZGUyMzgxNzYyNzFmNGViNTc4NGViMzk1NWY4NmQ1ZmQ5ZjVlNGU2N2IyNTdlOWExYmNmNGZlYzE1YjYyZjA2MWMxMTljYTBlZDkzMjhhOGE0YjNmIiwiaXYiOiIzOGZiM2Y4Mjk0OTQ1NGE0YzU1Y2RiNTJkNDk1MzI1NWIxY2NiNGFmOTFiNTg0MzMifQ=="
+        },
+        "id": "KJLoiCZBI"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "letters",
+            "color": "#5db300"
+        },
+        {
+            "name": "letters_r_90",
+            "color": "#e81123"
+        },
+        {
+            "name": "letters_180",
+            "color": "#6917aa"
+        },
+        {
+            "name": "letters_l_90",
+            "color": "#015cda"
+        },
+        {
+            "name": "letters_flip_h",
+            "color": "#4894fe"
+        }
+    ],
+    "id": "l8hU8WNa0",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMGI3YzRiNjMyNjNiNmY4NjJiZDk0ZWZlNDk2MTg1YWM0YWU2YWM0ZGQ2ODIzOWY5ZWZmNTQ4MDM4YjYxZjU4MDM5NTc1YzEwOTYwZDAzNjZlYzUzMmIyNzFjZDgxNmMwIiwiaXYiOiI1ZTM5OGVjOGNjNTgxYjFlNDExMTgyZDU1MWNlYmI0ODRlMTE0MTNkNTdiN2RmYzEifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "61d0087d78b27e6af2e4a48d3e13d266",
+    "assets": {
+        "61d0087d78b27e6af2e4a48d3e13d266": {
+            "format": "png",
+            "id": "61d0087d78b27e6af2e4a48d3e13d266",
+            "name": "ffxiv_20240101_114022_336.png",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image-FF14-letters/input/2024/ffxiv_20240101_114022_336.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
