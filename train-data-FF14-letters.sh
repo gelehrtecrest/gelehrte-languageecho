@@ -42,6 +42,7 @@ do
 done
 
 for i in "${tfrecord_dirname[@]}" ; do
+	echo $i
 	for file in `\find ./image-FF14-letters/tags/${i} -maxdepth 1 -type f -name "*.tfrecord"` ; do
 		cp -f $file $open_dir
 		if [[ $(($RANDOM % 10)) -lt 7 ]] ; then

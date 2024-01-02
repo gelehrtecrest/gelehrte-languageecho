@@ -5,7 +5,7 @@
         "name": "languageecho-input-2024",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTYwNTcwMjc1ODU1OThkMzA0MGNmMmI3NmMzMWJmNjU2ZmM5YmU2ZmY5MzkyNTlhYWEyZWU1ODY5YjIzYWUwOGY2MWFkNmRhN2I4MTcyNWNkNjk1NDdlOGI3YmVlNTViMzBhYzAwMWJlYjJiZmRkYzQ5M2IwOGRkODU4N2Y3Yjc4OWY0ZjJiMWI0ODFiMDA3NGUyYmU2OWRlYTczMmM2N2I1M2Q4NzlhZWE0OTFkMmZhMDc4ZWFlM2Y3MTVkZTExIiwiaXYiOiIzNWRhYWRiZGQwMTU4NzI3OGYzYzE3YzgzOGU2MzE1NTcwYmRlYmEwYzc4ZDZhMzAifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODlkNDc3ODI2NjZmMTBkOTQ2NTA5M2E5MmNjMjUwNWViMjkzNTIxOWEyZTQxMGY0MjU0OTM1ZDY2ZTMyMDZmOTM4YTNlZThiMjdmNjRiNDA0ZDdmNWY1NzMyMDQxYTRjY2E3NzQ2NWZmM2I1NTYxNDg5ZDA1MjkxZWE2ZTk0ODlmZDEzNGY1M2U0NzZmNmFlOGUxNWFkZGFjMTEzNTNiZmIyNWI2OThkOWZlNmE3MzU0ZGIyMDU2YzhmM2U5ZGU4IiwiaXYiOiJhZjlkYzhhMzkzZWFhMzlhY2E2NTA0Y2FhNzBmNGVmYjY0NWQxNzk4NjkyNzA4OGEifQ=="
         },
         "id": "ozYsmCnOL"
     },
@@ -13,7 +13,7 @@
         "name": "languageecho-output",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTYwYTcxZjdkZWFjZTY1NDQ2MTQyZjMzMjhkMDZjYjVlOGMzNWM0Yzk2ZmU5NjU5YmNlMGNmOTYxMTk5NTM4NzcxZGQxOTFmZTZkOGQ1YzFjYzhiMWMwZWU1N2QwNzRmMWUxNGJmYmM1YTEyMDdlY2IyOTM1NDU0ODk0YWQxODdmZTA5ZmI0ZTBkNzIwODQ2NzY5ODBmMjgxYjExMGE2ZSIsIml2IjoiOTEwYTQ4ZjYzNDFhODM0ZWI2OWM4N2ZkYjMyMmU1ZDE1ODJmNTE3MzM4MjM3NzI0In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTBiZWFlZmM4NWY2ODhhZWE2MzdlZTBlNTBlZjQzNmY2NGRkY2QxMjY2NjkzY2I1MWMxNzUwMGFjNjVmZTdiMjczODcyNmUxMDIzNmRhNmQxNmQxYjU5MjQ1ZWNhMjllYjI4ODM2YTU5NjQ0Mjg0YWEwN2VjMWNkYTZhODdhYmZjNzI4MjM4NzI1MTIzNDc4MGExZThiN2RiM2E3MDI0NiIsIml2IjoiY2ZjMzlmMjZjZWQ3NzE1MDk0MjY3ZWE1OWIwYzg5ZjU1NDc3NDYwMGJlMDFlMTZjIn0="
         },
         "id": "UZ9ESivVk"
     },
@@ -279,11 +279,11 @@
     "exportFormat": {
         "providerType": "tensorFlowRecords",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTAzZjFmNmY5NjhjNmRjODA0MmViZjI4YTliMjA3ODEyMzMzN2M3MTI2Y2M5YzUzNWY0YmViYWYxNzQ2YWVkMCIsIml2IjoiOTM2ZGQ2YzVhZmExYTY4OWNlNjdkMGM3NGQ0ZTA0NTBiMjVkNDFhOGMzYWRiOTRiIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjNmMWQzOThkMzA0NWEyNzZkMWFmYmNkMDZkNWE3OTI2MmEzODQyMDVlYzc5NjkyY2E3ZmE2YzU0NTIyNGMxZiIsIml2IjoiMzFmYzVkZTZjODUyZjQ4OGJiNjA0Mjg1MzI2Y2MxY2VjNWZlN2FhODQzMzUyZGY1In0="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "c187b6ec11a51856e76034dfb8c224fb",
+    "lastVisitedAssetId": "312c80015a7b09ca6d95dac54e67c808",
     "assets": {
         "830b4debf9db374ce8b8ecbc6addb223": {
             "format": "jpg",
@@ -353,6 +353,54 @@
             "size": {
                 "width": 401,
                 "height": 144
+            },
+            "state": 2,
+            "type": 1
+        },
+        "478c0241970a31c9bc6fd1a19c1b9456": {
+            "format": "jpg",
+            "id": "478c0241970a31c9bc6fd1a19c1b9456",
+            "name": "languageecho-20240102081500-ryrwtp4y0zvbjk5h2l6k1.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20240102081500-ryrwtp4y0zvbjk5h2l6k1.jpg",
+            "size": {
+                "width": 340,
+                "height": 104
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a2779f820bf1d6cc4f234c6d2945da2": {
+            "format": "jpg",
+            "id": "7a2779f820bf1d6cc4f234c6d2945da2",
+            "name": "languageecho-20240102214508-7eky9kygn1rfollbkm2m1.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20240102214508-7eky9kygn1rfollbkm2m1.jpg",
+            "size": {
+                "width": 506,
+                "height": 166
+            },
+            "state": 2,
+            "type": 1
+        },
+        "60fa09a0ac44911118f3a40420b1ccf0": {
+            "format": "jpg",
+            "id": "60fa09a0ac44911118f3a40420b1ccf0",
+            "name": "languageecho-20240102214508-7eky9kygn1rfollbkm2m2.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20240102214508-7eky9kygn1rfollbkm2m2.jpg",
+            "size": {
+                "width": 373,
+                "height": 105
+            },
+            "state": 2,
+            "type": 1
+        },
+        "312c80015a7b09ca6d95dac54e67c808": {
+            "format": "jpg",
+            "id": "312c80015a7b09ca6d95dac54e67c808",
+            "name": "languageecho-20240102214508-7eky9kygn1rfollbkm2m3.jpg",
+            "path": "file:D:/workspace/github/gelehrte-languageecho/image/input/2024/languageecho-20240102214508-7eky9kygn1rfollbkm2m3.jpg",
+            "size": {
+                "width": 731,
+                "height": 164
             },
             "state": 2,
             "type": 1
